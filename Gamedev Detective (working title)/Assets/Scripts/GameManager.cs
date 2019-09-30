@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour {
      public CinemachineBrain Brain;
      
      public char CurrentLevel2D = 'z';
+
+     public bool CanMove3D;
      
      private void Awake() {
           GM = this;

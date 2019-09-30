@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7f44b5da-1724-4361-b7c0-4a5f1135d966" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,66 +14,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Transitioner3D_2D.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs">
+      <file leaf-file-name="2DLevel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state>
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerMovementController_CC.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementController_CC.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="381" column="58" lean-forward="true" selection-start-line="381" selection-start-column="58" selection-end-line="381" selection-end-column="58" />
               <folding>
-                <marker date="1569607359703" expanded="false" signature="6:113" ph="..." />
-                <marker date="1569607359703" expanded="true" signature="162:2032" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="300:1022" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="359:373" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="424:479" ph="/* Unload previous 2D ... */" />
-                <marker date="1569607359703" expanded="true" signature="524:608" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="742:933" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="1054:1099" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="1132:2029" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="1191:1559" ph="{...}" />
-                <marker date="1569607359703" expanded="true" signature="1621:2020" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="6:184" ph="..." />
+                <marker date="1569877459525" expanded="true" signature="292:9761" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="801:906" ph="/* [SerializeField] private float LowJumpMultiplier = 2f; ... */" />
+                <marker date="1569877459525" expanded="false" signature="1006:1092" ph="/* [SerializeField] ... */" />
+                <marker date="1569877459525" expanded="false" signature="1132:1388" ph="/* private float distanceToFeet; ... */" />
+                <marker date="1569877459525" expanded="true" signature="1731:1795" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="1823:1917" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="1999:2081" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="2012:2066" ph="/* TS = GetComponent&lt;TargetingScript2&gt;(); ... */" />
+                <marker date="1569877459525" expanded="true" signature="2120:2936" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="2267:2596" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="2277:2327" ph="/* GetSlopeDirection(); ... */" />
+                <marker date="1569877459525" expanded="false" signature="2435:2478" ph="/* CheckSlide(); ... */" />
+                <marker date="1569877459525" expanded="false" signature="2623:2791" ph="/* XVelocity =  transform.InverseTransformDirection(cc.velocity).x; ... */" />
+                <marker date="1569877459525" expanded="false" signature="2854:2914" ph="/* case (State.rolling): ... */" />
+                <marker date="1569877459525" expanded="true" signature="2963:4135" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="3636:3712" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="3883:4029" ph="/* movementInput *= V ... */" />
+                <marker date="1569877459525" expanded="true" signature="4159:5150" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="4196:5142" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="4347:4466" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="4622:5039" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="4662:4760" ph="/* moveDirection *= 0.3f; ... */" />
+                <marker date="1569877459525" expanded="true" signature="5177:6033" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="5225:5516" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="5312:5504" ph="/* if (Input.GetButtonDown(&quot;Jump&quot;)) { ... */" />
+                <marker date="1569877459525" expanded="true" signature="5575:5964" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="5738:5915" ph="/* } else if (verticleForce &gt;= 0f &amp;&amp; !Input.GetButton(&quot;Jump&quot;)) { ... */" />
+                <marker date="1569877459525" expanded="true" signature="6067:7009" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="6266:6430" ph="/* } else { ... */" />
+                <marker date="1569877459525" expanded="true" signature="6511:6985" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="7031:7933" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="7041:7100" ph="/* if (hasJumped) { ... */" />
+                <marker date="1569877459525" expanded="true" signature="7267:7832" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="7324:7778" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="7505:7718" ph="/* if (hit.transform.CompareTag(&quot;Slide&quot;)) { ... */" />
+                <marker date="1569877459525" expanded="false" signature="7954:8301" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="8173:8294" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="8186:8283" ph="/* if (!hit.transform.CompareTag(&quot;Slide&quot;)) { ... */" />
+                <marker date="1569877459525" expanded="true" signature="8332:8445" ph="{...}" />
+                <marker date="1569877459525" expanded="true" signature="8473:8542" ph="{...}" />
+                <marker date="1569877459525" expanded="false" signature="8550:9026" ph="/* void CorrectPosition() { ... */" />
+                <marker date="1569877459525" expanded="false" signature="9031:9571" ph="/* void GetSlopeDirection() { ... */" />
+                <marker date="1569877459525" expanded="false" signature="9577:9757" ph="/* private void OnControllerColliderHit(ControllerColliderHit hit) { ... */" />
+                <marker date="1569877459525" expanded="false" signature="9763:9838" ph="/* (0, 0, 1) + (0, 0.9, 0.1) = (0, 0.9, 1.1) ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/GameManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+            <state relative-caret-position="204">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
-                <marker date="1569605735649" expanded="false" signature="6:97" ph="..." />
-                <marker date="1569605735649" expanded="true" signature="140:359" ph="{...}" />
-                <marker date="1569605735649" expanded="true" signature="326:355" ph="{...}" />
-                <marker date="1569605735649" expanded="true" signature="387:449" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2DLevel.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-              <folding>
-                <marker date="1569606201877" expanded="false" signature="6:113" ph="..." />
-                <marker date="1569606201877" expanded="true" signature="159:453" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InspectorButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/InspectorButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <marker date="1569589236288" expanded="false" signature="6:123" ph="..." />
-                <marker date="1569589236288" expanded="true" signature="170:386" ph="{...}" />
-                <marker date="1569589236288" expanded="true" signature="267:382" ph="{...}" />
-                <marker date="1569589236288" expanded="true" signature="293:375" ph="{...}" />
+                <marker date="1569854891328" expanded="false" signature="6:97" ph="..." />
+                <marker date="1569854891328" expanded="true" signature="140:388" ph="{...}" />
+                <marker date="1569854891328" expanded="true" signature="355:384" ph="{...}" />
+                <marker date="1569854891328" expanded="true" signature="416:478" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,11 +96,13 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/InspectorButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementController_CC.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,6 +111,8 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/2DLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovementController_CC.cs" />
       </list>
     </option>
   </component>
@@ -104,21 +126,18 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-47" />
-    <option name="y" value="-27" />
-    <option name="width" value="1969" />
-    <option name="height" value="1082" />
+    <option name="x" value="-49" />
+    <option name="y" value="-28" />
+    <option name="width" value="1970" />
+    <option name="height" value="1083" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -130,6 +149,10 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -150,9 +173,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="1656">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1656" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -167,11 +190,12 @@
       <updated>1569588372870</updated>
       <workItem from="1569588374802" duration="2711000" />
       <workItem from="1569604287240" duration="3742000" />
+      <workItem from="1569854441893" duration="4406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6453000" />
+    <option name="totallyTimeSpent" value="10859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,16 +214,17 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1355224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1355224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,7 +232,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,103 +242,95 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="74" lean-forward="true" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-          <folding>
-            <marker date="1569607359703" expanded="false" signature="6:113" ph="..." />
-            <marker date="1569607359703" expanded="true" signature="162:2032" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="300:1022" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="359:373" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="424:479" ph="/* Unload previous 2D ... */" />
-            <marker date="1569607359703" expanded="true" signature="524:608" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="742:933" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1054:1099" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1132:2029" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1191:1559" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1621:2020" ph="{...}" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InspectorButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <marker date="1569589236288" expanded="false" signature="6:123" ph="..." />
-            <marker date="1569589236288" expanded="true" signature="170:386" ph="{...}" />
-            <marker date="1569589236288" expanded="true" signature="267:382" ph="{...}" />
-            <marker date="1569589236288" expanded="true" signature="293:375" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/InspectorButton.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <marker date="1569606201877" expanded="false" signature="6:113" ph="..." />
-            <marker date="1569606201877" expanded="true" signature="159:453" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/InspectorButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <marker date="1569589236288" expanded="false" signature="6:123" ph="..." />
-            <marker date="1569589236288" expanded="true" signature="170:386" ph="{...}" />
-            <marker date="1569589236288" expanded="true" signature="267:382" ph="{...}" />
-            <marker date="1569589236288" expanded="true" signature="293:375" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/InspectorButton.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/2DLevel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state>
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GameManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding>
-            <marker date="1569606201877" expanded="false" signature="6:113" ph="..." />
-            <marker date="1569606201877" expanded="true" signature="159:453" ph="{...}" />
+            <marker date="1569854891328" expanded="false" signature="6:97" ph="..." />
+            <marker date="1569854891328" expanded="true" signature="140:388" ph="{...}" />
+            <marker date="1569854891328" expanded="true" signature="355:384" ph="{...}" />
+            <marker date="1569854891328" expanded="true" signature="416:478" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementController_CC.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+        <state relative-caret-position="615">
+          <caret line="381" column="58" lean-forward="true" selection-start-line="381" selection-start-column="58" selection-end-line="381" selection-end-column="58" />
           <folding>
-            <marker date="1569605735649" expanded="false" signature="6:97" ph="..." />
-            <marker date="1569605735649" expanded="true" signature="140:359" ph="{...}" />
-            <marker date="1569605735649" expanded="true" signature="326:355" ph="{...}" />
-            <marker date="1569605735649" expanded="true" signature="387:449" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Transitioner3D_2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <marker date="1569607359703" expanded="false" signature="6:113" ph="..." />
-            <marker date="1569607359703" expanded="true" signature="162:2032" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="300:1022" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="359:373" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="424:479" ph="/* Unload previous 2D ... */" />
-            <marker date="1569607359703" expanded="true" signature="524:608" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="742:933" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1054:1099" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1132:2029" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1191:1559" ph="{...}" />
-            <marker date="1569607359703" expanded="true" signature="1621:2020" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="6:184" ph="..." />
+            <marker date="1569877459525" expanded="true" signature="292:9761" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="801:906" ph="/* [SerializeField] private float LowJumpMultiplier = 2f; ... */" />
+            <marker date="1569877459525" expanded="false" signature="1006:1092" ph="/* [SerializeField] ... */" />
+            <marker date="1569877459525" expanded="false" signature="1132:1388" ph="/* private float distanceToFeet; ... */" />
+            <marker date="1569877459525" expanded="true" signature="1731:1795" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="1823:1917" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="1999:2081" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="2012:2066" ph="/* TS = GetComponent&lt;TargetingScript2&gt;(); ... */" />
+            <marker date="1569877459525" expanded="true" signature="2120:2936" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="2267:2596" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="2277:2327" ph="/* GetSlopeDirection(); ... */" />
+            <marker date="1569877459525" expanded="false" signature="2435:2478" ph="/* CheckSlide(); ... */" />
+            <marker date="1569877459525" expanded="false" signature="2623:2791" ph="/* XVelocity =  transform.InverseTransformDirection(cc.velocity).x; ... */" />
+            <marker date="1569877459525" expanded="false" signature="2854:2914" ph="/* case (State.rolling): ... */" />
+            <marker date="1569877459525" expanded="true" signature="2963:4135" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="3636:3712" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="3883:4029" ph="/* movementInput *= V ... */" />
+            <marker date="1569877459525" expanded="true" signature="4159:5150" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="4196:5142" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="4347:4466" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="4622:5039" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="4662:4760" ph="/* moveDirection *= 0.3f; ... */" />
+            <marker date="1569877459525" expanded="true" signature="5177:6033" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="5225:5516" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="5312:5504" ph="/* if (Input.GetButtonDown(&quot;Jump&quot;)) { ... */" />
+            <marker date="1569877459525" expanded="true" signature="5575:5964" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="5738:5915" ph="/* } else if (verticleForce &gt;= 0f &amp;&amp; !Input.GetButton(&quot;Jump&quot;)) { ... */" />
+            <marker date="1569877459525" expanded="true" signature="6067:7009" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="6266:6430" ph="/* } else { ... */" />
+            <marker date="1569877459525" expanded="true" signature="6511:6985" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="7031:7933" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="7041:7100" ph="/* if (hasJumped) { ... */" />
+            <marker date="1569877459525" expanded="true" signature="7267:7832" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="7324:7778" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="7505:7718" ph="/* if (hit.transform.CompareTag(&quot;Slide&quot;)) { ... */" />
+            <marker date="1569877459525" expanded="false" signature="7954:8301" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="8173:8294" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="8186:8283" ph="/* if (!hit.transform.CompareTag(&quot;Slide&quot;)) { ... */" />
+            <marker date="1569877459525" expanded="true" signature="8332:8445" ph="{...}" />
+            <marker date="1569877459525" expanded="true" signature="8473:8542" ph="{...}" />
+            <marker date="1569877459525" expanded="false" signature="8550:9026" ph="/* void CorrectPosition() { ... */" />
+            <marker date="1569877459525" expanded="false" signature="9031:9571" ph="/* void GetSlopeDirection() { ... */" />
+            <marker date="1569877459525" expanded="false" signature="9577:9757" ph="/* private void OnControllerColliderHit(ControllerColliderHit hit) { ... */" />
+            <marker date="1569877459525" expanded="false" signature="9763:9838" ph="/* (0, 0, 1) + (0, 0.9, 0.1) = (0, 0.9, 1.1) ... */" />
           </folding>
         </state>
       </provider>
