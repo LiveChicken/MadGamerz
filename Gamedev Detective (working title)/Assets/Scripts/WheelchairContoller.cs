@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 
 [RequireComponent(typeof(CharacterController))]
@@ -9,11 +10,12 @@ public class WheelchairContoller : MonoBehaviour
      [SerializeField] private float MovementSpeed = 4f;
      [SerializeField] private float RotationSpeed = 4f;
      
-     [Header("Slopes")] [SerializeField] private float slopeForce;
-     [SerializeField]                    private float rayLenght;
-
+   
      private CharacterController cc;
      private Vector3 moveDirection;
+     private Vector3 movementInput;
+
+     
 
 
      private void Awake() {
@@ -51,7 +53,7 @@ public class WheelchairContoller : MonoBehaviour
 
           // Vector2 movementInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); //.normalized;
 
-          Vector3 movementInput = (Input.GetAxis("Horizontal") * CameraLookRight) + (Input.GetAxis("Vertical") * CameraLookDirection);
+           movementInput = (Input.GetAxis("Horizontal") * CameraLookRight) + (Input.GetAxis("Vertical") * CameraLookDirection);
 
 
 
@@ -61,21 +63,67 @@ public class WheelchairContoller : MonoBehaviour
                movementInput.Normalize();
 
           }
-          
-          
-          
-
-          Vector3 targetVector3 = (movementInput.x * transform.right) + (movementInput.z * transform.forward); //transform.forward * movementInput.magnitude;
 
 
-          moveDirection.x = -targetVector3.z * MovementSpeed;
+          if (movementInput.magnitude > 0.2f) {
 
-          
-          
-        //TODO: Get desired direction, lerp rotation?
-          
 
+               Vector3 newDir = Vector3.RotateTowards(transform.forward, movementInput, RotationSpeed * Time.deltaTime, 0.0f);
+
+               transform.forward = newDir * movementInput.magnitude;
+
+               if (Vector3.Cross(transform.forward, newDir).y < 0.05f) {
+
+                    moveDirection = transform.forward * MovementSpeed * movementInput.magnitude;
+
+               }
+          } else {
+
+               moveDirection = Vector3.zero;
+
+          }
+
+
+          // moveDirection = Vector3.Lerp(transform.forward, movementInput, RotationSpeed * Time.deltaTime);
+
+          //moveDirection = ((transform.forward * movementInput) / 2);
+
+
+
+          //TODO: Get desired direction, lerp rotation?
+
+          moveDirection.y += Physics.gravity.y * 2;
+
+
+     }
+
+   
+
+     
+     
+
+
+     public Vector3 DirFromAngle(float angleInDegrees, bool globalAngle = false) {
+
+
+          if (!globalAngle) {
+
+               angleInDegrees += transform.eulerAngles.y;
+
+          }
+
+          return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
+
+     }
+
+     private void OnDrawGizmos() {
+          
+          Gizmos.color = Color.magenta;
+          Gizmos.DrawSphere(transform.position + movementInput, 0.3f);
+          
      }
 
 
 }
+
+

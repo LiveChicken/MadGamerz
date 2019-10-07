@@ -1079,7 +1079,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18502
+  m_Name: pb_Mesh18506
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2053,7 +2053,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 65
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -2074,7 +2074,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543409598}
-  m_LocalRotation: {x: 0.22413875, y: -0.64361644, z: 0.2053868, w: 0.7023788}
+  m_LocalRotation: {x: 0.122153535, y: -0.6399532, z: 0.10402505, w: 0.7514767}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2141,6 +2141,7 @@ GameObject:
   - component: {fileID: 672828139}
   - component: {fileID: 672828141}
   - component: {fileID: 672828142}
+  - component: {fileID: 672828140}
   m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
@@ -2156,13 +2157,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672828138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15, y: 0, z: 2.5}
+  m_LocalPosition: {x: -15.328074, y: 0, z: 2.7952344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1639060543}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672828140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672828138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ff8b2113be8c245b9d54e6444f33f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Forward: {x: 0, y: 0, z: 0}
+  Right: {x: 0, y: 0, z: 0}
+  CamForward: {x: 0, y: 0, z: 0}
+  CamRight: {x: 0, y: 0, z: 0}
 --- !u!143 &672828141
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2195,8 +2212,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementSpeed: 4
   RotationSpeed: 4
-  slopeForce: 0
-  rayLenght: 0
 --- !u!43 &786935779
 Mesh:
   m_ObjectHideFlags: 0
@@ -2433,7 +2448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.6513522, z: -3.7312012}
+  m_FollowOffset: {x: 0, y: 2.7820344, z: -5.3366184}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -4890,7 +4905,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 65
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -4911,7 +4926,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984413232}
-  m_LocalRotation: {x: 0.18200703, y: -0.6602962, z: 0.16959928, w: 0.7086032}
+  m_LocalRotation: {x: 0.07373552, y: -0.652214, z: 0.06397521, w: 0.7517228}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4992,7 +5007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.6513522, z: -3.7312012}
+  m_FollowOffset: {x: 0, y: 2.7820344, z: -5.3366184}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -5089,7 +5104,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 65
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -5110,7 +5125,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103652034}
-  m_LocalRotation: {x: 0.2022279, y: -0.65516764, z: 0.1884408, w: 0.70309985}
+  m_LocalRotation: {x: 0.097415864, y: -0.6498709, z: 0.08452028, w: 0.74902225}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5461,7 +5476,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1639060543}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 60
+    FieldOfView: 65
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -5475,7 +5490,7 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_YAxis:
-    Value: 0.49
+    Value: 0.39
     m_MaxSpeed: 2
     m_AccelTime: 0.2
     m_DecelTime: 0.1
@@ -5527,12 +5542,12 @@ MonoBehaviour:
   m_BindingMode: 5
   m_SplineCurvature: 0.19
   m_Orbits:
-  - m_Height: 5.75
-    m_Radius: 2.9
+  - m_Height: 7.78
+    m_Radius: 4.38
   - m_Height: 3.7
-    m_Radius: 3.72
-  - m_Height: 1.98
-    m_Radius: 3.78
+    m_Radius: 5.58
+  - m_Height: 0.8
+    m_Radius: 3.6
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 543409599}
@@ -5546,7 +5561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231110836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.27808, y: 3.6513522, z: 2.236987}
+  m_LocalPosition: {x: -10.044807, y: 2.7820344, z: 2.0425134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 543409600}
@@ -7821,7 +7836,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 60
+  field of view: 65
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -7846,8 +7861,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.20182472, y: -0.6552756, z: 0.18806587, w: 0.7032154}
-  m_LocalPosition: {x: -11.27808, y: 3.6513522, z: 2.236987}
+  m_LocalRotation: {x: 0.092213646, y: -0.65044194, z: 0.08000693, w: 0.7496805}
+  m_LocalPosition: {x: -10.044807, y: 2.7820344, z: 2.0425134}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8741,7 +8756,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18346
+  m_Name: pb_Mesh18350
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8904,7 +8919,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18544
+  m_Name: pb_Mesh18548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12827,7 +12842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 3.6513522, z: -3.7312012}
+  m_FollowOffset: {x: 0, y: 2.7820344, z: -5.3366184}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
