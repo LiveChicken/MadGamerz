@@ -9,8 +9,14 @@ public class WheelchairContoller : MonoBehaviour
 {
      [SerializeField] private float MovementSpeed = 4f;
      [SerializeField] private float RotationSpeed = 4f;
+
+
+     [Space]
+     [SerializeField]
+     private float WheelRotationSpeed;
+
+     public Wheel WheelL, WheelR;
      
-   
      private CharacterController cc;
      private Vector3 moveDirection;
      private Vector3 movementInput;
@@ -32,7 +38,9 @@ public class WheelchairContoller : MonoBehaviour
                
                
                cc.Move(moveDirection * Time.deltaTime);
-               
+
+             
+
           }
      }
 
@@ -65,23 +73,60 @@ public class WheelchairContoller : MonoBehaviour
           }
 
 
-          if (movementInput.magnitude > 0.2f) {
+          if (movementInput.magnitude > 0.05f) {
 
 
                Vector3 newDir = Vector3.RotateTowards(transform.forward, movementInput, RotationSpeed * Time.deltaTime, 0.0f);
 
-               transform.forward = newDir * movementInput.magnitude;
+               //Debug.Log(transform.forward - newDir);
 
-               if (Vector3.Cross(transform.forward, newDir).y < 0.05f) {
+
+
+               //transform.forward = newDir * movementInput.magnitude;
+
+               float cross = Vector3.Cross(transform.forward, newDir).y;
+               
+               Debug.Log(cross);
+
+               if (cross < 0.5f) {
 
                     moveDirection = transform.forward * MovementSpeed * movementInput.magnitude;
 
+               } else {
+
+                    moveDirection = Vector3.zero;
+
                }
+
+               transform.forward = newDir * movementInput.magnitude;
+
+               float LSpeed = WheelRotationSpeed;
+               float RSpeed = WheelRotationSpeed;
+
+               float crossMag = Mathf.Sqrt(cross * cross);
+               
+               if (cross > 0.05) {
+                    LSpeed *= 2 - crossMag;
+                    RSpeed *= 0.2f + crossMag;
+               }
+
+               if (cross < -0.05) {
+                    RSpeed *= 2 - crossMag;
+                    LSpeed *= 0.2f + crossMag;
+               }
+               
+               WheelL.ThetaChange(-LSpeed);
+               WheelR.ThetaChange(-RSpeed);
+               
+
+
           } else {
 
                moveDirection = Vector3.zero;
 
           }
+
+          
 
 
           // moveDirection = Vector3.Lerp(transform.forward, movementInput, RotationSpeed * Time.deltaTime);
