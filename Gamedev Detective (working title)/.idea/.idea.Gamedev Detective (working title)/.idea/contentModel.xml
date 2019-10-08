@@ -17,6 +17,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="2DLevel.cs" t="Include" />
+          <e p="Easing.cs" t="Include" />
           <e p="FastIKFabric.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GrabPoint.cs" t="Include" />

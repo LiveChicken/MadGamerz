@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Wheel : MonoBehaviour {
 
+    [HideInInspector]
     public List<Transform> GrabPoints = new List<Transform>();
 
     [Header("Spawn points")] public bool SpawnPointsOnStart = true;
@@ -58,6 +59,7 @@ public class Wheel : MonoBehaviour {
 
             for (int i = 0; i < GrabPoints.Count; i++){
 
+                //TODO: change compariter for different effect
                 if (GrabPoints[i].position.y > Highest.position.y) {
 
                    Highest = GrabPoints[i];

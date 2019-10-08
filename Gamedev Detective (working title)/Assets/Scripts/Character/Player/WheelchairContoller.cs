@@ -5,14 +5,16 @@ using UnityEngine.Analytics;
 
 
 [RequireComponent(typeof(CharacterController))]
-public class WheelchairContoller : MonoBehaviour
-{
+public class WheelchairContoller : MonoBehaviour {
      [SerializeField] private float MovementSpeed = 4f;
      [SerializeField] private float RotationSpeed = 4f;
 
+     public static float HandMoveSpeed = 0.3f;
+    // public static float LiftHeight    = 0.03f;
 
-     [Space]
-     [SerializeField]
+     [Header("Wheels")]
+
+[SerializeField]
      private float WheelRotationSpeed;
 
      public Wheel WheelL, WheelR;
@@ -86,7 +88,7 @@ public class WheelchairContoller : MonoBehaviour
 
                float cross = Vector3.Cross(transform.forward, newDir).y;
                
-               Debug.Log(cross);
+//               Debug.Log(cross);
 
                if (cross < 0.5f) {
 
@@ -100,8 +102,8 @@ public class WheelchairContoller : MonoBehaviour
 
                transform.forward = newDir * movementInput.magnitude;
 
-               float LSpeed = WheelRotationSpeed;
-               float RSpeed = WheelRotationSpeed;
+               float LSpeed = movementInput.magnitude * WheelRotationSpeed;
+               float RSpeed = movementInput.magnitude * WheelRotationSpeed;
 
                float crossMag = Mathf.Sqrt(cross * cross);
                
@@ -143,23 +145,6 @@ public class WheelchairContoller : MonoBehaviour
      }
 
    
-
-     
-     
-
-
-     public Vector3 DirFromAngle(float angleInDegrees, bool globalAngle = false) {
-
-
-          if (!globalAngle) {
-
-               angleInDegrees += transform.eulerAngles.y;
-
-          }
-
-          return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
-
-     }
 
      private void OnDrawGizmos() {
           
