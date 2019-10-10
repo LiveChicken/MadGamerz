@@ -16,18 +16,31 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="2DLevel.cs" t="Include" />
-          <e p="Easing.cs" t="Include" />
-          <e p="FastIKFabric.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="GrabPoint.cs" t="Include" />
-          <e p="InspectorButton.cs" t="Include" />
-          <e p="PlayerMovementController_CC.cs" t="Include" />
-          <e p="SimpleCameraController.cs" t="Include" />
-          <e p="Transitioner3D_2D.cs" t="Include" />
-          <e p="VectorInspector.cs" t="Include" />
-          <e p="Wheel.cs" t="Include" />
-          <e p="WheelchairContoller.cs" t="Include" />
+          <e p="Character" t="Include">
+            <e p="Player" t="Include">
+              <e p="GrabPoint.cs" t="Include" />
+              <e p="PlayerMovement2D.cs" t="Include" />
+              <e p="Wheel.cs" t="Include" />
+              <e p="WheelchairContoller.cs" t="Include" />
+            </e>
+            <e p="Unused" t="Include">
+              <e p="PlayerMovementController_CC.cs" t="Include" />
+              <e p="SimpleCameraController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Generic" t="Include">
+            <e p="Easing.cs" t="Include" />
+            <e p="FastIKFabric.cs" t="Include" />
+          </e>
+          <e p="Management" t="Include">
+            <e p="2DLevel.cs" t="Include" />
+            <e p="Development Assistance" t="Include">
+              <e p="InspectorButton.cs" t="Include" />
+              <e p="VectorInspector.cs" t="Include" />
+            </e>
+            <e p="GameManager.cs" t="Include" />
+            <e p="Transitioner3D_2D.cs" t="Include" />
+          </e>
         </e>
         <e p="TutorialInfo" t="Include">
           <e p="Scripts" t="Include">

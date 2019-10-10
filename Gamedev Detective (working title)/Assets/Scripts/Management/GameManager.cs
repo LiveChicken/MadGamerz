@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
      public char CurrentLevel2D = 'z';
 
      public bool CanMove3D;
+     public bool CanMove2D;
      
      private void Awake() {
           GM = this;
