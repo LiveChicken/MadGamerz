@@ -29,8 +29,12 @@
             </e>
           </e>
           <e p="Generic" t="Include">
+            <e p="DamageTrigger2D.cs" t="Include" />
             <e p="Easing.cs" t="Include" />
+            <e p="EnableOnButton.cs" t="Include" />
             <e p="FastIKFabric.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+            <e p="ItemRotator2D.cs" t="Include" />
           </e>
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />

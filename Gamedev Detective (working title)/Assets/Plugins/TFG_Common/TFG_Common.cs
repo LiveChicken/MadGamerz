@@ -26,4 +26,41 @@ namespace TFG_Common
         }
         
     }
+
+
+    public static class Checks {
+
+        public static bool IsAxisAvailable(string axisName) {
+            try {
+                Input.GetAxis(axisName);
+                return true;
+            } catch (UnityException exc) {
+                return false;
+            }
+        }
+
+       public static  bool IsButtonAvailable(string btnName) {
+            try {
+                Input.GetButton(btnName);
+                return true;
+            } catch (UnityException exc) {
+                return false;
+            }
+        }
+
+
+
+        public static bool CompareLayers(LayerMask mask, Collider2D other) {
+
+            if ((mask & 1 << other.gameObject.layer) == 1 << other.gameObject.layer) {
+
+                return true;
+
+            }
+
+            return false;
+
+        }
+
+    }
 }
