@@ -18,6 +18,11 @@
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
             <e p="Player" t="Include">
+              <e p="Gadgets" t="Include">
+                <e p="BowGadget.cs" t="Include" />
+                <e p="Gadget.cs" t="Include" />
+                <e p="GadgetManager.cs" t="Include" />
+              </e>
               <e p="GrabPoint.cs" t="Include" />
               <e p="PlayerMovement2D.cs" t="Include" />
               <e p="Wheel.cs" t="Include" />
