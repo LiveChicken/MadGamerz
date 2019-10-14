@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Transitioner3D_2D : MonoBehaviour {
-
+  /*
      public GameObject ScreenCamera;
      
-     public List<Level2D> Levels = new List<Level2D>();
+     //public List<Level2D> Levels = new List<Level2D>();
 
-
+     public Level2D ToLoad;
 
 
      public void Launch2DGame() {
@@ -31,11 +31,11 @@ public class Transitioner3D_2D : MonoBehaviour {
           }
 
 
-          Level2D ToLoad = Levels.Find(Level2D => Level2D.Letter == GameManager.GM.CurrentLevel2D);
+         // Level2D ToLoad = Levels.Find(Level2D => Level2D.Letter == GameManager.GM.CurrentLevel2D);
 
           if (ToLoad == null) {
 
-               Debug.Log("No Cartridege of the letter " + GameManager.GM.CurrentLevel2D);
+//               Debug.Log("No Cartridege of the letter " + GameManager.GM.CurrentLevel2D);
                
                return;
                
@@ -64,10 +64,10 @@ public class Transitioner3D_2D : MonoBehaviour {
 
           yield return null;
           
-          float Time = 0.5f;
-          Time = GameManager.GM.Brain.ActiveBlend.Duration;
+          float time; //= 0.5f; 
+          time = GameManager.GM.Brain.ActiveBlend.Duration;
 
-          yield return new WaitForSeconds(Time);
+          yield return new WaitForSeconds(time);
 
           GameManager.GM.TS = TransitionState.S2D;
 
@@ -81,17 +81,17 @@ public class Transitioner3D_2D : MonoBehaviour {
 
                yield return null;
                
-               float Time = 0.5f;
-               Time = GameManager.GM.Brain.ActiveBlend.Duration;
+               float time;// = 0.5f;
+               time = GameManager.GM.Brain.ActiveBlend.Duration;
                
-               yield return new WaitForSeconds(Time);
+               yield return new WaitForSeconds(time);
 
                GameManager.GM.TS = TransitionState.S3D;
 
           }
 
 
-     }
+     }*/
 
 }
 

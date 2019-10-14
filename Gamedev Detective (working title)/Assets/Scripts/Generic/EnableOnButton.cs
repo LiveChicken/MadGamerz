@@ -19,6 +19,8 @@ public class EnableOnButton : MonoBehaviour {
    public List<GameObject> GameObjectsToEnable = new List<GameObject>();
 
 
+    public Mode mode = Mode.S2D;
+    
     private bool lockedOut;
 
     private bool wait;
@@ -59,21 +61,22 @@ public class EnableOnButton : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.GM.TS == mode) {
 
-        
-        if (!lockedOut) {
+            if (!lockedOut) {
 
-            if (!wait) {
+                if (!wait) {
 
-                if (Input.GetButtonDown(ButtonName)) {
+                    if (Input.GetButtonDown(ButtonName)) {
 
-                    StartCoroutine(Unenable());
+                        StartCoroutine(Unenable());
 
 
+                    }
                 }
+
+
             }
-
-
         }
 
 

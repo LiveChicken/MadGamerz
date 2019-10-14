@@ -36,7 +36,7 @@ public class DamageTrigger2D : MonoBehaviour {
 
      void DamageOther (Collider2D other, int damage) {
 
-          if (Checks.CompareLayers(Mask, other)) {
+          if (Checks.CompareLayers(Mask, other.gameObject)) {
 
                if (other.gameObject.GetComponent<Health>()) {
 

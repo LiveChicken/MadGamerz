@@ -41,7 +41,7 @@ public class PlayerMovement2D : MonoBehaviour {
     void Update()
     {
 
-        if (GameManager.GM.CanMove2D) {
+        if (GameManager.GM.TS == Mode.S2D && GameManager.GM.CanMove) {
 
             if (state == State.walking) {
 

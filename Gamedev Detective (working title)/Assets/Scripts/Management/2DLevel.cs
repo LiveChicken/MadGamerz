@@ -5,17 +5,19 @@ using UnityEngine.SceneManagement;
 
 
 [System.Serializable]
-public class Level2D {
+[CreateAssetMenu(fileName = "Cart", menuName = "ScriptableObjects/Cart", order = 1)]
+public class Level2D : ScriptableObject{
 
      [Tooltip("For Ease of Development, not necessary")]
      public string Name;
 
-     [Tooltip("Letter of cartridge to activate, (z) is for null")]
-     public char Letter;
-
+    
      [Tooltip("Build Index of 2D Scene. Make sure it is the right Scene")]
      public int Scene2DIndex;
-     
+
+     [Tooltip("Art on the Cart")]
+     public Texture2D CartArt;
+
 
 
 

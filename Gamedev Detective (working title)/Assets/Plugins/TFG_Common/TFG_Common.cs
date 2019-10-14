@@ -50,9 +50,9 @@ namespace TFG_Common
 
 
 
-        public static bool CompareLayers(LayerMask mask, Collider2D other) {
+        public static bool CompareLayers(LayerMask mask, GameObject other) {
 
-            if ((mask & 1 << other.gameObject.layer) == 1 << other.gameObject.layer) {
+            if ((mask & 1 << other.layer) == 1 << other.layer) {
 
                 return true;
 

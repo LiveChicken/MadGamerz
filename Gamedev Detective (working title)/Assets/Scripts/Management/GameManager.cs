@@ -5,16 +5,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-     public  TransitionState TS;
+     public  Mode TS;
 
      public static GameManager GM;
 
      public CinemachineBrain Brain;
      
-     public char CurrentLevel2D = 'z';
+     //public char CurrentLevel2D = 'z';
+     
+     [Space]
 
-     public bool CanMove3D;
-     public bool CanMove2D;
+     public bool CanMove;
+
+     public bool CartHasChanged;
+     
      
      private void Awake() {
           GM = this;
@@ -22,7 +26,7 @@ public class GameManager : MonoBehaviour {
 
 
 }
-public enum TransitionState{
+public enum Mode{
 
              S3D,
              Between,

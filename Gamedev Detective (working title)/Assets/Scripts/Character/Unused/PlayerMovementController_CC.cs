@@ -114,7 +114,7 @@ public class PlayerMovementController_CC : MonoBehaviour {
 
 //case(State.normal):
 
-          if (GameManager.GM.CanMove3D) {
+          if (GameManager.GM.CanMove) {
                //  GetSlopeDirection();
                //  CheckSlide();
                Move();

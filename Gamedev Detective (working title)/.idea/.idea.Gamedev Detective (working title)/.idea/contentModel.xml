@@ -40,6 +40,7 @@
             <e p="EnableOnButton.cs" t="Include" />
             <e p="FastIKFabric.cs" t="Include" />
             <e p="Health.cs" t="Include" />
+            <e p="InAreaPrompt.cs" t="Include" />
             <e p="ItemRotator2D.cs" t="Include" />
           </e>
           <e p="Management" t="Include">
@@ -49,6 +50,7 @@
               <e p="VectorInspector.cs" t="Include" />
             </e>
             <e p="GameManager.cs" t="Include" />
+            <e p="PC.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
           </e>
         </e>

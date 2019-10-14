@@ -34,7 +34,7 @@ public class WheelchairContoller : MonoBehaviour {
 
 
      private void Update() {
-          if (GameManager.GM.CanMove3D) {
+          if (GameManager.GM.TS == Mode.S3D && GameManager.GM.CanMove) {
 
                Move();
                
