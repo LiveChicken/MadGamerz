@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ThefitzyG\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Gamedev Detective (working title).2046042389.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ThefitzyG\Documents\projects\MadGamerz\Gamedev Detective (working title)" t="IncludeRecursive">
+    <e p="C:\Users\seanf\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\seanf\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Gamedev Detective (working title).-443102433.00" t="ExcludeRecursive" />
+    <e p="C:\Users\seanf\Documents\GitHub\MadGamerz\Gamedev Detective (working title)" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -13,6 +14,22 @@
             <e p="DevelopmentUI.cs" t="Include" />
             <e p="Sound.cs" t="Include" />
             <e p="TFG_Common.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Samples" t="Include">
+          <e p="Input System" t="Include">
+            <e p="1.0.0-preview.1" t="Include">
+              <e p="Custom Binding Composite" t="Include">
+                <e p="CustomComposite.cs" t="Include" />
+              </e>
+              <e p="Visualizers" t="Include">
+                <e p="InputActionVisualizer.cs" t="Include" />
+                <e p="InputControlVisualizer.cs" t="Include" />
+                <e p="InputVisualizer.cs" t="Include" />
+                <e p="Unity.InputSystem.Visualizers.asmdef" t="Include" />
+                <e p="VisualizationHelpers.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="Scripts" t="Include">
@@ -64,6 +81,7 @@
         </e>
       </e>
       <e p="Gamedev Detective (working title).sln" t="IncludeFlat" />
+      <e p="InputSystem.Samples.Visualizers.csproj" t="IncludeRecursive" />
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />

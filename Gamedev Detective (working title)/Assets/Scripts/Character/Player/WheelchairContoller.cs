@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Analytics;
+using UnityEngine.InputSystem;
 
 
 [RequireComponent(typeof(CharacterController))]
