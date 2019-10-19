@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonTesting
+  m_Name: ToonTesting_Mk1
   m_Shader: {fileID: -6465566751694194690, guid: 438dce32318fb7842a829c00ea28b82a,
     type: 3}
   m_ShaderKeywords: 
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_29FCE684:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 2df7b2162ada58247adfc48ab5c31f8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_BE3C095E: 32
+    - Vector1_BE3C095E: 6
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -90,8 +90,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_374430AA: {r: 0.11320745, g: 0.11320745, b: 0.11320745, a: 0}
-    - Color_3BC6F628: {r: 0, g: 0.21374035, b: 1, a: 0}
-    - Color_AD5AEFDD: {r: 0.48584902, g: 1, b: 0.9837298, a: 0}
+    - Color_3BC6F628: {r: 0.10980392, g: 0.009803922, b: 0.009803922, a: 0}
+    - Color_AD5AEFDD: {r: 112.43922, g: 10.039216, b: 10.039216, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
