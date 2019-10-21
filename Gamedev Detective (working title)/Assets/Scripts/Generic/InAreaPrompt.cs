@@ -31,7 +31,7 @@ public class InAreaPrompt : MonoBehaviour {
 
                     if (Checks.CompareLayers(TriggerLayer, other.gameObject)) {
 
-                         if (Input.GetButtonDown(ButtonName)) {
+                         if (GameManager.GM.controls.Player.A.triggered) {
 
                               OnInteract?.Invoke();
 
@@ -40,6 +40,10 @@ public class InAreaPrompt : MonoBehaviour {
                                    locked = true;
 
                               }
+
+                         } else {
+
+                              Debug.Log("you're ready to go but no input my dood");
 
                          }
 

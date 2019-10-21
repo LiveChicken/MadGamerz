@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour {
      public CinemachineBrain Brain;
      
      //public char CurrentLevel2D = 'z';
+
+     public Controls controls = null;
      
      [Space]
 
@@ -22,6 +24,16 @@ public class GameManager : MonoBehaviour {
      
      private void Awake() {
           GM = this;
+          controls = new Controls();
+          
+     }
+
+     private void OnEnable() {
+          controls.Player.Enable();
+     }
+
+     private void OnDisable() {
+          controls.Player.Disable();
      }
 
 

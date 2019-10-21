@@ -7,6 +7,9 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 public class WheelchairContoller : MonoBehaviour {
+
+   //  private GDD controls = null; 
+     
      [SerializeField] private float MovementSpeed = 4f;
      [SerializeField] private float RotationSpeed = 4f;
 
@@ -30,8 +33,12 @@ public class WheelchairContoller : MonoBehaviour {
      private void Awake() {
 
        cc = GetComponent<CharacterController>();
+          
+         // controls = new GDD();
 
      }
+
+   
 
 
      private void Update() {
@@ -40,7 +47,7 @@ public class WheelchairContoller : MonoBehaviour {
                Move();
                
                
-               cc.Move(moveDirection * Time.deltaTime);
+             
 
              
 
@@ -49,6 +56,8 @@ public class WheelchairContoller : MonoBehaviour {
 
      void Move() {
 
+          Vector2 context = GameManager.GM.controls.Player.Move.ReadValue<Vector2>();
+          
           Vector3 CameraLookDirection = Camera.main.transform.forward; //CVC.transform.forward;
 
           CameraLookDirection.y = 0;
@@ -64,7 +73,7 @@ public class WheelchairContoller : MonoBehaviour {
 
           // Vector2 movementInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); //.normalized;
 
-           movementInput = (Input.GetAxis("Horizontal") * CameraLookRight) + (Input.GetAxis("Vertical") * CameraLookDirection);
+           movementInput = (context.x * CameraLookRight) + (context.y * CameraLookDirection);
 
 
 
@@ -143,6 +152,8 @@ public class WheelchairContoller : MonoBehaviour {
           moveDirection.y += Physics.gravity.y * 2;
 
 
+          cc.Move(moveDirection * Time.deltaTime);
+
      }
 
    
@@ -155,6 +166,7 @@ public class WheelchairContoller : MonoBehaviour {
      }
 
 
+  
 }
 
 

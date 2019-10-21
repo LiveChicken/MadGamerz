@@ -17,7 +17,7 @@ public class PC : MonoBehaviour
 
         if (GameManager.GM.TS == Mode.S2D) {
 
-            if (Input.GetButtonDown("Cancel")) {
+            if (GameManager.GM.controls.Player.Exit.triggered) {
 
                 Transition();
                 

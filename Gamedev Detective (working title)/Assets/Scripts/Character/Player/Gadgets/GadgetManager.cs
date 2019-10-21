@@ -12,7 +12,7 @@ public class GadgetManager : MonoBehaviour {
     {
          if (gadget != null) {
 
-              if (Input.GetButtonDown("Fire2")) {
+              if (GameManager.GM.controls.Player.B.triggered) {
 
                               gadget.TakeInput();
 

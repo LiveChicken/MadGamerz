@@ -67,7 +67,7 @@ public class EnableOnButton : MonoBehaviour {
 
                 if (!wait) {
 
-                    if (Input.GetButtonDown(ButtonName)) {
+                    if (GameManager.GM.controls.Player.A.triggered) {
 
                         StartCoroutine(Unenable());
 

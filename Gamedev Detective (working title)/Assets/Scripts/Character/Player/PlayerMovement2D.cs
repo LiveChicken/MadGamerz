@@ -62,7 +62,7 @@ public class PlayerMovement2D : MonoBehaviour {
 
 
     Vector2 readInput() {
-        Vector2 inputVector = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        Vector2 inputVector = GameManager.GM.controls.Player.Move.ReadValue<Vector2>();
 
         if (inputVector.magnitude > 1f) {
 
