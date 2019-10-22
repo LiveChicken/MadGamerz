@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TFG_Common;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 
 [RequireComponent(typeof(Collider))]
@@ -17,7 +18,11 @@ public class InAreaPrompt : MonoBehaviour {
 
 
      public Mode mode;
-     
+
+
+   //  public Controls.IPlayerActions Actions; 
+
+     //public InputActionMap Action; 
      
     public LayerMask TriggerLayer;
     

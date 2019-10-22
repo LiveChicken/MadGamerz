@@ -37,6 +37,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ButtonPrompt.cs" t="Include" />
           <e p="Character" t="Include">
             <e p="Player" t="Include">
               <e p="Gadgets" t="Include">
@@ -66,6 +67,7 @@
           </e>
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />
+            <e p="ButtonSpriteMap.cs" t="Include" />
             <e p="Development Assistance" t="Include">
               <e p="InspectorButton.cs" t="Include" />
               <e p="VectorInspector.cs" t="Include" />

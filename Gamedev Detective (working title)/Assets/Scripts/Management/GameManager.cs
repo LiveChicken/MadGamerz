@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour {
      public static GameManager GM;
 
      public CinemachineBrain Brain;
-     
+
+
+     public ButtonSpriteMap MasterBSM;
      //public char CurrentLevel2D = 'z';
 
      public Controls controls = null;
