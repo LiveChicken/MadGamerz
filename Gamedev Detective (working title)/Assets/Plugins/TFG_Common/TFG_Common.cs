@@ -62,6 +62,24 @@ namespace TFG_Common
 
         }
 
+
+        public static bool LineOfSight2D(LayerMask blockingMask, GameObject from, GameObject to) {
+
+            Vector3 direction = (to.transform.position - from.transform.position).normalized;
+
+            float distance = Vector2.Distance(to.transform.position, from.transform.position);
+            
+            RaycastHit2D sightTest = Physics2D.Raycast(from.transform.position, direction, distance, blockingMask);
+
+            if (sightTest.collider == null) {
+                return true;
+            } else {
+                return false;
+            }
+
+
+        }
+
     }
 
 
