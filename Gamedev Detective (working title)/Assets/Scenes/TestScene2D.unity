@@ -480,10 +480,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 628055345}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47dbbd10223d2404ca8bb2d9420a92d7, type: 3}
+  m_Script: {fileID: 11500000, guid: b22ef04f8f4809243b18fc0d53d8d673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanUse: 0
+  CanUse: 1
+  mode: 2
 --- !u!114 &628055347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1995,6 +1996,7 @@ MonoBehaviour:
   EnabledDuration: 0.1
   PopulateOnStart: 1
   GameObjectsToEnable: []
+  mode: 2
 --- !u!114 &881416161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,6 +2019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1091976402}
   - component: {fileID: 1091976403}
+  - component: {fileID: 1091976404}
   m_Layer: 11
   m_Name: Sprite
   m_TagString: Untagged
@@ -2031,13 +2034,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091976401}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.363, y: 0.054, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.02, y: 0.61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2033622699}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &1091976403
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2087,6 +2090,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1091976404
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091976401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.24, y: 1.48}
+  m_EdgeRadius: 0
 --- !u!1 &1448620482
 GameObject:
   m_ObjectHideFlags: 0
@@ -15294,7 +15323,7 @@ GameObject:
   - component: {fileID: 2033622698}
   - component: {fileID: 2033622697}
   m_Layer: 11
-  m_Name: Bat
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15309,10 +15338,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2033622696}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b22ef04f8f4809243b18fc0d53d8d673, type: 3}
+  m_Script: {fileID: 11500000, guid: da14f58b317f1294c9afa6aa8e6b4f21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanUse: 0
+  CanUse: 1
+  mode: 2
+  Shield: {fileID: 1091976401}
 --- !u!114 &2033622698
 MonoBehaviour:
   m_ObjectHideFlags: 0

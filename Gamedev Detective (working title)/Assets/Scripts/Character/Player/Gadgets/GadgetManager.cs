@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
 
 public class GadgetManager : MonoBehaviour {
 
@@ -14,9 +16,22 @@ public class GadgetManager : MonoBehaviour {
 
               if (GameManager.GM.controls.Player.B.triggered) {
 
-                              gadget.TakeInput();
+                              gadget.TakeInputDown();
 
               }
+
+              if (GameManager.GM.controls.Player.Bhold.triggered) {
+
+                   gadget.TakeInputHold();
+                   
+              }
+
+              if (GameManager.GM.controls.Player.Bup.triggered) {
+
+                   gadget.TakeInputUp();
+                   
+              }
+
          }
 
     }

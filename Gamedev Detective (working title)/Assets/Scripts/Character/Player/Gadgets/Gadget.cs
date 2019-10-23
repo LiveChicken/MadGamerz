@@ -8,7 +8,11 @@ public abstract class Gadget : MonoBehaviour {
 
      public Mode mode = Mode.S2D;
 
-     public abstract void TakeInput();
+     public abstract void TakeInputDown();
+
+     public abstract void TakeInputHold();
+
+     public abstract void TakeInputUp();
 
 
 }

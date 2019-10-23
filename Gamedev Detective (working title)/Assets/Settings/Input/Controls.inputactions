@@ -38,6 +38,14 @@
                     "interactions": ""
                 },
                 {
+                    "name": "Bhold",
+                    "type": "Button",
+                    "id": "69465603-6945-4435-ade2-7a9ee4ae1246",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "Exit",
                     "type": "Button",
                     "id": "a7183f0d-0fbd-4f96-b2e4-b242173a4a96",
@@ -49,6 +57,14 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "271689c2-cb05-4876-82b3-bcde8a9d1cd0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Bup",
+                    "type": "Button",
+                    "id": "1a912580-33b9-4ba2-b417-91a129608e57",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
@@ -283,6 +299,50 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fad89fb0-8b6a-4c6e-8bed-3e48b48c3b47",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Bhold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "958a4821-316d-4c92-90ed-7bbfacca9d40",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Bhold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8000cdc-17ac-4053-95ce-00865a840423",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Bup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f885a744-1136-4098-aaeb-65b4d3b5f9e5",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Bup",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

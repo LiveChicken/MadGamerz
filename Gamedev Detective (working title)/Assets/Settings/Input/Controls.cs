@@ -51,6 +51,14 @@ public class Controls : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
+                    ""name"": ""Bhold"",
+                    ""type"": ""Button"",
+                    ""id"": ""69465603-6945-4435-ade2-7a9ee4ae1246"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
                     ""name"": ""Exit"",
                     ""type"": ""Button"",
                     ""id"": ""a7183f0d-0fbd-4f96-b2e4-b242173a4a96"",
@@ -62,6 +70,14 @@ public class Controls : IInputActionCollection, IDisposable
                     ""name"": ""Pause"",
                     ""type"": ""Button"",
                     ""id"": ""271689c2-cb05-4876-82b3-bcde8a9d1cd0"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Bup"",
+                    ""type"": ""Button"",
+                    ""id"": ""1a912580-33b9-4ba2-b417-91a129608e57"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
@@ -296,6 +312,50 @@ public class Controls : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""Pause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""fad89fb0-8b6a-4c6e-8bed-3e48b48c3b47"",
+                    ""path"": ""<XInputController>/buttonEast"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Bhold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""958a4821-316d-4c92-90ed-7bbfacca9d40"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Bhold"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a8000cdc-17ac-4053-95ce-00865a840423"",
+                    ""path"": ""<XInputController>/buttonEast"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Bup"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f885a744-1136-4098-aaeb-65b4d3b5f9e5"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Bup"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -654,8 +714,10 @@ public class Controls : IInputActionCollection, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_A = m_Player.FindAction("A", throwIfNotFound: true);
         m_Player_B = m_Player.FindAction("B", throwIfNotFound: true);
+        m_Player_Bhold = m_Player.FindAction("Bhold", throwIfNotFound: true);
         m_Player_Exit = m_Player.FindAction("Exit", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
+        m_Player_Bup = m_Player.FindAction("Bup", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -722,8 +784,10 @@ public class Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_A;
     private readonly InputAction m_Player_B;
+    private readonly InputAction m_Player_Bhold;
     private readonly InputAction m_Player_Exit;
     private readonly InputAction m_Player_Pause;
+    private readonly InputAction m_Player_Bup;
     public struct PlayerActions
     {
         private Controls m_Wrapper;
@@ -732,8 +796,10 @@ public class Controls : IInputActionCollection, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @A => m_Wrapper.m_Player_A;
         public InputAction @B => m_Wrapper.m_Player_B;
+        public InputAction @Bhold => m_Wrapper.m_Player_Bhold;
         public InputAction @Exit => m_Wrapper.m_Player_Exit;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
+        public InputAction @Bup => m_Wrapper.m_Player_Bup;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -755,12 +821,18 @@ public class Controls : IInputActionCollection, IDisposable
                 B.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
                 B.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
                 B.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
+                Bhold.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
+                Bhold.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
+                Bhold.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
                 Exit.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
                 Exit.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
                 Exit.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
                 Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
                 Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                Bup.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
+                Bup.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
+                Bup.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -777,12 +849,18 @@ public class Controls : IInputActionCollection, IDisposable
                 B.started += instance.OnB;
                 B.performed += instance.OnB;
                 B.canceled += instance.OnB;
+                Bhold.started += instance.OnBhold;
+                Bhold.performed += instance.OnBhold;
+                Bhold.canceled += instance.OnBhold;
                 Exit.started += instance.OnExit;
                 Exit.performed += instance.OnExit;
                 Exit.canceled += instance.OnExit;
                 Pause.started += instance.OnPause;
                 Pause.performed += instance.OnPause;
                 Pause.canceled += instance.OnPause;
+                Bup.started += instance.OnBup;
+                Bup.performed += instance.OnBup;
+                Bup.canceled += instance.OnBup;
             }
         }
     }
@@ -924,8 +1002,10 @@ public class Controls : IInputActionCollection, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnA(InputAction.CallbackContext context);
         void OnB(InputAction.CallbackContext context);
+        void OnBhold(InputAction.CallbackContext context);
         void OnExit(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
+        void OnBup(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
