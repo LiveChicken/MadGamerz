@@ -47,13 +47,13 @@ public class Explode : MonoBehaviour {
 
                    if (Checks.LineOfSight2D(BlockingMask, gameObject, H.gameObject)) {
 
-                        H.ChangeHealth(-Damage);
+                        H.ChangeHealth(-Damage, true);
                         
                    }
 
               } else {
 
-                   H.ChangeHealth(-Damage);
+                   H.ChangeHealth(-Damage, true);
               }
 
          }

@@ -11,14 +11,21 @@ public class Health : MonoBehaviour {
     public int MaxHealth;
 
     private int currentHealth;
+
+    [Tooltip("Am I armoured and invincible to most attacks")]
+    public bool Reinforced;
       
     [Space]
     public UnityEvent OnHealthLost;
 
     public UnityEvent OnHealthGained;
-    
+
+    public UnityEvent OnReinforcedHit;
+
     [Space]
     public UnityEvent OnZeroHealth;
+    
+    
 
     private bool hasDied;
 
@@ -27,10 +34,17 @@ public class Health : MonoBehaviour {
     }
 
 
-   public void ChangeHealth(int value) {
+   public void ChangeHealth(int value, bool Heavy = false) {
 
+       if (!Heavy && Reinforced) {
+         Debug.Log("AHAHAHAH I am invincible!");
+           
+           OnReinforcedHit?.Invoke();
+           
+           return;
+       }
 
-        if (!hasDied) {
+       if (!hasDied) {
             currentHealth += value;
 
             if (value < 0) {

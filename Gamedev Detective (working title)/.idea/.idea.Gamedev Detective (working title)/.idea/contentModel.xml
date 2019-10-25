@@ -12,6 +12,20 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="TFG_Common" t="Include">
             <e p="AudioManager.cs" t="Include" />
@@ -66,7 +80,11 @@
             <e p="FastIKFabric.cs" t="Include" />
             <e p="Health.cs" t="Include" />
             <e p="InAreaPrompt.cs" t="Include" />
+            <e p="Inspectable.cs" t="Include" />
+            <e p="InspectableViewer.cs" t="Include" />
             <e p="ItemRotator2D.cs" t="Include" />
+            <e p="Stunable.cs" t="Include" />
+            <e p="StunTrigger2D.cs" t="Include" />
           </e>
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />

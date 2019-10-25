@@ -7,10 +7,12 @@ using UnityEngine.UI;
 
 public class EnableOnButton : MonoBehaviour {
 
-    [Tooltip("The name of the button in the inputManager")]
-    public string ButtonName = "Give me a name";
+    //[Tooltip("The name of the button in the inputManager")]
+    //public string ButtonName = "Give me a name";
 
     public float EnabledDuration;
+
+    public bool UseWithGadget;
     
     [Space]
     public bool PopulateOnStart = true;
@@ -21,7 +23,7 @@ public class EnableOnButton : MonoBehaviour {
 
     public Mode mode = Mode.S2D;
     
-    private bool lockedOut;
+    //private bool lockedOut;
 
     private bool wait;
     
@@ -36,7 +38,7 @@ public class EnableOnButton : MonoBehaviour {
 
         //ockedOut = Checks.IsAxisAvailable(ButtonName);
         
-        if (lockedOut) Debug.LogWarning("Locked out of: " + gameObject);
+      //  if (lockedOut) Debug.LogWarning("Locked out of: " + gameObject);
 
         ToggleAll(false);
 
@@ -63,7 +65,7 @@ public class EnableOnButton : MonoBehaviour {
     {
         if (GameManager.GM.TS == mode) {
 
-            if (!lockedOut) {
+            if (UseWithGadget || !GadgetManager.GadgetInUse ) {
 
                 if (!wait) {
 
@@ -100,6 +102,14 @@ public class EnableOnButton : MonoBehaviour {
         
         yield return new WaitForSeconds(EnabledDuration);
 
+        ToggleAll(false);
+
+        wait = false;
+
+    }
+
+    private void OnDisable() {
+        
         ToggleAll(false);
 
         wait = false;

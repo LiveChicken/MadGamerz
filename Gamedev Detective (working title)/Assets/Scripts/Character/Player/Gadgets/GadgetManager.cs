@@ -6,7 +6,9 @@ using UnityEngine.InputSystem;
 
 public class GadgetManager : MonoBehaviour {
 
-    public Gadget gadget; 
+    public Gadget gadget;
+
+     public static bool GadgetInUse;
     
 
     // Update is called once per frame
@@ -17,6 +19,8 @@ public class GadgetManager : MonoBehaviour {
               if (GameManager.GM.controls.Player.B.triggered) {
 
                               gadget.TakeInputDown();
+
+                   GadgetInUse = true;
 
               }
 
@@ -29,7 +33,10 @@ public class GadgetManager : MonoBehaviour {
               if (GameManager.GM.controls.Player.Bup.triggered) {
 
                    gadget.TakeInputUp();
-                   
+
+                   GadgetInUse = false;
+
+
               }
 
          }
