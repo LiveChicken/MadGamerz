@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_29FCE684:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 55ab5d5550080d74088d87e3238a35ca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -91,8 +91,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_374430AA: {r: 0, g: 0, b: 0, a: 0}
-    - Color_3BC6F628: {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 0}
+    - Color_374430AA: {r: 0.32640263, g: 0.7968131, b: 1.6877406, a: 0}
+    - Color_3BC6F628: {r: 0, g: 0, b: 0, a: 0}
     - Color_3C451A76: {r: 1, g: 1, b: 1, a: 0}
     - Color_AD5AEFDD: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
