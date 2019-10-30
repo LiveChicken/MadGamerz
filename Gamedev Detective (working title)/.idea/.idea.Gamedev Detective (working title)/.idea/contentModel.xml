@@ -71,6 +71,7 @@
               <e p="SimpleCameraController.cs" t="Include" />
             </e>
           </e>
+          <e p="FreeLookInput.cs" t="Include" />
           <e p="Generic" t="Include">
             <e p="DamageTrigger2D.cs" t="Include" />
             <e p="Easing.cs" t="Include" />
@@ -97,6 +98,7 @@
             <e p="PC.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
           </e>
+          <e p="viewPointRotator.cs" t="Include" />
         </e>
         <e p="Settings" t="Include">
           <e p="Input" t="Include">
