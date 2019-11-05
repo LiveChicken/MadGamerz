@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7200410952496672521
+--- !u!114 &-4017717651040578782
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ToonTesting_Red
-  m_Shader: {fileID: -6465566751694194690, guid: 438dce32318fb7842a829c00ea28b82a,
+  m_Name: TextureTesting
+  m_Shader: {fileID: -6465566751694194690, guid: 0d2094ac7f195be42862e3218e7b0cea,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -33,8 +33,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_29FCE684:
-        m_Texture: {fileID: 0}
+    - Texture2D_5939A799:
+        m_Texture: {fileID: 2800000, guid: 4a75fc01976095342a719938804de874, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -65,10 +65,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_A9169FE6_Out_0:
+        m_Texture: {fileID: 2800000, guid: 4a75fc01976095342a719938804de874, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1F7CEEEE: 0.1
-    - Vector1_BE3C095E: 64
-    - Vector1_F642C145: 0.7
+    - Vector1_19A352FB: 9
+    - Vector1_1F506BE4: 64
+    - Vector1_23540068: 0.184
+    - Vector1_2B7C2679: 0.628
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -91,10 +96,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_374430AA: {r: 0.4716981, g: 0.072142065, b: 0, a: 0}
-    - Color_3BC6F628: {r: 0, g: 0, b: 0, a: 0}
-    - Color_3C451A76: {r: 1, g: 1, b: 1, a: 0}
-    - Color_AD5AEFDD: {r: 0, g: 2.087576, b: 5.340313, a: 0}
+    - Color_7B8A7FEA: {r: 0.5, g: 0.36993873, b: 0, a: 0}
+    - Color_BC1D2327: {r: 1, g: 1, b: 1, a: 0}
+    - Color_C1E1582D: {r: 1, g: 1, b: 1, a: 0}
+    - Color_E65FFC1D: {r: 7.1297374, g: 7.1297374, b: 7.1297374, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
