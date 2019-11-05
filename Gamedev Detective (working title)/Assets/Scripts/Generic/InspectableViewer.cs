@@ -92,7 +92,7 @@ public class InspectableViewer : MonoBehaviour {
 
         //TODO: Launch Ray, check hit for compoent, add to Current if true.
 
-        Debug.Log("I'm being done hard!");
+//        Debug.Log("I'm being done hard!");
         
         myRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
         RaycastHit hit;
