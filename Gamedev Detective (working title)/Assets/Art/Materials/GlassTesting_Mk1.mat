@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GlassTesting_Mk1
-  m_Shader: {fileID: -6465566751694194690, guid: 0d03596df50c89041ba2665169ef396d,
+  m_Shader: {fileID: -6465566751694194690, guid: 733f3dd2659d7cb418c26813400dfc9c,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -62,6 +62,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_11ECFB65: 1
+    - Vector1_1209F6EB: 1
     - Vector1_33FC8081: 0.4
     - Vector1_9FCBCC5C: 1
     - Vector1_EF9A9263: 32
@@ -87,6 +89,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_7F194347: {r: 1, g: 1, b: 1, a: 0}
+    - Color_AEC4C285: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
     - Color_BF969CA0: {r: 1, g: 1, b: 1, a: 0}
     - Color_D3CC6792: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
