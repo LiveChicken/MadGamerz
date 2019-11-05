@@ -375,7 +375,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 514
+  m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -1610,7 +1610,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543409598}
-  m_LocalRotation: {x: 0.18550326, y: -0.10989628, z: 0.020881716, w: 0.9762558}
+  m_LocalRotation: {x: 0.18550327, y: -0.10989628, z: 0.020881718, w: 0.9762558}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2006,8 +2006,8 @@ GameObject:
   - component: {fileID: 832018332}
   - component: {fileID: 832018331}
   - component: {fileID: 832018330}
-  - component: {fileID: 832018334}
   - component: {fileID: 832018335}
+  - component: {fileID: 832018334}
   - component: {fileID: 832018333}
   m_Layer: 5
   m_Name: Dialogue Box
@@ -2049,6 +2049,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 201340215}
+  CharactersPerSecond: 20
+  OnTextBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTextEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCharacterShow:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &832018331
 MonoBehaviour:
   m_ObjectHideFlags: 0
