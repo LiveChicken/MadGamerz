@@ -1610,7 +1610,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543409598}
-  m_LocalRotation: {x: 0.18550327, y: -0.10989628, z: 0.020881718, w: 0.9762558}
+  m_LocalRotation: {x: 0.18550295, y: -0.1099108, z: 0.020884475, w: 0.97625417}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 201340215}
-  CharactersPerSecond: 20
+  CharactersPerSecond: 25
   OnTextBegin:
     m_PersistentCalls:
       m_Calls: []
@@ -5204,7 +5204,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984413232}
-  m_LocalRotation: {x: 0.12331124, y: -0.110998124, z: 0.013881408, w: 0.9860432}
+  m_LocalRotation: {x: 0.12331102, y: -0.11101281, z: 0.013883244, w: 0.98604155}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5454,8 +5454,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2ce35f311318545822dfee709b9d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  language: 1
-  DialogueMarlin: {fileID: 11400000, guid: 3cbffe0f3efdb444a9cee9f2a8d04eea, type: 2}
+  language: 0
+  DialogueMarlin: {fileID: 0}
 --- !u!1 &1103652034
 GameObject:
   m_ObjectHideFlags: 3
@@ -5522,7 +5522,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103652034}
-  m_LocalRotation: {x: 0.1855033, y: -0.10989616, z: 0.020881139, w: 0.97625583}
+  m_LocalRotation: {x: 0.18550302, y: -0.10991071, z: 0.020883907, w: 0.97625417}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7571,7 +7571,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.18550324, y: -0.10989632, z: 0.020881947, w: 0.9762558}
+  m_LocalRotation: {x: 0.18550298, y: -0.109910876, z: 0.020884719, w: 0.9762541}
   m_LocalPosition: {x: -15.321102, y: 3.7, z: -2.7847612}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9039,12 +9039,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   current: {fileID: 0}
-  ViewPoint: {fileID: 720612499}
-  InspectableCamera: {fileID: 478822849}
+  ViewPoint: {fileID: 0}
+  InspectableCamera: {fileID: 0}
   layerMask:
     serializedVersion: 2
-    m_Bits: 16385
-  Range: 15
+    m_Bits: 0
+  Range: 0
 --- !u!4 &1981587306
 Transform:
   m_ObjectHideFlags: 0
