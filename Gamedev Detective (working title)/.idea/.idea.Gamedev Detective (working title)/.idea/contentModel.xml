@@ -14,6 +14,7 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
+        <e p="Billborder.cs" t="Include" />
         <e p="DialogueBox.cs" t="Include" />
         <e p="DialogueTrigger.cs" t="Include" />
         <e p="LanguageManager.cs" t="Include" />
@@ -70,6 +71,10 @@
                 <e p="ExcelQuery.cs" t="Include" />
                 <e p="ExcelSettings.cs" t="Include" />
                 <e p="ExcelSettingsEditor.cs" t="Include" />
+                <e p="Library" t="Include">
+                  <e p="NPOI.2.1.1.txt" t="Include" />
+                  <e p="Release Notes.txt" t="Include" />
+                </e>
               </e>
               <e p="Templates" t="Include">
                 <e p="DataClass.txt" t="Include" />

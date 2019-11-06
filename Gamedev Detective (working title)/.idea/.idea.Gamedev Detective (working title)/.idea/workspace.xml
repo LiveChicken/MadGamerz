@@ -23,29 +23,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="329" />
+          <entry key="cs" value="396" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="329" />
+          <entry key="C#" value="396" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="5" />
+          <entry key="cs" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="5" />
+          <entry key="C#" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -105,6 +105,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Billborder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <marker date="1573047706538" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573047706538" expanded="true" signature="119:354" ph="{...}" />
+                <marker date="1573047706538" expanded="true" signature="189:352" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -121,6 +135,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InAreaPrompt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Billborder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/PlayerMovementController_CC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EnableOnButton.cs" root0="FORCE_HIGHLIGHTING" />
@@ -135,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/2DLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
@@ -186,6 +200,7 @@
         <option value="$PROJECT_DIR$/Assets/LanguageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs" />
+        <option value="$PROJECT_DIR$/Assets/Billborder.cs" />
       </list>
     </option>
   </component>
@@ -293,12 +308,12 @@
       <workItem from="1572889317669" duration="5005000" />
       <workItem from="1572975669360" duration="9575000" />
       <workItem from="1572997204746" duration="1152000" />
-      <workItem from="1573045294601" duration="281000" />
+      <workItem from="1573045294601" duration="1275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97241000" />
+    <option name="totallyTimeSpent" value="98235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -383,7 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerKnife2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/ItemRotator2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/ItemRotator2D.cs">
@@ -601,6 +615,18 @@
             <marker date="1573045578130" expanded="true" signature="10327:10452" ph="{...}" />
             <marker date="1573045578130" expanded="true" signature="10479:10700" ph="{...}" />
             <marker date="1573045578130" expanded="true" signature="10732:11511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Billborder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1573047706538" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573047706538" expanded="true" signature="119:354" ph="{...}" />
+            <marker date="1573047706538" expanded="true" signature="189:352" ph="{...}" />
           </folding>
         </state>
       </provider>
