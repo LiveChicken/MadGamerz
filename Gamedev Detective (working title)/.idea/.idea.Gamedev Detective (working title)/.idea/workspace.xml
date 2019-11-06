@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f44b5da-1724-4361-b7c0-4a5f1135d966" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,18 +17,18 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="313" />
+          <entry key="cs" value="329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="313" />
+          <entry key="C#" value="329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,112 +45,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CSVReader.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management/CSVReader.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="270">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
               <folding>
-                <marker date="1572976146003" expanded="true" signature="0:193" ph="/* CSVReader by Dock. (24/8/11) ... */" />
-                <marker date="1572976146003" expanded="false" signature="202:259" ph="..." />
-                <marker date="1572976146003" expanded="true" signature="304:2322" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="393:577" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="599:767" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="606:764" ph="/* grid = SplitCsvGrid(csvFile.text); ... */" />
-                <marker date="1572976146003" expanded="true" signature="893:1146" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="974:1118" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1028:1090" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1247:1958" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1387:1482" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1637:1931" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1727:1927" ph="{...}" />
-                <marker date="1572976146003" expanded="true" signature="1770:1861" ph="/* This line was to replace &quot;&quot; with &quot; in my output. ... */" />
-                <marker date="1572976146003" expanded="true" signature="2032:2320" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LanguageManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/LanguageManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding>
-                <marker date="1572990672367" expanded="true" signature="6:92" ph="..." />
-                <marker date="1572990672367" expanded="true" signature="166:1215" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="411:442" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="483:1212" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="637:1156" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="672:1144" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="1163:1177" ph="{...}" />
-                <marker date="1572990672367" expanded="true" signature="1238:1294" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogueBox.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/DialogueBox.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-              <folding>
-                <marker date="1572998243037" expanded="false" signature="6:91" ph="..." />
-                <marker date="1572998243037" expanded="true" signature="161:2270" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="646:695" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="726:773" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="799:1036" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="833:1029" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="862:1017" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="1075:1399" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="1099:1286" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="1437:2267" ph="{...}" />
-                <marker date="1572998243037" expanded="true" signature="1635:2066" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DialogueTrigger.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/DialogueTrigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <marker date="1572990451569" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572990451569" expanded="true" signature="124:240" ph="{...}" />
-                <marker date="1572990451569" expanded="true" signature="173:238" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sheet1Data.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1Data.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding>
-                <marker date="1572985413043" expanded="false" signature="6:44" ph="..." />
-                <marker date="1572985413043" expanded="false" signature="46:130" ph="/// !!! Machine generated code !!! ... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sheet1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <marker date="1572985413028" expanded="false" signature="6:92" ph="..." />
-                <marker date="1572985413028" expanded="false" signature="94:254" ph="/// !!! Machine generated code !!! ... " />
-                <marker date="1572985413028" expanded="true" signature="316:1133" ph="{...}" />
-                <marker date="1572985413028" expanded="true" signature="589:1048" ph="{...}" />
-                <marker date="1572985413028" expanded="true" signature="598:967" ph="/* ##if UNITY_EDITOR ... */" />
-                <marker date="1572985413028" expanded="true" signature="1058:1130" ph="/* Highly recommand to use LINQ to query the data sources. ... */" />
+                <marker date="1573045578130" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+                <marker date="1573045578130" expanded="true" signature="223:556" ph="..." />
+                <marker date="1573045578130" expanded="true" signature="583:11647" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+                <marker date="1573045578130" expanded="true" signature="766:11645" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="928:989" ph="/// Constructor. ... " />
+                <marker date="1573045578130" expanded="true" signature="1051:2446" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="1077:2333" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="1213:2319" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="1447:1728" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="1753:1857" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="2020:2258" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="2365:2436" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+                <marker date="1573045578130" expanded="true" signature="2599:2736" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+                <marker date="1573045578130" expanded="true" signature="2895:3050" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="3099:3304" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+                <marker date="1573045578130" expanded="true" signature="3628:5125" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="3830:5087" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="3881:4001" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="4112:5010" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="4357:4992" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="4407:4607" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="4651:4970" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+                <marker date="1573045578130" expanded="true" signature="5250:5795" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="5356:5600" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="5484:5586" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+                <marker date="1573045578130" expanded="true" signature="6014:7510" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="6055:6154" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="6287:7411" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="6361:7355" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="6466:6729" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="6839:7129" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="7154:7337" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+                <marker date="1573045578130" expanded="true" signature="7737:11639" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="7903:9658" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="7990:8077" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="8154:8891" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="8969:9644" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="9713:10147" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+                <marker date="1573045578130" expanded="true" signature="10327:10452" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="10479:10700" ph="{...}" />
+                <marker date="1573045578130" expanded="true" signature="10732:11511" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,46 +111,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/PlayerMovementController_CC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InspectableViewer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Stunable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/GadgetManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0-preview.1/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/FastIKFabric.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/TestGadget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/StunTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Transitioner3D_2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/viewPointRotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/ItemRotator2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1Data.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/BobTween.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LanguageManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Transitioner3D_2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/PC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InAreaPrompt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/PlayerMovementController_CC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EnableOnButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/TFG_Common/TFG_Common.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Inspectable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/VertexGradientPlugin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InAreaPrompt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/TestGadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/GadgetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0-preview.1/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/PC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/CSVReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EventOnCollision.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Explode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/CharTweener.Properties.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/ItemRotator2D.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/InspectorButton.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/2DLevel.cs" />
         <option value="$PROJECT_DIR$/Assets/Transitioner3D_2D.cs" />
@@ -253,6 +185,7 @@
         <option value="$PROJECT_DIR$/Assets/DialogueTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/LanguageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs" />
       </list>
     </option>
   </component>
@@ -261,9 +194,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-28" />
@@ -277,7 +207,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -290,8 +223,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -320,9 +251,11 @@
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -360,11 +293,12 @@
       <workItem from="1572889317669" duration="5005000" />
       <workItem from="1572975669360" duration="9575000" />
       <workItem from="1572997204746" duration="1152000" />
+      <workItem from="1573045294601" duration="281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96960000" />
+    <option name="totallyTimeSpent" value="97241000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,57 +310,58 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10865672" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10969116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
-      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Unit Tests Coverage" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08776119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +383,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/WheelchairContoller.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerKnife2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/ItemRotator2D.cs" />
@@ -543,13 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShieldGadget.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Explode.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EventOnCollision.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EventOnCollision.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/TFG_Common/TFG_Common.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -585,20 +513,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Stunable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/StunTrigger2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Stunable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/StunTrigger2D.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/FastIKFabric.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3876">
@@ -615,153 +531,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Inspectable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InspectableViewer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/viewPointRotator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/VertexGradientPlugin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/CharTweener.Properties.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/BobTween.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Explode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management/CSVReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <marker date="1572976146003" expanded="true" signature="0:193" ph="/* CSVReader by Dock. (24/8/11) ... */" />
-            <marker date="1572976146003" expanded="false" signature="202:259" ph="..." />
-            <marker date="1572976146003" expanded="true" signature="304:2322" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="393:577" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="599:767" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="606:764" ph="/* grid = SplitCsvGrid(csvFile.text); ... */" />
-            <marker date="1572976146003" expanded="true" signature="893:1146" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="974:1118" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1028:1090" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1247:1958" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1387:1482" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1637:1931" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1727:1927" ph="{...}" />
-            <marker date="1572976146003" expanded="true" signature="1770:1861" ph="/* This line was to replace &quot;&quot; with &quot; in my output. ... */" />
-            <marker date="1572976146003" expanded="true" signature="2032:2320" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Inspectable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InspectableViewer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/viewPointRotator.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/VertexGradientPlugin.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/CharTweener.Properties.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/BobTween.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Explode.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management/CSVReader.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/GDataPlugin/Editor/BaseGoogleEditor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sheet1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sheet1AssetPostProcessor.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1Data.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/DialogueTrigger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/LanguageManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/DialogueBox.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
           <folding>
-            <marker date="1572985413028" expanded="false" signature="6:92" ph="..." />
-            <marker date="1572985413028" expanded="false" signature="94:254" ph="/// !!! Machine generated code !!! ... " />
-            <marker date="1572985413028" expanded="true" signature="316:1133" ph="{...}" />
-            <marker date="1572985413028" expanded="true" signature="589:1048" ph="{...}" />
-            <marker date="1572985413028" expanded="true" signature="598:967" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1572985413028" expanded="true" signature="1058:1130" ph="/* Highly recommand to use LINQ to query the data sources. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Runtime/Sheet1Data.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-          <folding>
-            <marker date="1572985413043" expanded="false" signature="6:44" ph="..." />
-            <marker date="1572985413043" expanded="false" signature="46:130" ph="/// !!! Machine generated code !!! ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DialogueTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1572990451569" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572990451569" expanded="true" signature="124:240" ph="{...}" />
-            <marker date="1572990451569" expanded="true" signature="173:238" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/LanguageManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1572990672367" expanded="true" signature="6:92" ph="..." />
-            <marker date="1572990672367" expanded="true" signature="166:1215" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="411:442" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="483:1212" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="637:1156" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="672:1144" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="1163:1177" ph="{...}" />
-            <marker date="1572990672367" expanded="true" signature="1238:1294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/DialogueBox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <marker date="1572998243037" expanded="false" signature="6:91" ph="..." />
-            <marker date="1572998243037" expanded="true" signature="161:2270" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="646:695" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="726:773" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="799:1036" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="833:1029" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="862:1017" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="1075:1399" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="1099:1286" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="1437:2267" ph="{...}" />
-            <marker date="1572998243037" expanded="true" signature="1635:2066" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+            <marker date="1573045578130" expanded="true" signature="223:556" ph="..." />
+            <marker date="1573045578130" expanded="true" signature="583:11647" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+            <marker date="1573045578130" expanded="true" signature="766:11645" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="928:989" ph="/// Constructor. ... " />
+            <marker date="1573045578130" expanded="true" signature="1051:2446" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="1077:2333" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="1213:2319" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="1447:1728" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="1753:1857" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="2020:2258" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="2365:2436" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+            <marker date="1573045578130" expanded="true" signature="2599:2736" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+            <marker date="1573045578130" expanded="true" signature="2895:3050" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="3099:3304" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+            <marker date="1573045578130" expanded="true" signature="3628:5125" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="3830:5087" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="3881:4001" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="4112:5010" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="4357:4992" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="4407:4607" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="4651:4970" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+            <marker date="1573045578130" expanded="true" signature="5250:5795" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="5356:5600" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="5484:5586" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+            <marker date="1573045578130" expanded="true" signature="6014:7510" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="6055:6154" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="6287:7411" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="6361:7355" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="6466:6729" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="6839:7129" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="7154:7337" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+            <marker date="1573045578130" expanded="true" signature="7737:11639" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="7903:9658" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="7990:8077" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="8154:8891" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="8969:9644" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="9713:10147" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+            <marker date="1573045578130" expanded="true" signature="10327:10452" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="10479:10700" ph="{...}" />
+            <marker date="1573045578130" expanded="true" signature="10732:11511" ph="{...}" />
           </folding>
         </state>
       </provider>
