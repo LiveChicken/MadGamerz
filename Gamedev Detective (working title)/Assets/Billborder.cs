@@ -9,9 +9,9 @@ public class Billborder : MonoBehaviour
     // Update is called once per frame
     void LateUpdate() {
 
-      //  transform.rotation = Camera.main.transform.rotation;
+        transform.rotation = Camera.main.transform.rotation;
 
-         transform.LookAt(Camera.main.transform.position, Vector3.up);
+         //transform.LookAt(Camera.main.transform.position, Vector3.up);
          
          
     }

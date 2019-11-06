@@ -66,15 +66,15 @@
             <e p="ExcelPlugin" t="Include">
               <e p="Editor" t="Include">
                 <e p="BaseExcelEditor.cs" t="Include" />
+                <e p="DLLS" t="Include">
+                  <e p="NPOI.2.1.1.txt" t="Include" />
+                  <e p="Release Notes.txt" t="Include" />
+                </e>
                 <e p="ExcelMachine.cs" t="Include" />
                 <e p="ExcelMachineEditor.cs" t="Include" />
                 <e p="ExcelQuery.cs" t="Include" />
                 <e p="ExcelSettings.cs" t="Include" />
                 <e p="ExcelSettingsEditor.cs" t="Include" />
-                <e p="Library" t="Include">
-                  <e p="NPOI.2.1.1.txt" t="Include" />
-                  <e p="Release Notes.txt" t="Include" />
-                </e>
               </e>
               <e p="Templates" t="Include">
                 <e p="DataClass.txt" t="Include" />
