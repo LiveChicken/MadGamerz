@@ -49,73 +49,98 @@
       <file leaf-file-name="ExcelQuery.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="255">
               <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonPrompt.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPrompt.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
-                <marker date="1572805739292" expanded="true" signature="6:113" ph="..." />
-                <marker date="1572805739292" expanded="true" signature="158:384" ph="{...}" />
-                <marker date="1572805739292" expanded="true" signature="264:381" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+                <marker date="1573160875658" expanded="true" signature="223:556" ph="..." />
+                <marker date="1573160875658" expanded="true" signature="583:11647" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+                <marker date="1573160875658" expanded="true" signature="766:11645" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="928:989" ph="/// Constructor. ... " />
+                <marker date="1573160875658" expanded="true" signature="1051:2446" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="1077:2333" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="1213:2319" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="1447:1728" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="1753:1857" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="2020:2258" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="2365:2436" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+                <marker date="1573160875658" expanded="true" signature="2599:2736" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+                <marker date="1573160875658" expanded="true" signature="2895:3050" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="3099:3304" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+                <marker date="1573160875658" expanded="true" signature="3628:5125" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="3830:5087" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="3881:4001" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="4112:5010" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="4357:4992" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="4407:4607" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="4651:4970" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+                <marker date="1573160875658" expanded="true" signature="5250:5795" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="5356:5600" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="5484:5586" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+                <marker date="1573160875658" expanded="true" signature="6014:7510" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="6055:6154" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="6287:7411" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="6361:7355" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="6466:6729" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="6839:7129" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="7154:7337" ph="{...}" />
+                <marker date="1573160875658" expanded="false" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+                <marker date="1573160875658" expanded="true" signature="7737:11639" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="7903:9658" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="7990:8077" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="8154:8891" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="8969:9644" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="9713:10147" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+                <marker date="1573160875658" expanded="true" signature="10327:10452" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="10479:10700" ph="{...}" />
+                <marker date="1573160875658" expanded="true" signature="10732:11511" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VolumeTrigger.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/VolumeTrigger.cs">
+      <file leaf-file-name="DialogueBox.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
               <folding>
-                <marker date="1573235881441" expanded="true" signature="6:122" ph="..." />
-                <marker date="1573235881441" expanded="true" signature="205:1282" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="520:796" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="547:786" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="617:776" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="702:761" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="845:990" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="911:966" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="1039:1175" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="1105:1160" ph="{...}" />
-                <marker date="1573235881441" expanded="true" signature="1209:1278" ph="{...}" />
+                <marker date="1573245565114" expanded="false" signature="6:117" ph="..." />
+                <marker date="1573245565114" expanded="true" signature="161:2461" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="736:785" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="816:863" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="889:1191" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="923:1119" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="952:1107" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="1230:1554" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="1254:1441" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="1592:2458" ph="{...}" />
+                <marker date="1573245565114" expanded="true" signature="1820:2251" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Balloon.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Balloon.cs">
+      <file leaf-file-name="GeckoController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="-901">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
-                <marker date="1573229880243" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573229880243" expanded="true" signature="117:361" ph="{...}" />
-                <marker date="1573229880243" expanded="true" signature="201:250" ph="{...}" />
-                <marker date="1573229880243" expanded="true" signature="275:359" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Popit.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Popit.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <marker date="1573234294514" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573234294514" expanded="true" signature="148:795" ph="{...}" />
-                <marker date="1573234294514" expanded="true" signature="378:793" ph="{...}" />
-                <marker date="1573234294514" expanded="true" signature="471:786" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="66:4014" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="714:787" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="819:2710" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="1642:1702" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="1750:1811" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="2743:4011" ph="{...}" />
+                <marker date="1573247264431" expanded="true" signature="2817:3000" ph="/* Reset the head rotation so our world to local space transformation will use the head's zero rotation. ... */" />
               </folding>
             </state>
           </provider>
@@ -128,35 +153,25 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/PlayerMovementController_CC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Balloon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/GadgetManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0-preview.1/InputSystem/Actions/InputActionAsset.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VolumeTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/FastIKFabric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/TestGadget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Transitioner3D_2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/EnableOnButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/TestGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/TFG_Common/TFG_Common.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPrompt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Transitioner3D_2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InAreaPrompt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/PC.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Popit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/ItemRotator2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/VectorInspector.cs" />
-        <option value="$PROJECT_DIR$/Assets/Wheel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WheelchairContoller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Wheel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrabPoint.cs" />
@@ -206,6 +221,8 @@
         <option value="$PROJECT_DIR$/Assets/Balloon.cs" />
         <option value="$PROJECT_DIR$/Assets/Popit.cs" />
         <option value="$PROJECT_DIR$/Assets/VolumeTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" />
       </list>
     </option>
   </component>
@@ -218,7 +235,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-452" />
     <option name="y" value="-26" />
     <option name="width" value="1959" />
@@ -315,12 +332,12 @@
       <workItem from="1572997204746" duration="1152000" />
       <workItem from="1573045294601" duration="1873000" />
       <workItem from="1573218587616" duration="894000" />
-      <workItem from="1573229816703" duration="3518000" />
+      <workItem from="1573229816703" duration="4908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103245000" />
+    <option name="totallyTimeSpent" value="104635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,14 +422,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Management/Transitioner3D_2D.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Samples/Input System/1.0.0-preview.1/Custom Binding Composite/CustomComposite.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Settings/Input/GDD.cs" />
     <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0-preview.1/InputSystem/Actions/InputActionAsset.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,8 +568,59 @@
     <entry file="file://$PROJECT_DIR$/Assets/DialogueBox.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="255">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1573160875658" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+            <marker date="1573160875658" expanded="true" signature="223:556" ph="..." />
+            <marker date="1573160875658" expanded="true" signature="583:11647" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+            <marker date="1573160875658" expanded="true" signature="766:11645" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="928:989" ph="/// Constructor. ... " />
+            <marker date="1573160875658" expanded="true" signature="1051:2446" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="1077:2333" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="1213:2319" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="1447:1728" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="1753:1857" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="2020:2258" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="2365:2436" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+            <marker date="1573160875658" expanded="true" signature="2599:2736" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+            <marker date="1573160875658" expanded="true" signature="2895:3050" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="3099:3304" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+            <marker date="1573160875658" expanded="true" signature="3628:5125" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="3830:5087" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="3881:4001" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="4112:5010" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="4357:4992" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="4407:4607" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="4651:4970" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+            <marker date="1573160875658" expanded="true" signature="5250:5795" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="5356:5600" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="5484:5586" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+            <marker date="1573160875658" expanded="true" signature="6014:7510" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="6055:6154" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="6287:7411" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="6361:7355" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="6466:6729" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="6839:7129" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="7154:7337" ph="{...}" />
+            <marker date="1573160875658" expanded="false" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+            <marker date="1573160875658" expanded="true" signature="7737:11639" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="7903:9658" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="7990:8077" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="8154:8891" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="8969:9644" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="9713:10147" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+            <marker date="1573160875658" expanded="true" signature="10327:10452" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="10479:10700" ph="{...}" />
+            <marker date="1573160875658" expanded="true" signature="10732:11511" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,12 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <marker date="1573229880243" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573229880243" expanded="true" signature="117:361" ph="{...}" />
-            <marker date="1573229880243" expanded="true" signature="201:250" ph="{...}" />
-            <marker date="1573229880243" expanded="true" signature="275:359" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,12 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1573234294514" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573234294514" expanded="true" signature="148:795" ph="{...}" />
-            <marker date="1573234294514" expanded="true" signature="378:793" ph="{...}" />
-            <marker date="1573234294514" expanded="true" signature="471:786" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,11 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <marker date="1572805739292" expanded="true" signature="6:113" ph="..." />
-            <marker date="1572805739292" expanded="true" signature="158:384" ph="{...}" />
-            <marker date="1572805739292" expanded="true" signature="264:381" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,18 +657,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
           <folding>
-            <marker date="1573235881441" expanded="true" signature="6:122" ph="..." />
-            <marker date="1573235881441" expanded="true" signature="205:1282" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="520:796" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="547:786" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="617:776" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="702:761" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="845:990" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="911:966" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="1039:1175" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="1105:1160" ph="{...}" />
-            <marker date="1573235881441" expanded="true" signature="1209:1278" ph="{...}" />
+            <marker date="1573245565114" expanded="false" signature="6:117" ph="..." />
+            <marker date="1573245565114" expanded="true" signature="161:2461" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="736:785" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="816:863" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="889:1191" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="923:1119" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="952:1107" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="1230:1554" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="1254:1441" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="1592:2458" ph="{...}" />
+            <marker date="1573245565114" expanded="true" signature="1820:2251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <marker date="1573247264431" expanded="true" signature="66:4014" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="714:787" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="819:2710" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="1642:1702" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="1750:1811" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="2743:4011" ph="{...}" />
+            <marker date="1573247264431" expanded="true" signature="2817:3000" ph="/* Reset the head rotation so our world to local space transformation will use the head's zero rotation. ... */" />
           </folding>
         </state>
       </provider>

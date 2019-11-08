@@ -8,12 +8,19 @@ using UnityEngine.Events;
 public class DialogueBox : MonoBehaviour {
 
     public TMP_Text text;
+    public GameObject Box;
+    [Space]
 
     public float CharactersPerSecond;
+
+    public float AutoTime = 1f;
+    [Space]
 
     public UnityEvent OnTextBegin;
     public UnityEvent OnTextEnd;
     public UnityEvent OnCharacterShow;
+
+    
 
     private bool writing;
     
@@ -49,6 +56,10 @@ public class DialogueBox : MonoBehaviour {
             }
 
 
+        } else {
+
+            Box.SetActive(false);
+            
         }
 
     }
@@ -74,6 +85,8 @@ public class DialogueBox : MonoBehaviour {
     IEnumerator writeLine(string s) {
 
         OnTextBegin?.Invoke();
+
+        Box.SetActive(true);
         
         writing = true;
 
@@ -111,7 +124,7 @@ public class DialogueBox : MonoBehaviour {
 
         writing = false;
         
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(AutoTime);
         
         CheckBacklog();
         yield break;
