@@ -13,7 +13,7 @@ public class LanguageManager : MonoBehaviour {
      
     public  Language language;
 
-    public  Sheet1 DialogueMarlin;
+    public  DialogueMarlin DialogueMarlin;
     
     //TODO: potential resources.load / unlad to manage memory better. 
 

@@ -66,19 +66,46 @@ public class DialogueBox : MonoBehaviour {
 
     public void WriteLine(int index) {
 
+        
+        //if writing currently add the new lines to the backlog
         if (writing) {
 
-            //TODO: Queue?
-            string toBacklog = LanguageManager.LM.GetLine(index);
-            
-            backLog.Add(toBacklog);
-            
+
+            var Split = getSplitLines(index);
+
+            foreach (string s in Split) {
+
+                backLog.Add(s);
+            }
+
             return;
         }
 
-        string toWrite = LanguageManager.LM.GetLine(index);
+        var toWrite = getSplitLines(index);
+        
 
-        StartCoroutine(writeLine(toWrite));
+        StartCoroutine(writeLine(toWrite[0]));
+
+        if (toWrite.Length > 1) {
+
+            for (int i = 1; i < toWrite.Length; i++) {
+
+                backLog.Add(toWrite[i]);
+                
+            }
+
+        }
+
+    }
+
+    public string[] getSplitLines(int index) {
+
+        string toBacklog = LanguageManager.LM.GetLine(index);
+
+        var Split = toBacklog.Split('|');
+
+        return Split;
+
 
     }
 

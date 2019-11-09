@@ -15,8 +15,8 @@ MonoBehaviour:
   templatePath: Plugins/QuickSheet/ExcelPlugin/Templates
   scriptFilePath: Text/ExcelFiles/Runtime
   editorScriptFilePath: Text/ExcelFiles/Editor
-  sheetName: Dialogue Marlin.xlsx
-  workSheetName: Sheet1
+  sheetName: Dialogue Marlon.xlsx
+  workSheetName: DialogueMarlin
   columnHeaderList:
   - type: 1
     name: Line
@@ -34,7 +34,7 @@ MonoBehaviour:
     name: Irish
     isEnable: 0
     isArray: 0
-  excelFilePath: Assets/Text/ExcelFiles/Dialogue Marlin.xlsx
+  excelFilePath: Assets/Text/ExcelFiles/Dialogue Marlon.xlsx
   SheetNames:
-  - Sheet1
+  - DialogueMarlin
   currentSelectedSheet: 0

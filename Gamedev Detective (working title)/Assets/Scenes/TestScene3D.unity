@@ -2016,7 +2016,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543409598}
-  m_LocalRotation: {x: 0.08937241, y: -0.8625139, z: 0.1638905, w: 0.47034273}
+  m_LocalRotation: {x: 0.08937483, y: -0.8625069, z: 0.16388912, w: 0.4703556}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2718,7 +2718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   language: 1
-  DialogueMarlin: {fileID: 11400000, guid: 3cbffe0f3efdb444a9cee9f2a8d04eea, type: 2}
+  DialogueMarlin: {fileID: 0}
 --- !u!1 &835856189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,7 +7655,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984413232}
-  m_LocalRotation: {x: 0.059408832, y: -0.87116104, z: 0.108944684, w: 0.47505808}
+  m_LocalRotation: {x: 0.059410475, y: -0.87115395, z: 0.108943805, w: 0.475071}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7973,7 +7973,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103652034}
-  m_LocalRotation: {x: 0.089372866, y: -0.8625139, z: 0.16389021, w: 0.47034287}
+  m_LocalRotation: {x: 0.089375295, y: -0.86250687, z: 0.16388889, w: 0.4703557}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -13124,7 +13124,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.08937218, y: -0.8625139, z: 0.16389063, w: 0.47034273}
+  m_LocalRotation: {x: 0.08937462, y: -0.8625069, z: 0.16388929, w: 0.47035557}
   m_LocalPosition: {x: -21.257042, y: 3.7, z: 16.409918}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -14645,7 +14645,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924095817}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a243cc80811865f42a202daeddb88adc, type: 3}
   m_Name: 
@@ -14660,7 +14660,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14678,7 +14678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   language: 1
-  DialogueMarlin: {fileID: 11400000, guid: 3cbffe0f3efdb444a9cee9f2a8d04eea, type: 2}
+  DialogueMarlin: {fileID: 11400000, guid: b3fb902e560dc044d8211094309b8ac4, type: 2}
 --- !u!114 &1924095821
 MonoBehaviour:
   m_ObjectHideFlags: 0

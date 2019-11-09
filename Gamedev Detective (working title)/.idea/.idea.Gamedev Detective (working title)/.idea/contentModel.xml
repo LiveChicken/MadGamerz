@@ -254,13 +254,18 @@
             <e p="Controls.cs" t="Include" />
           </e>
         </e>
+        <e p="terrainManager.cs" t="Include" />
         <e p="Text" t="Include">
           <e p="ExcelFiles" t="Include">
             <e p="Editor" t="Include">
+              <e p="DialogueMarlinAssetPostProcessor.cs" t="Include" />
+              <e p="DialogueMarlinEditor.cs" t="Include" />
               <e p="Sheet1AssetPostProcessor.cs" t="Include" />
               <e p="Sheet1Editor.cs" t="Include" />
             </e>
             <e p="Runtime" t="Include">
+              <e p="DialogueMarlin.cs" t="Include" />
+              <e p="DialogueMarlinData.cs" t="Include" />
               <e p="Sheet1.cs" t="Include" />
               <e p="Sheet1Data.cs" t="Include" />
             </e>
