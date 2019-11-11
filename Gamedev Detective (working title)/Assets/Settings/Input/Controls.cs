@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public class Controls : IInputActionCollection, IDisposable
+public class @Controls : IInputActionCollection, IDisposable
 {
     private InputActionAsset asset;
-    public Controls()
+    public @Controls()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""Controls"",
@@ -790,8 +790,8 @@ public class Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Bup;
     public struct PlayerActions
     {
-        private Controls m_Wrapper;
-        public PlayerActions(Controls wrapper) { m_Wrapper = wrapper; }
+        private @Controls m_Wrapper;
+        public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @A => m_Wrapper.m_Player_A;
@@ -809,58 +809,58 @@ public class Controls : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
-                Look.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
-                Look.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
-                Look.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
-                A.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
-                A.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
-                A.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
-                B.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
-                B.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
-                B.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
-                Bhold.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
-                Bhold.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
-                Bhold.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
-                Exit.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
-                Exit.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
-                Exit.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
-                Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
-                Bup.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
-                Bup.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
-                Bup.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
+                @Move.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMove;
+                @Look.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
+                @Look.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
+                @Look.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
+                @A.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
+                @A.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
+                @A.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnA;
+                @B.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
+                @B.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
+                @B.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnB;
+                @Bhold.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
+                @Bhold.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
+                @Bhold.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBhold;
+                @Exit.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
+                @Exit.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
+                @Exit.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnExit;
+                @Pause.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPause;
+                @Bup.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
+                @Bup.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
+                @Bup.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBup;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
-                Move.started += instance.OnMove;
-                Move.performed += instance.OnMove;
-                Move.canceled += instance.OnMove;
-                Look.started += instance.OnLook;
-                Look.performed += instance.OnLook;
-                Look.canceled += instance.OnLook;
-                A.started += instance.OnA;
-                A.performed += instance.OnA;
-                A.canceled += instance.OnA;
-                B.started += instance.OnB;
-                B.performed += instance.OnB;
-                B.canceled += instance.OnB;
-                Bhold.started += instance.OnBhold;
-                Bhold.performed += instance.OnBhold;
-                Bhold.canceled += instance.OnBhold;
-                Exit.started += instance.OnExit;
-                Exit.performed += instance.OnExit;
-                Exit.canceled += instance.OnExit;
-                Pause.started += instance.OnPause;
-                Pause.performed += instance.OnPause;
-                Pause.canceled += instance.OnPause;
-                Bup.started += instance.OnBup;
-                Bup.performed += instance.OnBup;
-                Bup.canceled += instance.OnBup;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
+                @Look.started += instance.OnLook;
+                @Look.performed += instance.OnLook;
+                @Look.canceled += instance.OnLook;
+                @A.started += instance.OnA;
+                @A.performed += instance.OnA;
+                @A.canceled += instance.OnA;
+                @B.started += instance.OnB;
+                @B.performed += instance.OnB;
+                @B.canceled += instance.OnB;
+                @Bhold.started += instance.OnBhold;
+                @Bhold.performed += instance.OnBhold;
+                @Bhold.canceled += instance.OnBhold;
+                @Exit.started += instance.OnExit;
+                @Exit.performed += instance.OnExit;
+                @Exit.canceled += instance.OnExit;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
+                @Bup.started += instance.OnBup;
+                @Bup.performed += instance.OnBup;
+                @Bup.canceled += instance.OnBup;
             }
         }
     }
@@ -882,8 +882,8 @@ public class Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_UI_TrackedDeviceSelect;
     public struct UIActions
     {
-        private Controls m_Wrapper;
-        public UIActions(Controls wrapper) { m_Wrapper = wrapper; }
+        private @Controls m_Wrapper;
+        public UIActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Navigate => m_Wrapper.m_UI_Navigate;
         public InputAction @Submit => m_Wrapper.m_UI_Submit;
         public InputAction @Cancel => m_Wrapper.m_UI_Cancel;
@@ -904,76 +904,76 @@ public class Controls : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_UIActionsCallbackInterface != null)
             {
-                Navigate.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                Navigate.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                Navigate.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
-                Submit.started -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
-                Submit.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
-                Submit.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
-                Cancel.started -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
-                Cancel.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
-                Cancel.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
-                Point.started -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                Point.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                Point.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
-                Click.started -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
-                Click.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
-                Click.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
-                ScrollWheel.started -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
-                ScrollWheel.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
-                ScrollWheel.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
-                MiddleClick.started -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
-                MiddleClick.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
-                MiddleClick.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
-                RightClick.started -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
-                RightClick.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
-                RightClick.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
-                TrackedDevicePosition.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
-                TrackedDevicePosition.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
-                TrackedDevicePosition.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
-                TrackedDeviceOrientation.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
-                TrackedDeviceOrientation.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
-                TrackedDeviceOrientation.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
-                TrackedDeviceSelect.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
-                TrackedDeviceSelect.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
-                TrackedDeviceSelect.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
+                @Navigate.started -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
+                @Navigate.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
+                @Navigate.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnNavigate;
+                @Submit.started -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
+                @Submit.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
+                @Submit.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnSubmit;
+                @Cancel.started -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
+                @Cancel.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
+                @Cancel.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnCancel;
+                @Point.started -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
+                @Point.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
+                @Point.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnPoint;
+                @Click.started -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
+                @Click.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
+                @Click.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnClick;
+                @ScrollWheel.started -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
+                @ScrollWheel.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
+                @ScrollWheel.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnScrollWheel;
+                @MiddleClick.started -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
+                @MiddleClick.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
+                @MiddleClick.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnMiddleClick;
+                @RightClick.started -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
+                @RightClick.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
+                @RightClick.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnRightClick;
+                @TrackedDevicePosition.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
+                @TrackedDevicePosition.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
+                @TrackedDevicePosition.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDevicePosition;
+                @TrackedDeviceOrientation.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
+                @TrackedDeviceOrientation.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
+                @TrackedDeviceOrientation.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceOrientation;
+                @TrackedDeviceSelect.started -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
+                @TrackedDeviceSelect.performed -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
+                @TrackedDeviceSelect.canceled -= m_Wrapper.m_UIActionsCallbackInterface.OnTrackedDeviceSelect;
             }
             m_Wrapper.m_UIActionsCallbackInterface = instance;
             if (instance != null)
             {
-                Navigate.started += instance.OnNavigate;
-                Navigate.performed += instance.OnNavigate;
-                Navigate.canceled += instance.OnNavigate;
-                Submit.started += instance.OnSubmit;
-                Submit.performed += instance.OnSubmit;
-                Submit.canceled += instance.OnSubmit;
-                Cancel.started += instance.OnCancel;
-                Cancel.performed += instance.OnCancel;
-                Cancel.canceled += instance.OnCancel;
-                Point.started += instance.OnPoint;
-                Point.performed += instance.OnPoint;
-                Point.canceled += instance.OnPoint;
-                Click.started += instance.OnClick;
-                Click.performed += instance.OnClick;
-                Click.canceled += instance.OnClick;
-                ScrollWheel.started += instance.OnScrollWheel;
-                ScrollWheel.performed += instance.OnScrollWheel;
-                ScrollWheel.canceled += instance.OnScrollWheel;
-                MiddleClick.started += instance.OnMiddleClick;
-                MiddleClick.performed += instance.OnMiddleClick;
-                MiddleClick.canceled += instance.OnMiddleClick;
-                RightClick.started += instance.OnRightClick;
-                RightClick.performed += instance.OnRightClick;
-                RightClick.canceled += instance.OnRightClick;
-                TrackedDevicePosition.started += instance.OnTrackedDevicePosition;
-                TrackedDevicePosition.performed += instance.OnTrackedDevicePosition;
-                TrackedDevicePosition.canceled += instance.OnTrackedDevicePosition;
-                TrackedDeviceOrientation.started += instance.OnTrackedDeviceOrientation;
-                TrackedDeviceOrientation.performed += instance.OnTrackedDeviceOrientation;
-                TrackedDeviceOrientation.canceled += instance.OnTrackedDeviceOrientation;
-                TrackedDeviceSelect.started += instance.OnTrackedDeviceSelect;
-                TrackedDeviceSelect.performed += instance.OnTrackedDeviceSelect;
-                TrackedDeviceSelect.canceled += instance.OnTrackedDeviceSelect;
+                @Navigate.started += instance.OnNavigate;
+                @Navigate.performed += instance.OnNavigate;
+                @Navigate.canceled += instance.OnNavigate;
+                @Submit.started += instance.OnSubmit;
+                @Submit.performed += instance.OnSubmit;
+                @Submit.canceled += instance.OnSubmit;
+                @Cancel.started += instance.OnCancel;
+                @Cancel.performed += instance.OnCancel;
+                @Cancel.canceled += instance.OnCancel;
+                @Point.started += instance.OnPoint;
+                @Point.performed += instance.OnPoint;
+                @Point.canceled += instance.OnPoint;
+                @Click.started += instance.OnClick;
+                @Click.performed += instance.OnClick;
+                @Click.canceled += instance.OnClick;
+                @ScrollWheel.started += instance.OnScrollWheel;
+                @ScrollWheel.performed += instance.OnScrollWheel;
+                @ScrollWheel.canceled += instance.OnScrollWheel;
+                @MiddleClick.started += instance.OnMiddleClick;
+                @MiddleClick.performed += instance.OnMiddleClick;
+                @MiddleClick.canceled += instance.OnMiddleClick;
+                @RightClick.started += instance.OnRightClick;
+                @RightClick.performed += instance.OnRightClick;
+                @RightClick.canceled += instance.OnRightClick;
+                @TrackedDevicePosition.started += instance.OnTrackedDevicePosition;
+                @TrackedDevicePosition.performed += instance.OnTrackedDevicePosition;
+                @TrackedDevicePosition.canceled += instance.OnTrackedDevicePosition;
+                @TrackedDeviceOrientation.started += instance.OnTrackedDeviceOrientation;
+                @TrackedDeviceOrientation.performed += instance.OnTrackedDeviceOrientation;
+                @TrackedDeviceOrientation.canceled += instance.OnTrackedDeviceOrientation;
+                @TrackedDeviceSelect.started += instance.OnTrackedDeviceSelect;
+                @TrackedDeviceSelect.performed += instance.OnTrackedDeviceSelect;
+                @TrackedDeviceSelect.canceled += instance.OnTrackedDeviceSelect;
             }
         }
     }

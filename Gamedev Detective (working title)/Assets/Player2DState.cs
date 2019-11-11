@@ -10,6 +10,8 @@ public class Player2DState : MonoBehaviour {
     
     public bool OnDirt;
 
+    public LayerMask WalLayerMask;
+
     private Animator anim;
     
     
@@ -39,6 +41,9 @@ public class Player2DState : MonoBehaviour {
 
         } else {
 
+            if (Physics2D.OverlapCircle(transform.position, 0.2f, WalLayerMask)){
+                return;
+            }
 
             gameObject.layer = 11;
             state = PlayerState2D.Normal;
