@@ -15,7 +15,7 @@ public class ShovelGadget : Gadget {
      
      private void OnEnable() {
 
-          tm = transform.GetComponentInParent<terrainManager>();
+         // tm = transform.GetComponentInParent<terrainManager>();
 
 
      }
@@ -37,16 +37,25 @@ public class ShovelGadget : Gadget {
      void AttemptDig() {
 
 
-          if (tm.isOnDirt) {
+          if (Player2DState.P2S.state == Player2DState.PlayerState2D.Normal) {
 
-               
-               
-               
-               
-          } else {
+               if (Player2DState.P2S.OnDirt) {
 
+
+                    Player2DState.P2S.toggleDig(true);
+
+
+               } else {
+
+
+                    OnFailedToDig?.Invoke();
+               }
+
+          } else if (Player2DState.P2S.state == Player2DState.PlayerState2D.Digging) {
+
+
+               Player2DState.P2S.toggleDig(false);
                
-               OnFailedToDig?.Invoke();
           }
 
      }

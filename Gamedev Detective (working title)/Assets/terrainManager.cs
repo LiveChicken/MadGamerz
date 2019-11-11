@@ -11,8 +11,8 @@ public class terrainManager : MonoBehaviour {
 
     public TileBase CurrentTile;
 
-    [HideInInspector]
-    public bool isOnDirt;
+  //  [HideInInspector]
+  //  public bool isOnDirt;
 
     private Tilemap GroundMap;
 
@@ -42,7 +42,7 @@ private LayerMask dirtMask;
 
         if (Checks.CompareLayers(dirtMask, other.gameObject)) {
 
-            isOnDirt = true;
+            Player2DState.P2S.OnDirt = true;
 
         }
 
@@ -53,7 +53,7 @@ private LayerMask dirtMask;
 
         if (Checks.CompareLayers(dirtMask, other.gameObject)) {
 
-            isOnDirt = false;
+            Player2DState.P2S.OnDirt = false;
 
         }
 
