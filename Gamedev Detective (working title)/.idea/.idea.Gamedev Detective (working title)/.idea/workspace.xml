@@ -47,20 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Player2DState.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player2DState.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Player2DState.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="442">
+              <caret line="43" column="75" lean-forward="true" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
               <folding>
-                <marker date="1573498394328" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573498394328" expanded="true" signature="123:885" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="334:361" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="388:437" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="478:799" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="500:670" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="527:659" ph="{...}" />
-                <marker date="1573498394328" expanded="true" signature="833:882" ph="{...}" />
+                <marker date="1573509798087" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573509798087" expanded="true" signature="123:960" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="334:361" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="388:437" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="478:874" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="500:709" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="527:698" ph="{...}" />
+                <marker date="1573509798087" expanded="true" signature="908:957" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/terrainManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <marker date="1573498472447" expanded="false" signature="6:172" ph="..." />
                 <marker date="1573498472447" expanded="true" signature="219:1100" ph="{...}" />
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShovelGadget.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ShovelGadget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShovelGadget.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="58" column="76" lean-forward="true" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
               <folding>
                 <marker date="1573498792958" expanded="false" signature="6:104" ph="..." />
                 <marker date="1573498792958" expanded="true" signature="142:1256" ph="{...}" />
@@ -189,9 +189,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Management/LanguageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player2DState.cs" />
         <option value="$PROJECT_DIR$/Assets/terrainManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShovelGadget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player2DState.cs" />
       </list>
     </option>
   </component>
@@ -204,7 +204,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1280" />
     <option name="width" value="1287" />
     <option name="height" value="1042" />
@@ -303,12 +303,12 @@
       <workItem from="1573229816703" duration="4908000" />
       <workItem from="1573322982593" duration="2380000" />
       <workItem from="1573396287841" duration="981000" />
-      <workItem from="1573496383705" duration="1618000" />
+      <workItem from="1573496383705" duration="2354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109614000" />
+    <option name="totallyTimeSpent" value="110350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,27 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Player2DState.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="58" lean-forward="true" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding>
-            <marker date="1573498394328" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573498394328" expanded="true" signature="123:885" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="334:361" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="388:437" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="478:799" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="500:670" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="527:659" ph="{...}" />
-            <marker date="1573498394328" expanded="true" signature="833:882" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/terrainManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="55" column="51" lean-forward="true" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <marker date="1573498472447" expanded="false" signature="6:172" ph="..." />
             <marker date="1573498472447" expanded="true" signature="219:1100" ph="{...}" />
@@ -653,7 +636,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShovelGadget.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="58" column="76" lean-forward="true" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
           <folding>
             <marker date="1573498792958" expanded="false" signature="6:104" ph="..." />
             <marker date="1573498792958" expanded="true" signature="142:1256" ph="{...}" />
@@ -667,6 +650,23 @@
             <marker date="1573498792958" expanded="true" signature="1060:1120" ph="{...}" />
             <marker date="1573498792958" expanded="true" signature="1163:1179" ph="{...}" />
             <marker date="1573498792958" expanded="true" signature="1220:1236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Player2DState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="75" lean-forward="true" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+          <folding>
+            <marker date="1573509798087" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573509798087" expanded="true" signature="123:960" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="334:361" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="388:437" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="478:874" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="500:709" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="527:698" ph="{...}" />
+            <marker date="1573509798087" expanded="true" signature="908:957" ph="{...}" />
           </folding>
         </state>
       </provider>

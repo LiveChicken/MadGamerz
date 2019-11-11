@@ -30,6 +30,7 @@ public class Player2DState : MonoBehaviour {
 
             if (OnDirt) {
 
+                gameObject.layer = 16;
 
                 state = PlayerState2D.Digging;
                 anim.SetBool("Underground", true);
@@ -38,6 +39,8 @@ public class Player2DState : MonoBehaviour {
 
         } else {
 
+
+            gameObject.layer = 11;
             state = PlayerState2D.Normal;
             anim.SetBool("Underground", false);
             

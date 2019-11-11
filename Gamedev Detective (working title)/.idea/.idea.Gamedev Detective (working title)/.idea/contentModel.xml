@@ -172,7 +172,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
-            <e p="Balloon.cs" t="Include" />
             <e p="DialogueBox.cs" t="Include" />
             <e p="Player" t="Include">
               <e p="Gadgets" t="Include">
@@ -191,6 +190,7 @@
             </e>
             <e p="Popit.cs" t="Include" />
             <e p="Unused" t="Include">
+              <e p="Balloon.cs" t="Include" />
               <e p="PlayerMovementController_CC.cs" t="Include" />
               <e p="SimpleCameraController.cs" t="Include" />
             </e>
