@@ -13,6 +13,8 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
+        <e p="lerp.cs" t="Include" />
+        <e p="MainMenuManager.cs" t="Include" />
         <e p="Player2DState.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
@@ -158,6 +160,7 @@
           <e p="TFG_Common" t="Include">
             <e p="AudioManager.cs" t="Include" />
             <e p="DevelopmentUI.cs" t="Include" />
+            <e p="EnableTrigger.cs" t="Include" />
             <e p="Sound.cs" t="Include" />
             <e p="TFG_Common.cs" t="Include" />
           </e>
@@ -170,6 +173,7 @@
             </e>
           </e>
         </e>
+        <e p="QuitDialog.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
             <e p="DialogueBox.cs" t="Include" />
@@ -343,6 +347,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="WaterTile.cs" t="Include" />
       </e>
       <e p="Gamedev Detective (working title).sln" t="IncludeFlat" />
       <e p="InputSystem.Samples.Visualizers.csproj" t="IncludeRecursive" />

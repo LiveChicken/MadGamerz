@@ -43,6 +43,8 @@ public class PC : MonoBehaviour
 
         //Load new 2D
 
+        //TODO: thiss is gonna break something I know it!
+        
         if (SceneManager.sceneCount > 1) {
 
             SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(1));

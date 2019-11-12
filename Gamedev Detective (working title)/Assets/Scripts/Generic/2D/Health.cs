@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal.VR;
+//using UnityEditorInternal.VR;
 using UnityEngine;
 using UnityEngine.Events;
+//using UnityEngine.SceneManagement;
 
 
 public class Health : MonoBehaviour {
@@ -67,5 +68,8 @@ public class Health : MonoBehaviour {
 
     }
 
+
    
+
+
 }
