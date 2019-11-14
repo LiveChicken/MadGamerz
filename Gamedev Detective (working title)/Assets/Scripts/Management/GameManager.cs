@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 
+
 public class GameManager : MonoBehaviour {
 
-     public  Mode TS;
+     public Mode TS;
 
      public static GameManager GM;
 
@@ -13,18 +14,21 @@ public class GameManager : MonoBehaviour {
 
 
      public ButtonSpriteMap MasterBSM;
+
      //public char CurrentLevel2D = 'z';
 
      public Controls controls = null;
-     
-     [Space]
 
-     public bool CanMove;
+     [Space] public bool CanMove;
 
      public bool CartHasChanged;
-     
-     
-     private void Awake() {
+
+
+     [Space]
+     public List<Key>Keychain = new List<Key>();
+
+
+private void Awake() {
           GM = this;
           controls = new Controls();
           
@@ -47,3 +51,4 @@ public enum Mode{
              S2D
 
 }
+

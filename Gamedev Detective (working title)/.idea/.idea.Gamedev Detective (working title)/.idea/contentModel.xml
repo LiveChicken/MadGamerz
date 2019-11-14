@@ -295,6 +295,7 @@
               <e p="InAreaPrompt.cs" t="Include" />
               <e p="Inspectable.cs" t="Include" />
               <e p="InspectableViewer.cs" t="Include" />
+              <e p="Lock.cs" t="Include" />
               <e p="OnCollisionSpawner.cs" t="Include" />
             </e>
             <e p="Interactable.cs" t="Include" />
@@ -310,6 +311,7 @@
             </e>
             <e p="FreeLookInput.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
             <e p="LanguageManager.cs" t="Include" />
             <e p="PC.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
