@@ -89,6 +89,18 @@ public class TargetingScript2 : MonoBehaviour {
 
      }
 
+
+     void TryInteract() {
+          try {
+               Target.GetComponent<Interactable>().Interact();
+          } catch {
+
+               Debug.Log("Not able to Interact with: " + Target.gameObject);
+               
+          }
+
+     }
+
      IEnumerator CheckTargets() {
 
           while (true) {
@@ -107,13 +119,27 @@ public class TargetingScript2 : MonoBehaviour {
 
      void UpdateUI() {
 
-          if (Target != null || Target != defaultTarget) {
+          if (GameManager.GM.CanMove && Target != null && Target != defaultTarget){
 
-               TargetRet.SetActive(true); 
-               
-               TargetRet.transform.position = Camera.main.WorldToScreenPoint(Target.position + (Vector3) UIOffset);
 
-              // if (IsLocked) {
+               if (Target.GetComponent<Inspectable>() || Target.GetComponent<Interactable>()) {
+                    TargetRet.SetActive(true);
+
+
+                    TargetRet.transform.position = Camera.main.WorldToScreenPoint(Target.position + (Vector3) UIOffset);
+
+                    if (GameManager.GM.TS == Mode.S3D && GameManager.GM.controls.Player.A.triggered) {
+
+                         TryInteract();
+                         
+                    }
+
+               } else {
+                    TargetRet.SetActive(false); 
+               }
+
+
+               // if (IsLocked) {
 
                   //  LockOnRet.enabled = true;
 

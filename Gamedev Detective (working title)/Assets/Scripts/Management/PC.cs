@@ -64,7 +64,7 @@ public class PC : MonoBehaviour
 
         }
 
-        SceneManager.LoadScene(ToLoad.Scene2DIndex, LoadSceneMode.Additive);
+        SceneManager.LoadScene(ToLoad.Scene2DName, LoadSceneMode.Additive);
 
 
     }

@@ -7,7 +7,8 @@ using UnityEngine.UI;
 
 public class InspectableViewer : MonoBehaviour {
 
-    public Inspectable current;
+    private Inspectable current;
+    private Transform nogo;
 
     public Transform ViewPoint;
 
@@ -15,11 +16,11 @@ public class InspectableViewer : MonoBehaviour {
 
     private bool Inspecting;
     
-    [Header("Detection")]
+  //  [Header("Detection")]
 
-    public LayerMask layerMask;
+  //  public LayerMask layerMask;
 
-    public float Range;
+ //   public float Range;
     
     
 
@@ -61,9 +62,20 @@ public class InspectableViewer : MonoBehaviour {
 
         if (GameManager.GM.TS == Mode.S3D) {
 
-            if (!Inspecting) {
+            try {
 
-                AnalyseForward();
+                if (TargetingScript2.Target != nogo) {
+                    current = TargetingScript2.Target.GetComponent<Inspectable>();
+                }
+            } catch {
+
+                nogo = TargetingScript2.Target;
+
+            }
+
+            if (!Inspecting && current != null) {
+
+              //  AnalyseForward();
                 
                 
 
@@ -86,7 +98,7 @@ public class InspectableViewer : MonoBehaviour {
 
     }
 
-    private Ray myRay;
+   /* private Ray myRay;
 
     private void AnalyseForward() {
 
@@ -112,10 +124,10 @@ public class InspectableViewer : MonoBehaviour {
 
     private void OnDrawGizmos() {
         
-        Gizmos.color = Color.magenta;
+      //  Gizmos.color = Color.magenta;
        // Gizmos.DrawLine(Camera.main.transform.position, Camera.main.transform.position + (Camera.main.transform.forward * Range));
-        Gizmos.DrawLine(myRay.origin, myRay.origin + (myRay.direction * Range));
+     //   Gizmos.DrawLine(myRay.origin, myRay.origin + (myRay.direction * Range));
         
-    }
+    }*/
 
 }

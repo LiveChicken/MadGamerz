@@ -13,7 +13,7 @@ public class Level2D : ScriptableObject{
 
     
      [Tooltip("Build Index of 2D Scene. Make sure it is the right Scene")]
-     public int Scene2DIndex;
+     public string Scene2DName;
 
      [Tooltip("Art on the Cart")]
      public Texture2D CartArt;
