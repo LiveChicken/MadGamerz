@@ -119,7 +119,7 @@ public class TargetingScript2 : MonoBehaviour {
 
      void UpdateUI() {
 
-          if (GameManager.GM.CanMove && Target != null && Target != defaultTarget){
+          if (GameManager.GM.TS == Mode.S3D && GameManager.GM.CanMove && Target != null && Target != defaultTarget){
 
 
                if (Target.GetComponent<Inspectable>() || Target.GetComponent<Interactable>()) {
