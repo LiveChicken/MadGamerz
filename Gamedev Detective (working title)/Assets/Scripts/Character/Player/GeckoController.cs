@@ -2,7 +2,7 @@
 
 
 public class GeckoController : MonoBehaviour {
-     public Transform Target;
+     private Transform Target;
      [Space]
      [SerializeField] private Transform headBone;
 
@@ -22,7 +22,11 @@ public class GeckoController : MonoBehaviour {
 
      private void LateUpdate() {
 
-         HeadTrackingUpdate();
+          Target = TargetingScript2.Target;
+
+          
+
+          HeadTrackingUpdate();
          //EyeTrackingUpdate();
 
      }
