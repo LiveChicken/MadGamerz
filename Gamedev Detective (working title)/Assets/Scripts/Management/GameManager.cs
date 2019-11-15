@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour {
 
      public bool CartHasChanged;
 
+     public GameObject pauseMenu;
+     private bool paused;
 
      [Space]
      public List<Key>Keychain = new List<Key>();
@@ -40,6 +42,48 @@ private void Awake() {
 
      private void OnDisable() {
           controls.Player.Disable();
+     }
+
+
+     private void Update() {
+
+          if (!paused && controls.Player.Pause.triggered) {
+
+               SetPause(true);
+               
+          }else if (paused && controls.UI.Cancel.triggered) {
+
+               SetPause(false);
+               
+          }
+
+     }
+
+     public void SetPause(bool pause) {
+
+          if (pause) {
+
+               Time.timeScale = 0f;
+               
+               pauseMenu.SetActive(true);
+
+              controls.UI.Enable();
+               controls.Player.Disable();
+               paused = true;
+
+          } else {
+
+               Time.timeScale = 1f;
+               
+               pauseMenu.SetActive(false);
+
+              controls.UI.Disable();
+               controls.Player.Enable();
+               paused = false;
+
+
+          }
+
      }
 
 
