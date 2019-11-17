@@ -10,7 +10,7 @@ public class PC : MonoBehaviour
 
     //public List<Level2D> Levels = new List<Level2D>();
 
-    public Level2D ToLoad;
+    public string ToLoad;
 
 
     private void Update() {
@@ -65,7 +65,7 @@ public class PC : MonoBehaviour
         }
 
        // SceneManager.LoadScene(ToLoad.SceneBuildIndex, LoadSceneMode.Additive);
-        SceneManager.LoadScene(ToLoad.Scene2DName, LoadSceneMode.Additive);
+        SceneManager.LoadScene(ToLoad, LoadSceneMode.Additive);
         GameManager.GM.CartHasChanged = false;
         
         Debug.Log("Loaded Successfully");
