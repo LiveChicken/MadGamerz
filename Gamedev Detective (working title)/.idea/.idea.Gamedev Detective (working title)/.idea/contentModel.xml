@@ -13,9 +13,9 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
-        <e p="lerp.cs" t="Include" />
         <e p="MainMenuManager.cs" t="Include" />
         <e p="PauseMenu.cs" t="Include" />
+        <e p="PickupKey.cs" t="Include" />
         <e p="Player2DState.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
@@ -301,6 +301,9 @@
             </e>
             <e p="Interactable.cs" t="Include" />
           </e>
+          <e p="Jacks Bad Scripts" t="Include">
+            <e p="MessegeTrigger.cs" t="Include" />
+          </e>
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />
             <e p="ButtonPrompt.cs" t="Include" />
@@ -422,6 +425,9 @@
           <e p="Sprites" t="Include">
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
+        </e>
+        <e p="Tilemap" t="Include">
+          <e p="lerp.cs" t="Include" />
         </e>
         <e p="WaterTile.cs" t="Include" />
       </e>

@@ -64,8 +64,11 @@ public class PC : MonoBehaviour
 
         }
 
+       // SceneManager.LoadScene(ToLoad.SceneBuildIndex, LoadSceneMode.Additive);
         SceneManager.LoadScene(ToLoad.Scene2DName, LoadSceneMode.Additive);
-
+        GameManager.GM.CartHasChanged = false;
+        
+        Debug.Log("Loaded Successfully");
 
     }
 

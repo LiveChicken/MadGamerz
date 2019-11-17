@@ -9,11 +9,13 @@ using UnityEngine.SceneManagement;
 public class Level2D : ScriptableObject{
 
      [Tooltip("For Ease of Development, not necessary")]
-     public string Name;
+     public string Name = "Gimme A Name";
 
-    
+
      [Tooltip("Build Index of 2D Scene. Make sure it is the right Scene")]
+
      public string Scene2DName;
+     public int SceneBuildIndex = -1;
 
      [Tooltip("Art on the Cart")]
      public Texture2D CartArt;

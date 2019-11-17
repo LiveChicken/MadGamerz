@@ -21,6 +21,9 @@ public class PauseMenu : MonoBehaviour {
     //TODO: Go through main 
     public void ReturnToMainMenu() {
 
+        //Time.timeScale = 1;
+        GameManager.GM.SetPause(false);
+        
         SceneManager.LoadScene(0);
 
     }
