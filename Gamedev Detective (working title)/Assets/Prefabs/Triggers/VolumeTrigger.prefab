@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907021546696290814}
   - component: {fileID: 907021546696290813}
+  - component: {fileID: -8948945886613689584}
   - component: {fileID: 907021546696290812}
   - component: {fileID: 4551345714800694017}
   - component: {fileID: 6242972674856320190}
@@ -46,19 +47,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35f64c84d57c834469694e824a692ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OneShot: 0
+  OneShotEnter: 0
   LayerMask:
     serializedVersion: 2
     m_Bits: 0
   EventOnTriggerEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -8948945886613689584}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   EventOnTriggerStay:
     m_PersistentCalls:
       m_Calls: []
   EventOnTriggerExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-8948945886613689584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907021546696290803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb2d437e88d02849a93936eb3e1cd6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &907021546696290812
 BoxCollider:
   m_ObjectHideFlags: 0
