@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Events;
+
 
 public class Inspectable : MonoBehaviour {
 
@@ -9,9 +11,10 @@ public class Inspectable : MonoBehaviour {
     
     private Vector3 OriginalPosition;
     private Quaternion OriginalRotation;
-    
-    
-    
+
+
+    public UnityEvent OnInspect;
+
     // Start is called before the first frame update
     void Start() {
 
@@ -19,6 +22,8 @@ public class Inspectable : MonoBehaviour {
         OriginalRotation = transform.rotation;
 
     }
+
+   
 
     public void ReturnToOrigin() {
 

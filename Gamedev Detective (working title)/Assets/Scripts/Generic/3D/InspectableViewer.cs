@@ -35,13 +35,15 @@ public class InspectableViewer : MonoBehaviour {
                 Inspecting = true;
 
                 // ViewPoint.rotation = current.transform.rotation;
-
+                     
                 current.transform.SetParent(ViewPoint);
                 current.transform.DOMove(ViewPoint.position, 1f);
                 current.transform.DORotate(ViewPoint.rotation.eulerAngles, 1f);
                 GameManager.GM.CanMove = false;
                 
                 InspectableCamera.SetActive(true);
+
+                current.OnInspect?.Invoke();
 
             } else {
 
