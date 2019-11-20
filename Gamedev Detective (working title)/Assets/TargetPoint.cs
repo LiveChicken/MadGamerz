@@ -8,7 +8,7 @@ public class TargetPoint : MonoBehaviour {
     //public float Distance;
 
 //    TargetingScript ts;
-    public Type type;
+   // public Type type;
 
 
     public enum Type {
@@ -32,7 +32,7 @@ public class TargetPoint : MonoBehaviour {
     }
 
 
-    private void Update() {
+    //private void Update() {
 
        // Vector3 screenPoint = Camera.main.WorldToViewportPoint(transform.position);
       //  bool    onScreen    = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
@@ -45,7 +45,7 @@ public class TargetPoint : MonoBehaviour {
        // }
 
 
-    }
+   // }
 
   /*  private void OnBecameVisible() {
         

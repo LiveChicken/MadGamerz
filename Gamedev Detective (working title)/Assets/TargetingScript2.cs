@@ -12,7 +12,7 @@ public class TargetingScript2 : MonoBehaviour {
      public float ViewAngle;
      public LayerMask TargetMask;
      public LayerMask ObstacleMask;
-     public List<TargetPoint> VisibleTargetPoints = new List<TargetPoint>();
+     public List<Transform> VisibleTargetPoints = new List<Transform>();
      public int ChecksPerSecond;
 
      [Header("Selection")] 
@@ -178,11 +178,11 @@ public class TargetingScript2 : MonoBehaviour {
 
                               if (!Physics.Raycast(transform.position, dirToTarget, distToTarget, ObstacleMask)) {
 
-                                   if (target.GetComponent<TargetPoint>()) {
+                                //   if (target.GetComponent<TargetPoint>()) {
 
-                                        VisibleTargetPoints.Add(target.GetComponent<TargetPoint>());
+                                        VisibleTargetPoints.Add(target.transform);
 
-                                   }
+                                 //  }
 
                               }
                          }
