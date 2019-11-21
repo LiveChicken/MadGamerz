@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 //using UnityEngine.UIElements;
 //using Button = UnityEngine.UI.Button;
@@ -45,10 +46,24 @@ public class Keypad : MonoBehaviour {
 
      }
 
+     public void EndKeypad() {
+
+          takingInput = false;
+          
+         // FirstSelected.Select();
+          EventSystem.current.GetComponent<EventSystem>().SetSelectedGameObject(null); 
+
+
+     }
+
      public void AddDigit(int d) {
 
          if (takingInput) {
+              
+              if (current.Length < Code.ToString().Length)
               current += d.ToString();
+              
+             // current.
 
               Output.text = current;
          }

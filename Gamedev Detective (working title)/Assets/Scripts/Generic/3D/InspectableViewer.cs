@@ -35,20 +35,23 @@ public class InspectableViewer : MonoBehaviour {
                 Inspecting = true;
 
                 // ViewPoint.rotation = current.transform.rotation;
-                     
-                current.transform.SetParent(ViewPoint);
-                current.transform.DOMove(ViewPoint.position, 1f);
-                current.transform.DORotate(ViewPoint.rotation.eulerAngles, 1f);
-                GameManager.GM.CanMove = false;
-                
-                InspectableCamera.SetActive(true);
 
+                if (current.CVCamera == null) {
+                    current.transform.SetParent(ViewPoint);
+                    current.transform.DOMove(ViewPoint.position, 1f);
+                    current.transform.DORotate(ViewPoint.rotation.eulerAngles, 1f);
+                    
+
+                    InspectableCamera.SetActive(true);
+                }
+
+                GameManager.GM.CanMove = false;
                 current.OnInspect?.Invoke();
 
             } else {
 
                 //End Inspection
-                current.transform.SetParent(null);
+                //current.transform.SetParent(current.);
                 current.ReturnToOrigin();
                 InspectableCamera.SetActive(false);
                 GameManager.GM.CanMove = true;
