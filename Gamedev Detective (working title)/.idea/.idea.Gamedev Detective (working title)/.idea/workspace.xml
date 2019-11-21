@@ -164,10 +164,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Keypad.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Keypad.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Keypad.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state>
               <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding>
                 <marker date="1574285266532" expanded="true" signature="6:153" ph="..." />
@@ -180,6 +180,30 @@
                 <marker date="1574285266532" expanded="true" signature="1004:1452" ph="{...}" />
                 <marker date="1574285266532" expanded="true" signature="1170:1279" ph="{...}" />
                 <marker date="1574285266532" expanded="true" signature="1490:1653" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WheelchairContoller.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="95" column="61" lean-forward="true" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
+              <folding>
+                <marker date="1574362665107" expanded="false" signature="6:138" ph="..." />
+                <marker date="1574362665107" expanded="true" signature="238:3809" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="761:865" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="900:1018" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="973:1011" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="1037:3621" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="1745:1802" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="1852:3187" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="2273:2390" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="2799:2908" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="2944:3053" ph="{...}" />
+                <marker date="1574362665107" expanded="true" signature="3278:3448" ph="/* moveDirection = Vector3.Lerp(transform.forward, movementInput, RotationSpeed * Time.deltaTime); ... */" />
+                <marker date="1574362665107" expanded="true" signature="3661:3802" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -270,7 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShieldGadget.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/EventOnCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Explode.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/TFG_Common/TFG_Common.cs" />
@@ -321,6 +344,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/3D/Inspectable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/3D/InspectableViewer.cs" />
         <option value="$PROJECT_DIR$/Assets/Keypad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs" />
       </list>
     </option>
   </component>
@@ -334,9 +358,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="1137" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="1138" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -345,6 +369,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -357,8 +383,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer" />
-      <pane id="Scratches" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -444,11 +468,12 @@
       <workItem from="1574032968717" duration="295000" />
       <workItem from="1574272584605" duration="880000" />
       <workItem from="1574283481822" duration="2359000" />
+      <workItem from="1574362512670" duration="753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137154000" />
+    <option name="totallyTimeSpent" value="137907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,6 +486,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -493,24 +519,24 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08776119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +571,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Inspectable.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/InspectableViewer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/viewPointRotator.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TextStuff/VertexGradientPlugin.cs" />
@@ -742,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Keypad.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state>
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
             <marker date="1574285266532" expanded="true" signature="6:153" ph="..." />
@@ -755,6 +780,28 @@
             <marker date="1574285266532" expanded="true" signature="1004:1452" ph="{...}" />
             <marker date="1574285266532" expanded="true" signature="1170:1279" ph="{...}" />
             <marker date="1574285266532" expanded="true" signature="1490:1653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="95" column="61" lean-forward="true" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
+          <folding>
+            <marker date="1574362665107" expanded="false" signature="6:138" ph="..." />
+            <marker date="1574362665107" expanded="true" signature="238:3809" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="761:865" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="900:1018" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="973:1011" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="1037:3621" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="1745:1802" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="1852:3187" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="2273:2390" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="2799:2908" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="2944:3053" ph="{...}" />
+            <marker date="1574362665107" expanded="true" signature="3278:3448" ph="/* moveDirection = Vector3.Lerp(transform.forward, movementInput, RotationSpeed * Time.deltaTime); ... */" />
+            <marker date="1574362665107" expanded="true" signature="3661:3802" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -45,11 +45,6 @@ public class WheelchairContoller : MonoBehaviour {
           if (GameManager.GM.TS == Mode.S3D && GameManager.GM.CanMove) {
 
                Move();
-               
-               
-             
-
-             
 
           }
      }
@@ -100,7 +95,7 @@ public class WheelchairContoller : MonoBehaviour {
                
 //               Debug.Log(cross);
 
-               if (cross < 0.5f) {
+               if (cross < 0.8f) {
 
                     moveDirection = transform.forward * MovementSpeed * movementInput.magnitude;
 
