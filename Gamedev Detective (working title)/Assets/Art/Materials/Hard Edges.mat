@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8167112003099445270
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GlassTesting_Mk1
-  m_Shader: {fileID: -6465566751694194690, guid: 733f3dd2659d7cb418c26813400dfc9c,
+  m_Name: Hard Edges
+  m_Shader: {fileID: -6465566751694194690, guid: da0d3fb1a0759794887a5bc567c04dfc,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -62,11 +49,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_11ECFB65: 1
-    - Vector1_1209F6EB: 1
-    - Vector1_33FC8081: 0.4
-    - Vector1_9FCBCC5C: 1
-    - Vector1_EF9A9263: 32
+    - Vector1_AB4DC9F0: 4
+    - Vector1_E02E4FCA: 0
+    - Vector1_EB6E5447: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -89,11 +74,23 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_7F194347: {r: 1, g: 1, b: 1, a: 0}
-    - Color_AEC4C285: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 0}
-    - Color_BF969CA0: {r: 1, g: 1, b: 1, a: 0}
-    - Color_D3CC6792: {r: 0, g: 0, b: 0, a: 0}
+    - Color_6BA7B4F1: {r: 0, g: 0, b: 0, a: 0}
+    - Color_BCA81C13: {r: 1, g: 1, b: 1, a: 0}
+    - Color_DBABB1D1: {r: 0.06621571, g: 0.08104708, b: 0.15094337, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+--- !u!114 &3184765041100391309
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1

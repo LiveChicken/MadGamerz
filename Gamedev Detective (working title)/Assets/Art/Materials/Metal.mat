@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Floor
+  m_Name: Metal
   m_Shader: {fileID: -6465566751694194690, guid: 438dce32318fb7842a829c00ea28b82a,
     type: 3}
   m_ShaderKeywords: 
@@ -53,12 +53,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1F7CEEEE: 0.1
-    - Vector1_AB4DC9F0: 1
-    - Vector1_BE3C095E: 50
-    - Vector1_E02E4FCA: 0.1
-    - Vector1_EB6E5447: 0.7
-    - Vector1_F642C145: 0.7
+    - Vector1_1F7CEEEE: 0
+    - Vector1_BE3C095E: 100
+    - Vector1_F642C145: 0.429
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -81,18 +78,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_374430AA: {r: 0.005882353, g: 0.006862745, b: 0.019607844, a: 0}
+    - Color_374430AA: {r: 0.04509804, g: 0.04509804, b: 0.04509804, a: 0}
     - Color_3BC6F628: {r: 0, g: 0, b: 0, a: 0}
-    - Color_3C451A76: {r: 0.5849056, g: 0.5849056, b: 0.5849056, a: 0.8117647}
-    - Color_6BA7B4F1: {r: 1, g: 1, b: 1, a: 0}
-    - Color_AD5AEFDD: {r: 7.1297393, g: 7.1297393, b: 7.1297393, a: 0}
-    - Color_BCA81C13: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
-    - Color_DBABB1D1: {r: 0, g: 0, b: 0, a: 0}
+    - Color_3C451A76: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8117647}
+    - Color_AD5AEFDD: {r: 0.9966125, g: 0.9966125, b: 0.9966125, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
---- !u!114 &3652797352472421568
+--- !u!114 &7604049846618733889
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
