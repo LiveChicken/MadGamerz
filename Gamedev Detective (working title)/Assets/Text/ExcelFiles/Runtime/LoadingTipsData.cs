@@ -6,12 +6,8 @@ using System.Collections;
 /// !!! DO NOT CHANGE Tabs to Spaces !!!
 /// 
 [System.Serializable]
-public class Sheet1Data
+public class LoadingTipsData
 {
-  [SerializeField]
-  string line;
-  public string Line { get {return line; } set { line = value;} }
-  
   [SerializeField]
   string english;
   public string English { get {return english; } set { english = value;} }

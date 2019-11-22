@@ -14,6 +14,12 @@ namespace TFG_Common
 
         }
 
+        public static int ZeroMax(int Max) {
+
+            return (Random.Range(0, Max));
+
+        }
+
     }
 
     public static class Curve {

@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809eddd20e67e5748b870802628cc095, type: 3}
+  m_Name: LoadingTips
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Text/ExcelFiles/Generic Translations.xlsx
+  WorksheetName: LoadingTips
+  dataArray:
+  - english: Death comes to us all
+    french: 
+    irish: 
+  - english: It's ok to cry
+    french: 
+    irish: 
+  - english: 'Some people just need a hug
+
+'
+    french: 
+    irish: 
+  - english: Treat yourself!
+    french: 
+    irish: 
+  - english: 'tweet us @gounjongames we''re always happy to chat
+
+'
+    french: 
+    irish: 
+  - english: taking a day for yourself doesn't mean you're lazy
+    french: 
+    irish: 
+  - english: work was rough today huh?
+    french: 
+    irish: 
+  - english: we really appreciate you!
+    french: 
+    irish: 
+  - english: 'Thank you so much for playing! '
+    french: 
+    irish: 
+  - english: 'Drink some water!
+
+'
+    french: 
+    irish: 
+  - english: Check your wash!
+    french: 
+    irish: 
+  - english: you're looking cute today!
+    french: 
+    irish: 
+  - english: Being emotional does not make you weak
+    french: 
+    irish: 
+  - english: 'Life can be hard!
+
+'
+    french: 
+    irish: 
+  - english: Take things 1 day at a time
+    french: 
+    irish: 
+  - english: Cleaning your living space can help you feel less lost in the world
+    french: 
+    irish: 
+  - english: 'spending some time outside can clear your head.
+
+'
+    french: 
+    irish: 
+  - english: I'm sure they're nto ignoring you
+    french: 
+    irish: 
+  - english: you can do it! don't give up
+    french: 
+    irish: 
+  - english: you're worth so much!
+    french: 
+    irish: 
+  - english: we're happy you're with us!
+    french: 
+    irish: 
+  - english: if you're feeling alone, we're here for you @goujongames
+    french: 
+    irish: 
+  - english: you deserve a nap!
+    french: 
+    irish: 
+  - english: They didn't respect you
+    french: 
+    irish: 
+  - english: It wasn't going to last
+    french: 
+    irish: 
+  - english: Blackbeans are a cheap and healthy source of protein
+    french: 
+    irish: 
+  - english: nobody's perfect
+    french: 
+    irish: 
+  - english: 'have you put out the bins? '
+    french: 
+    irish: 
+  - english: wash your bedsheets so they smell great later
+    french: 
+    irish: 
+  - english: Grades aren't everything
+    french: 
+    irish: 
+  - english: Different people are good at different things
+    french: 
+    irish: 
+  - english: Consent is important
+    french: 
+    irish: 
+  - english: You're handsome!
+    french: 
+    irish: 
+  - english: You're Pretty!
+    french: 
+    irish: 
+  - english: I love what you've done with your hair!
+    french: 
+    irish: 
+  - english: Busy day huh?
+    french: 
+    irish: 
+  - english: Succulents make for easy to care for house plants
+    french: 
+    irish: 
+  - english: nuts are a great source of fiber
+    french: 
+    irish: 
+  - english: have you been drinking enough water?
+    french: 
+    irish: 
+  - english: if you dont like the taste of water, tea is a good substitute
+    french: 
+    irish: 
+  - english: No seals were harmed in the making of this videogame
+    french: 
+    irish: 
+  - english: Hard work does not have to control your life
+    french: 
+    irish: 
+  - english: 'Don''t bottle up your emotions. '
+    french: 
+    irish: 
+  - english: Colleges often have councelling services for students
+    french: 
+    irish: 
+  - english: 'I need a cuddle
+
+'
+    french: 
+    irish: 
+  - english: Don't let people shame you for your interests
+    french: 
+    irish: 
+  - english: It's all going to be ok
+    french: 
+    irish: 
+  - english: you need to love yourself first!
+    french: 
+    irish: 
+  - english: you're a wonderful person
+    french: 
+    irish: 
+  - english: we @goujongames appreciate you!
+    french: 
+    irish: 
+  - english: Don't mix friends and business
+    french: 
+    irish: 
+  - english: cup soups and noodles are a cheap meal
+    french: 
+    irish: 
+  - english: We're all trying to make sense of this crazy world
+    french: 
+    irish: 
+  - english: 'I''m proud of your efforts today
+
+'
+    french: 
+    irish: 
+  - english: using lipbalm doesn't make you less of a man
+    french: 
+    irish: 
+  - english: Don't avoid the bathroom to keep playing!
+    french: 
+    irish: 
+  - english: Appologising is not weakness, it is strenght
+    french: 
+    irish: 
+  - english: Respect is earned not forced
+    french: 
+    irish: 
+  - english: mistkkes happen
+    french: 
+    irish: 
+  - english: Don't fear failure, It'll hold back success
+    french: 
+    irish: 
+  - english: Take the risk!
+    french: 
+    irish: 
+  - english: Did you forget to reply?
+    french: 
+    irish: 
+  - english: Close your eyes and take a deep breath
+    french: 
+    irish: 
+  - english: we appreciate your time
+    french: 
+    irish: 
+  - english: Fight opression!
+    french: 
+    irish: 
+  - english: Remember to block tracking cookies
+    french: 
+    irish: 
+  - english: Don't let your bank use your data to advertise
+    french: 
+    irish: 
+  - english: Have you fed your pet?
+    french: 
+    irish: 
+  - english: 'Learning to cook is such a vital life skill
+
+'
+    french: 
+    irish: 
