@@ -12,6 +12,8 @@ public class LoadingSceneManager : MonoBehaviour
 
 static int sceneLoadIndex = 1;
 
+     public float FakeTime = 3f;
+     
      public Slider ProgressBar;
      
     
@@ -23,11 +25,24 @@ static int sceneLoadIndex = 1;
 
     IEnumerator LoadScene() {
 
+         float countdown = 0;
+
+         while (countdown < FakeTime) {
+
+              
+              yield return null;
+
+              countdown += Time.deltaTime;
+
+              ProgressBar.value = (countdown / FakeTime) * 0.2f;
+
+         }
+
          AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneLoadIndex);
 
          while (!loadOperation.isDone) {
 
-              ProgressBar.value = (loadOperation.progress / 0.9f ) * 0.8f;
+              ProgressBar.value = 0.2f + (loadOperation.progress / 0.9f ) * 0.8f;
               
               yield return null;
               
@@ -39,7 +54,7 @@ static int sceneLoadIndex = 1;
 
          while (!unloadOperation.isDone) {
 
-              ProgressBar.value = 0.8f + ((loadOperation.progress / 1) * 0.2f);
+            //  ProgressBar.value = 0.8f + ((loadOperation.progress / 1) * 0.2f);
               
               yield return null;
 
