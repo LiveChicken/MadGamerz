@@ -249,6 +249,12 @@
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
             <e p="DialogueBox.cs" t="Include" />
+            <e p="Enemy" t="Include">
+              <e p="Behavior.cs" t="Include" />
+              <e p="BehaviorManager.cs" t="Include" />
+              <e p="Chase.cs" t="Include" />
+              <e p="Idle.cs" t="Include" />
+            </e>
             <e p="Player" t="Include">
               <e p="Gadgets" t="Include">
                 <e p="BowGadget.cs" t="Include" />
