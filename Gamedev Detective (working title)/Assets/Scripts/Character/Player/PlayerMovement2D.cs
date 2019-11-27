@@ -38,7 +38,7 @@ public class PlayerMovement2D : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         if (GameManager.GM.TS == Mode.S2D && GameManager.GM.CanMove) {
@@ -127,7 +127,15 @@ public class PlayerMovement2D : MonoBehaviour {
         //Vector2 newPosition = (Vector2) transform.position + (movementVector * Time.deltaTime);
         
         //rb.MovePosition(newPosition);
-        rb.velocity = movementVector;
+
+
+        if (rb.velocity.magnitude < MovementSpeed) {
+
+            rb.AddForce(movementVector * Time.fixedDeltaTime);
+            
+        }
+
+        //rb.velocity = movementVector;
 
 
     }

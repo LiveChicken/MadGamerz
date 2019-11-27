@@ -5,7 +5,8 @@ using UnityEngine;
 public class Chase : Behavior {
 
 
-    public float speed;
+    public float Speed;
+    public float TurningSpeed;
 
     public Transform Target;
 
@@ -18,13 +19,45 @@ public class Chase : Behavior {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+
+        if (Target == null) {
+
+           // findTarget();
+
+            return;
+
+        }
         
         
+
+        if (rb.velocity.magnitude < Speed) {
+
+            rb.AddForce(transform.right * Speed * Time.fixedDeltaTime);
+            
+        }
         
         
+        //transform.rotation
+
+        Vector2 direction = (Vector2) (Target.position - transform.position);
+        direction.Normalize();
+
+        float rotateAmount = Vector3.Cross(direction, transform.right).z;
+
+        rotateAmount = (float) System.Math.Round(rotateAmount, 4);
+
+        float scaledRotateAmount = (float) (rotateAmount * TurningSpeed);
+
+
+        transform.Rotate(0, 0, -scaledRotateAmount);
+
+
     }
+
+
+   
 
     public override void OnActivate() {
         throw new System.NotImplementedException();

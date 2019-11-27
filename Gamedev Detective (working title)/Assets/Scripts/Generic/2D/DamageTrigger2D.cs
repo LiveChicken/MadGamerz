@@ -11,6 +11,8 @@ public class DamageTrigger2D : MonoBehaviour {
        [Space]
      public bool DamageOverTime;
 
+     public bool UseCollision;
+     
      public LayerMask Mask;
 
 
@@ -23,6 +25,18 @@ public class DamageTrigger2D : MonoBehaviour {
           }
 
      }
+
+     private void OnCollisionEnter2D(Collision2D other) {
+
+          if (UseCollision) {
+
+               
+               DamageOther(other.collider, Damage);
+               
+          }
+
+     }
+
 
      private void OnTriggerStay2D(Collider2D other) {
 
@@ -41,6 +55,8 @@ public class DamageTrigger2D : MonoBehaviour {
                if (other.gameObject.GetComponent<Health>()) {
 
                     other.gameObject.GetComponent<Health>().ChangeHealth(-damage);
+                    
+                    Debug.Log(other.gameObject + " Took damage");
                     
                }
 
