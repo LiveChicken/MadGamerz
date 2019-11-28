@@ -8,6 +8,9 @@ public class PlayerMovement2D : MonoBehaviour {
      [SerializeField]
     private float MovementSpeed;
 
+    [SerializeField]
+    private float SpeedThreshold;
+
     [Space] [SerializeField] private float dashSpeed;
     [SerializeField] private float dashduration;
 
@@ -46,7 +49,7 @@ public class PlayerMovement2D : MonoBehaviour {
             if (state == State.walking) {
 
                 Walk();
-                BeginDash();
+            //    BeginDash();
                 
             }else if (state == State.dashing) {
 
@@ -129,13 +132,15 @@ public class PlayerMovement2D : MonoBehaviour {
         //rb.MovePosition(newPosition);
 
 
-        if (rb.velocity.magnitude < MovementSpeed) {
+        if (rb.velocity.magnitude < SpeedThreshold) {
 
-            rb.AddForce(movementVector * Time.fixedDeltaTime);
+
+            rb.velocity = movementVector;
+          //  rb.AddForce(movementVector * Time.fixedDeltaTime);
             
         }
 
-        //rb.velocity = movementVector;
+       
 
 
     }

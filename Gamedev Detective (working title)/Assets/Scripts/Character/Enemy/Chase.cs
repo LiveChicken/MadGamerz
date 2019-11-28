@@ -2,46 +2,83 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chase : Behavior {
+public class Chase : BaseState {
 
-
+     [Space]
     public float Speed;
+    public float ThresholdSpeed;   
+    
     public float TurningSpeed;
 
-    public Transform Target;
+    [Space] public float GiveUpRange;
+    
+
+   // private Transform Target;
 
 
     private Rigidbody2D rb;
     
     // Start is called before the first frame update
-    void Start() {
+   void Start() {
         rb = GetComponent<Rigidbody2D>();
+
+       myStateMachine = GetComponent<StateMachine>();
+
+
+   }
+
+   
+   
+
+    public override void OnActivate() {
+
+       // Target = myStateMachine.Target;
+
+        // throw new System.NotImplementedException();
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
+    System.Type StopChase() {
 
-        if (Target == null) {
+        rb.velocity = Vector2.zero;
 
-           // findTarget();
+        return NextState.GetType();
+        
+    }
 
-            return;
+    public override System.Type Perform() {
+       // throw new System.NotImplementedException();
+
+        if (myStateMachine.Target == null) {
+
+            // findTarget();
+
+
+            return StopChase();
+
 
         }
-        
-        
 
-        if (rb.velocity.magnitude < Speed) {
 
-            rb.AddForce(transform.right * Speed * Time.fixedDeltaTime);
-            
+        if (Vector2.Distance(transform.position, myStateMachine.Target.position) > GiveUpRange) {
+
+            return StopChase();
+
         }
-        
-        
+
+
+
+        if (rb.velocity.magnitude < ThresholdSpeed) {
+
+            rb.velocity = transform.right * Speed;
+
+            // rb.AddForce(transform.right * Speed * Time.fixedDeltaTime);
+
+        }
+
+
         //transform.rotation
 
-        Vector2 direction = (Vector2) (Target.position - transform.position);
+        Vector2 direction = (Vector2) (myStateMachine.Target.position - transform.position);
         direction.Normalize();
 
         float rotateAmount = Vector3.Cross(direction, transform.right).z;
@@ -53,21 +90,15 @@ public class Chase : Behavior {
 
         transform.Rotate(0, 0, -scaledRotateAmount);
 
+        return null;
 
     }
 
-
-   
-
-    public override void OnActivate() {
-        throw new System.NotImplementedException();
-    }
-
-   // public override void Perform() {
+    // public override void Perform() {
       // throw new System.NotImplementedException();
   //  }
 
     public override void OnDeactivate() {
-        throw new System.NotImplementedException();
+      //  throw new System.NotImplementedException();
     }
 }

@@ -253,10 +253,13 @@
           <e p="Character" t="Include">
             <e p="DialogueBox.cs" t="Include" />
             <e p="Enemy" t="Include">
-              <e p="Behavior.cs" t="Include" />
-              <e p="BehaviorManager.cs" t="Include" />
+              <e p="BaseState.cs" t="Include" />
               <e p="Chase.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="Guard.cs" t="Include" />
               <e p="Idle.cs" t="Include" />
+              <e p="Listen.cs" t="Include" />
+              <e p="StateMachine.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
               <e p="Gadgets" t="Include">
