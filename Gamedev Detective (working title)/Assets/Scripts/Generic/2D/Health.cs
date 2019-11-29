@@ -11,10 +11,15 @@ public class Health : MonoBehaviour {
 
     public int MaxHealth;
 
-    private int currentHealth;
+    [HideInInspector]
+    public int currentHealth { get; private set; }
 
     [Tooltip("Am I armoured and invincible to most attacks")]
     public bool Reinforced;
+
+    public float InvincibilityTime = 0f;
+
+    private bool Invincible;
       
     [Space]
     public UnityEvent OnHealthLost;
@@ -37,39 +42,63 @@ public class Health : MonoBehaviour {
 
    public void ChangeHealth(int value, bool Heavy = false) {
 
-       if (!Heavy && Reinforced) {
-         Debug.Log("AHAHAHAH I am invincible!");
-           
-           OnReinforcedHit?.Invoke();
-           
-           return;
-       }
 
-       if (!hasDied) {
-            currentHealth += value;
+       
+           if (!Heavy && Reinforced) {
+               Debug.Log("AHAHAHAH I am invincible!");
 
-            if (value < 0) {
-              OnHealthLost?.Invoke();
-            } else {
+               OnReinforcedHit?.Invoke();
 
-                OnHealthGained?.Invoke();
-                
-            }
+               return;
+           }
 
-            currentHealth = Mathf.Clamp(currentHealth, 0, MaxHealth);
+           if (!hasDied) {
 
-            if (currentHealth <= 0) {
+               if (!Invincible || value > 0) {
+                   currentHealth += value;
+               }
 
-                OnZeroHealth?.Invoke();
-                hasDied = true;
+               if (value < 0) {
+                   OnHealthLost?.Invoke();
 
-            }
+                   StartCoroutine(InvincibilityTimer());
+
+               } else {
+
+                   OnHealthGained?.Invoke();
+
+               }
+
+               currentHealth = Mathf.Clamp(currentHealth, 0, MaxHealth);
+
+               if (currentHealth <= 0) {
+
+                   OnZeroHealth?.Invoke();
+                   hasDied = true;
+
+               }
+           }
+       
+
+   }
+
+    IEnumerator InvincibilityTimer() {
+
+        if (Invincible) {
+
+            yield break;
         }
+
+        Invincible = true;
+        
+        yield return new WaitForSeconds(InvincibilityTime);
+
+        Invincible = false;
 
     }
 
 
-   
+
 
 
 }
