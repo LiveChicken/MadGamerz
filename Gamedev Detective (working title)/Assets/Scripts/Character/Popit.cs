@@ -12,16 +12,19 @@ public class Popit : MonoBehaviour {
     private float StaticDistance = 1f;
      [SerializeField]
     private float CatchupLerpSpeed = 1f;
-    
-    
+
+ private Vector3 offestTarget;
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
 
+      //   Vector3 offset = Target.position - Camera.main.transform.position;
+
+        //  offestTarget = Target.position + offset;
+         
          if (Vector3.Distance(transform.position, Target.position) > StaticDistance) {
 
-             var MoveDirection =  transform.position - Target.position ;
+             var MoveDirection =  transform.position - Target.position;
               MoveDirection.Normalize();
               MoveDirection *= StaticDistance;
 
@@ -32,4 +35,13 @@ public class Popit : MonoBehaviour {
          }
 
     }
+
+
+     private void OnDrawGizmos() {
+          
+          Gizmos.color = Color.blue;
+          Gizmos.DrawSphere(Target.position, 0.3f);
+          
+     }
+
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -14,6 +15,8 @@ public class DialogueBox : MonoBehaviour {
     public float CharactersPerSecond;
 
     public float AutoTime = 1f;
+
+    public Mode mode;
     [Space]
 
     public UnityEvent OnTextBegin;
@@ -21,6 +24,10 @@ public class DialogueBox : MonoBehaviour {
     public UnityEvent OnCharacterShow;
 
     
+    //this is likely to break
+    private int lastIndex = -1;
+
+    private Coroutine LineWriting; // = new Coroutine();
 
     private bool writing;
     
@@ -45,6 +52,10 @@ public class DialogueBox : MonoBehaviour {
 
     void CheckBacklog() {
 
+       //if (LineWriting != null)  StopCoroutine(LineWriting);
+
+        stopWriting();
+        
         if (backLog.Count > 0) {
 
             if (!writing) {
@@ -52,12 +63,13 @@ public class DialogueBox : MonoBehaviour {
                 string toWrite = backLog[0];
                 backLog.Remove(toWrite);
 
-                StartCoroutine(writeLine(toWrite));
+                LineWriting = StartCoroutine(writeLine(toWrite));
             }
 
 
         } else {
 
+            lastIndex = -1;
             Box.SetActive(false);
             
         }
@@ -66,10 +78,33 @@ public class DialogueBox : MonoBehaviour {
 
     public void WriteLine(int index) {
 
+       // Debug.Log("Made it this far");
         
+       
+
+        
+        if (mode != GameManager.GM.TS) {
+
+            backLog.Clear();
+            
+            return;
+
+        }
+
+        if (index == lastIndex) {
+
+            // CheckBacklog();
+            return;
+
+        }
+        
+
         //if writing currently add the new lines to the backlog
         if (writing) {
 
+           
+
+            lastIndex = index;
 
             var Split = getSplitLines(index);
 
@@ -81,10 +116,12 @@ public class DialogueBox : MonoBehaviour {
             return;
         }
 
-        var toWrite = getSplitLines(index);
+        lastIndex = index;
         
+        var toWrite = getSplitLines(index);
 
-        StartCoroutine(writeLine(toWrite[0]));
+       stopWriting();
+        LineWriting = StartCoroutine(writeLine(toWrite[0]));
 
         if (toWrite.Length > 1) {
 
@@ -107,6 +144,31 @@ public class DialogueBox : MonoBehaviour {
         return Split;
 
 
+    }
+
+
+    private void Update() {
+
+
+        if (writing) {
+            if (GameManager.GM.controls.Player.A.triggered) {
+
+                   CheckBacklog();
+
+            }
+        }
+
+    }
+
+    void stopWriting() {
+
+        if (LineWriting != null) StopCoroutine(LineWriting);
+        LineWriting = null;
+
+        OnTextEnd?.Invoke();
+
+        writing = false;
+        
     }
 
     IEnumerator writeLine(string s) {
@@ -153,6 +215,8 @@ public class DialogueBox : MonoBehaviour {
         
         yield return new WaitForSeconds(AutoTime);
         
+        
+        Debug.Log("Auto Advanced");
         CheckBacklog();
         yield break;
 

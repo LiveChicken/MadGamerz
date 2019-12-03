@@ -7,7 +7,8 @@ public class DialogueTrigger : MonoBehaviour
    
    public void TriggerDialogue(int index) {
 
-      DialogueBox.writeLineDelegate.Invoke(index);
+     // Debug.Log("Made it this far");
+      DialogueBox.writeLineDelegate?.Invoke(index);
       
    }
 }
