@@ -34,6 +34,19 @@ private LayerMask dirtMask;
         }
 
 
+       // RaycastHit2D hit; 
+        
+        //if (Physics2D.Raycast(transform.position, )
+
+        if (Physics2D.OverlapPoint(transform.position, dirtMask)) {
+
+            Player2DState.P2S.OnDirt = true;
+            
+        } else {
+
+            Player2DState.P2S.OnDirt = false;
+            
+        }
 
     }
 
@@ -42,7 +55,7 @@ private LayerMask dirtMask;
 
         if (Checks.CompareLayers(dirtMask, other.gameObject)) {
 
-            Player2DState.P2S.OnDirt = true;
+          //  Player2DState.P2S.OnDirt = true;
 
         }
 
@@ -53,7 +66,7 @@ private LayerMask dirtMask;
 
         if (Checks.CompareLayers(dirtMask, other.gameObject)) {
 
-            Player2DState.P2S.OnDirt = false;
+            //Player2DState.P2S.OnDirt = false;
 
         }
 

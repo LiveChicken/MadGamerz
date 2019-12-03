@@ -37,21 +37,46 @@ public class Player2DState : MonoBehaviour {
                 state = PlayerState2D.Digging;
                 anim.SetBool("Underground", true);
                 
-            }
+            } 
+            
 
         } else {
+            
+            
+           ReturnToSurface(); 
 
-            if (Physics2D.OverlapCircle(transform.position, 0.2f, WalLayerMask)){
-                return;
-            }
-
-            gameObject.layer = 11;
-            state = PlayerState2D.Normal;
-            anim.SetBool("Underground", false);
+          
             
         }
 
 
+    }
+
+    private void Update() {
+
+        if (state == PlayerState2D.Digging) {
+
+            if (!OnDirt) {
+
+                ReturnToSurface();    
+                
+            }
+
+        }
+
+    }
+
+    void ReturnToSurface() {
+
+        if (Physics2D.OverlapCircle(transform.position, 0.2f, WalLayerMask)) {
+            return;
+        }
+
+        gameObject.layer = 11;
+        state            = PlayerState2D.Normal;
+        anim.SetBool("Underground", false);
+        
+        
     }
 
 
