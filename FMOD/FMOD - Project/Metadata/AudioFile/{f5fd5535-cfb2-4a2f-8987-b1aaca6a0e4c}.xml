@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f5fd5535-cfb2-4a2f-8987-b1aaca6a0e4c}">
+		<property name="assetPath">
+			<value>Marlon's Office Music New1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>130.28136054421768</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{68e56641-eb34-4ada-a72c-406fac225f23}</destination>
+		</relationship>
+	</object>
+</objects>
