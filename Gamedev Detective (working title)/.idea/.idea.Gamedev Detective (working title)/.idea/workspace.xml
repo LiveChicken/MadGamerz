@@ -82,7 +82,7 @@
       <file leaf-file-name="EventOnCollision2D.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state>
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <marker date="1575501082167" expanded="false" signature="6:122" ph="..." />
@@ -96,16 +96,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PickupGadget.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PickupGadget.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PickupGadget.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state>
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
               <folding>
                 <marker date="1575501690890" expanded="true" signature="6:100" ph="..." />
                 <marker date="1575501690890" expanded="true" signature="144:816" ph="{...}" />
                 <marker date="1575501690890" expanded="true" signature="263:806" ph="{...}" />
                 <marker date="1575501690890" expanded="true" signature="372:452" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimerEvent.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TimerEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+              <folding>
+                <marker date="1575563566181" expanded="false" signature="6:78" ph="..." />
+                <marker date="1575563566181" expanded="true" signature="147:754" ph="{...}" />
+                <marker date="1575563566181" expanded="true" signature="296:361" ph="{...}" />
+                <marker date="1575563566181" expanded="true" signature="407:460" ph="{...}" />
+                <marker date="1575563566181" expanded="true" signature="501:748" ph="{...}" />
+                <marker date="1575563566181" expanded="true" signature="531:569" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -239,6 +256,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/BowGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Chase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Keypad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Listen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -253,7 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/QuitDialog.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/3D/FastIKFabric.cs" />
         <option value="$PROJECT_DIR$/Assets/EnableTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" />
@@ -304,6 +321,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs" />
         <option value="$PROJECT_DIR$/Assets/PickupGadget.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimerEvent.cs" />
       </list>
     </option>
   </component>
@@ -317,8 +335,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1340" />
-    <option name="width" value="1347" />
+    <option name="x" value="32" />
+    <option name="width" value="1348" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -327,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -341,6 +358,7 @@
         <option name="show-hidden-items" value="false" />
       </pane>
       <pane id="Scratches" />
+      <pane id="SolutionExplorer" />
       <pane id="FileSystemExplorer" />
     </panes>
   </component>
@@ -438,11 +456,12 @@
       <workItem from="1575307151175" duration="1916000" />
       <workItem from="1575392865084" duration="7068000" />
       <workItem from="1575501041488" duration="1249000" />
+      <workItem from="1575563318892" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179806000" />
+    <option name="totallyTimeSpent" value="180054000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,7 +473,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1413" y="0" width="1175" height="912" extended-state="0" />
+    <frame x="28" y="0" width="1176" height="912" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -464,7 +484,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13718723" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13706897" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="right" id="Database" order="5" />
@@ -487,24 +507,24 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Unity" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08776119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +559,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/QuitDialog.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/FastIKFabric.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/EnableTrigger.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" />
@@ -901,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state>
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
             <marker date="1575501082167" expanded="false" signature="6:122" ph="..." />
@@ -916,13 +935,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PickupGadget.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state>
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding>
             <marker date="1575501690890" expanded="true" signature="6:100" ph="..." />
             <marker date="1575501690890" expanded="true" signature="144:816" ph="{...}" />
             <marker date="1575501690890" expanded="true" signature="263:806" ph="{...}" />
             <marker date="1575501690890" expanded="true" signature="372:452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TimerEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding>
+            <marker date="1575563566181" expanded="false" signature="6:78" ph="..." />
+            <marker date="1575563566181" expanded="true" signature="147:754" ph="{...}" />
+            <marker date="1575563566181" expanded="true" signature="296:361" ph="{...}" />
+            <marker date="1575563566181" expanded="true" signature="407:460" ph="{...}" />
+            <marker date="1575563566181" expanded="true" signature="501:748" ph="{...}" />
+            <marker date="1575563566181" expanded="true" signature="531:569" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -445,6 +445,7 @@
         <e p="Tilemap" t="Include">
           <e p="lerp.cs" t="Include" />
         </e>
+        <e p="TimerEvent.cs" t="Include" />
         <e p="TriggerEvent2D.cs" t="Include" />
         <e p="WaterTile.cs" t="Include" />
       </e>
