@@ -32,8 +32,8 @@ public class Health : MonoBehaviour {
     public UnityEvent OnZeroHealth;
     
     
-
-    private bool hasDied;
+    [HideInInspector]
+    public bool hasDied;
 
     private void Start() {
         currentHealth = MaxHealth;
