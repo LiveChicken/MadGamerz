@@ -23,6 +23,7 @@
         <e p="LoadingTipManager.cs" t="Include" />
         <e p="MainMenuManager.cs" t="Include" />
         <e p="PauseMenu.cs" t="Include" />
+        <e p="PickupGadget.cs" t="Include" />
         <e p="PickupKey.cs" t="Include" />
         <e p="Player2DState.cs" t="Include" />
         <e p="Plugins" t="Include">
@@ -292,7 +293,7 @@
             <e p="2D" t="Include">
               <e p="DamageTrigger2D.cs" t="Include" />
               <e p="EnableOnButton.cs" t="Include" />
-              <e p="EventOnCollision.cs" t="Include" />
+              <e p="EventOnCollision2D.cs" t="Include" />
               <e p="Explode.cs" t="Include" />
               <e p="Health.cs" t="Include" />
               <e p="ItemRotator2D.cs" t="Include" />

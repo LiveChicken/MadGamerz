@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-public class EventOnCollision : MonoBehaviour
+public class EventOnCollision2D : MonoBehaviour
 {
    
    
