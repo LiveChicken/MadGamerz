@@ -61,6 +61,42 @@ MonoBehaviour:
   - Name: Desktop
     Value: 890
   Exists: 0
+--- !u!114 &-7037713477549475978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambient.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Ambient.bank
+  SubDir: 
+  lastModified: 637112614224033854
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6964144899900510422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Master.bank
+  SubDir: Desktop
+  lastModified: 637112614647621239
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6532548120341065347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +117,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 798
   Exists: 1
+--- !u!114 &-5550985223383141492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Marlon's Office Music
+  m_EditorClassIdentifier: 
+  Path: event:/Marlon's Office Music
+  guid: a65723d50360f140ae57cf2b72ddf201
+  Banks:
+  - {fileID: 1666362227824551948}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130281
 --- !u!114 &-5172050119840539706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,6 +176,49 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4503696061873757298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/gap_a/OneDrive/Desktop/FMOD/FMOD - Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637091897851397442
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 392256
+  Exists: 1
+--- !u!114 &-4495906319026383716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainA
+  m_EditorClassIdentifier: 
+  Path: event:/RainA
+  guid: 9fbb0bb9464c9d449d3452a10de62c99
+  Banks:
+  - {fileID: -7037713477549475978}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31584
 --- !u!114 &-4003169791410080171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,6 +241,72 @@ MonoBehaviour:
   - Name: FMOD - Project
     Value: 890
   Exists: 0
+--- !u!114 &-2624134429186728537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainCheck
+  m_EditorClassIdentifier: 
+  Path: event:/RainCheck
+  guid: 34a938d41ff4ed44a918e189f11a0162
+  Banks:
+  - {fileID: -4503696061873757298}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 31584
+--- !u!114 &-2411669278270739184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/gap_a/OneDrive/Desktop/FMOD/FMOD - Project/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637091897851447475
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 734
+  Exists: 1
+--- !u!114 &-2393550771395226419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Marlon's Office Music
+  m_EditorClassIdentifier: 
+  Path: event:/Marlon's Office Music
+  guid: a65723d50360f140ae57cf2b72ddf201
+  Banks:
+  - {fileID: -6964144899900510422}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130281
 --- !u!114 &-2038784793837188042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,6 +366,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-219160593664332675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  guid: 3263f8ada155314f82ed34f4345ca3a5
+  Banks:
+  - {fileID: -6964144899900510422}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,19 +402,18 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2823462491060634167}
-  - {fileID: 7445718409798862261}
+  - {fileID: 6588600938416038214}
+  - {fileID: 5837446487925006778}
   EditorEvents:
-  - {fileID: -8164343301364566033}
-  - {fileID: -1966230483771230237}
-  - {fileID: 9047062992183684457}
-  - {fileID: 130848728234699899}
+  - {fileID: 5674500665345883201}
+  - {fileID: 7498896001199705701}
+  - {fileID: 2089127354680403537}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7445718409798862261}
+  - {fileID: 5837446487925006778}
   StringsBanks:
-  - {fileID: 2823462491060634167}
-  stringsBankWriteTime: 637111870302498278
+  - {fileID: 6588600938416038214}
+  stringsBankWriteTime: 637112620165332904
   cacheVersion: 3
 --- !u!114 &130848728234699899
 MonoBehaviour:
@@ -289,6 +479,47 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 130281
+--- !u!114 &1666362227824551948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637112614223793627
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2089127354680403537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Marlon's Office Music
+  m_EditorClassIdentifier: 
+  Path: event:/Marlon's Office Music
+  guid: a65723d50360f140ae57cf2b72ddf201
+  Banks:
+  - {fileID: 5837446487925006778}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130281
 --- !u!114 &2823462491060634167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +539,150 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 890
+  Exists: 1
+--- !u!114 &4136579120631191755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637112614223843673
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 884
+  - Name: FMOD - Project
+    Value: 884
+  Exists: 1
+--- !u!114 &4388334061868472982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Master.strings.bank
+  SubDir: Desktop
+  lastModified: 637112614647681282
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 884
+  Exists: 1
+--- !u!114 &4982036205356710779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambient.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/Desktop/Ambient.bank
+  SubDir: Desktop
+  lastModified: 637112614647981565
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5341943847450152721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  guid: 3263f8ada155314f82ed34f4345ca3a5
+  Banks:
+  - {fileID: 1666362227824551948}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5674500665345883201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainA
+  m_EditorClassIdentifier: 
+  Path: event:/RainA
+  guid: 1b9eb40706a44e4ba36fc5132505b0b5
+  Banks:
+  - {fileID: 5837446487925006778}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31584
+--- !u!114 &5837446487925006778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/FMOD - Project/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637112620165275963
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &6588600938416038214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/FMOD - Project/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637112620165332904
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 842
   Exists: 1
 --- !u!114 &6774499687826916401
 MonoBehaviour:
@@ -386,6 +761,52 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &7498896001199705701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainCheck
+  m_EditorClassIdentifier: 
+  Path: event:/RainCheck
+  guid: 34a938d41ff4ed44a918e189f11a0162
+  Banks:
+  - {fileID: 5837446487925006778}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 31584
+--- !u!114 &8223269762980135476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainA
+  m_EditorClassIdentifier: 
+  Path: event:/RainA
+  guid: 9fbb0bb9464c9d449d3452a10de62c99
+  Banks:
+  - {fileID: 4982036205356710779}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31584
 --- !u!114 &9047062992183684457
 MonoBehaviour:
   m_ObjectHideFlags: 0
