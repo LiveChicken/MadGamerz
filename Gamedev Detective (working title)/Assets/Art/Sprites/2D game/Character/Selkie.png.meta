@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 859db3feeaca1994aaf7324029ca8ed6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6745265987246487507
+    second: Selkie_0
+  - first:
+      213: 105177821642939975
+    second: Selkie_1
+  - first:
+      213: 4165983011655273935
+    second: Selkie_2
+  - first:
+      213: 2403089760918648670
+    second: Selkie_3
+  - first:
+      213: -6421887150518873497
+    second: Selkie_4
+  - first:
+      213: 4557647979351477043
+    second: Selkie_5
+  - first:
+      213: 5258412081893269596
+    second: Selkie_6
+  - first:
+      213: 3256093744183417360
+    second: Selkie_7
+  - first:
+      213: -3489902565267577102
+    second: Selkie_8
+  - first:
+      213: -1217472464924222530
+    second: Selkie_9
+  - first:
+      213: -2390735560870830714
+    second: Selkie_10
+  - first:
+      213: -55578556220840620
+    second: Selkie_11
+  - first:
+      213: -1170040801820251067
+    second: Selkie_12
+  - first:
+      213: 1353315401763297959
+    second: Selkie_13
+  - first:
+      213: -5496706822030273225
+    second: Selkie_14
+  - first:
+      213: 8555300290667647417
+    second: Selkie_15
+  - first:
+      213: -2186321228064831159
+    second: Selkie_16
+  - first:
+      213: -301022583985991388
+    second: Selkie_17
+  - first:
+      213: 2170501860437433181
+    second: Selkie_18
+  - first:
+      213: -3986590213210456277
+    second: Selkie_19
+  - first:
+      213: 454026527429331265
+    second: Selkie_20
+  - first:
+      213: -7068856185749932499
+    second: Selkie_21
+  - first:
+      213: -8120050668800513635
+    second: Selkie_22
+  - first:
+      213: 2576209122805075434
+    second: Selkie_23
+  - first:
+      213: 7030054922866786750
+    second: Selkie_24
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Selkie_0
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2535
+        width: 330
+        height: 375
+      alignment: 9
+      pivot: {x: 0.40900528, y: 0.20638998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9b40ceb7067644bbc2feb1a2b6bb32
+      internalID: -6745265987246487507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_1
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 2535
+        width: 330
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577bb22e66ad2c046b3242101b50a7d0
+      internalID: 105177821642939975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2535
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688e61ee34bebc44b730780245b54a6
+      internalID: 4165983011655273935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_3
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2535
+        width: 375
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893bc237e7649454395bd62f7f942c0d
+      internalID: 2403089760918648670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1935
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e49d63acec772438dc869ee5642413
+      internalID: -6421887150518873497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_5
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1935
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f881eae914a4df4182e9b72d3fee049
+      internalID: 4557647979351477043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_6
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1935
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201add6d7f85cb24ab758a914546cb6d
+      internalID: 5258412081893269596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_7
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2250
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c73aea14592343b93a6d018d4cf24
+      internalID: 3256093744183417360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_8
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1935
+        width: 345
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de29877d743224a42801d9305cb00e16
+      internalID: -3489902565267577102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_9
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 2220
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eff669bd91e2f4689b7bc0a8ff3e5a
+      internalID: -1217472464924222530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1335
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090e79479658cd24fbe67f98606230ab
+      internalID: -2390735560870830714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b5746a73572e5469a4b0dd7da37378
+      internalID: -55578556220840620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1335
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eb6eef628254843bdb2f57b31b3711
+      internalID: -1170040801820251067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_13
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1f63d446841254e9ba7ebbea687e25
+      internalID: 1353315401763297959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_14
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1335
+        width: 345
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf5fef30dc5d1a4e99710e7e5be91a2
+      internalID: -5496706822030273225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1335
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1692ed613eac662418cc0e7b262bf104
+      internalID: 8555300290667647417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_16
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1650
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92670b6133ed7134aa7f296ff1e57273
+      internalID: -2186321228064831159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1620
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16f565286251ad41a56d3fbca985df3
+      internalID: -301022583985991388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1620
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc0809cc4676a42bd519584b2de319
+      internalID: 2170501860437433181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_19
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1620
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cda475ea9fc6d4438a7855cfb14f33e
+      internalID: -3986590213210456277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 735
+        width: 375
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea64efdd52c0674698f855c1bcd02d1
+      internalID: 454026527429331265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 735
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c85ef5ab72e644a88e2b44da61c6b8
+      internalID: -7068856185749932499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_22
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 735
+        width: 330
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b2671b971da6048b1e2768090fe960
+      internalID: -8120050668800513635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 735
+        width: 315
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2379be660e6963447adac38325efa043
+      internalID: 2576209122805075434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Selkie_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 135
+        width: 330
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c16b47a1e0eb94a98284ff328ad2b7
+      internalID: 7030054922866786750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

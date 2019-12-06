@@ -13,9 +13,6 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
-        <e p="Checkpoint.cs" t="Include" />
-        <e p="EventOnEnemiesDead.cs" t="Include" />
-        <e p="explsiveForceTester.cs" t="Include" />
         <e p="FMOD-Assets" t="Include">
           <e p="FMOD - Project" t="Include">
             <e p="Metadata" t="Include">
@@ -71,17 +68,6 @@
             </e>
           </e>
         </e>
-        <e p="HealthBar.cs" t="Include" />
-        <e p="Keypad.cs" t="Include" />
-        <e p="Knockback.cs" t="Include" />
-        <e p="KnockbackOnCollide.cs" t="Include" />
-        <e p="LoadingSceneManager.cs" t="Include" />
-        <e p="LoadingTipManager.cs" t="Include" />
-        <e p="MainMenuManager.cs" t="Include" />
-        <e p="PauseMenu.cs" t="Include" />
-        <e p="PickupGadget.cs" t="Include" />
-        <e p="PickupKey.cs" t="Include" />
-        <e p="Player2DState.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -324,8 +310,6 @@
             </e>
           </e>
         </e>
-        <e p="QuitDialog.cs" t="Include" />
-        <e p="Respawn.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
             <e p="DialogueBox.cs" t="Include" />
@@ -360,9 +344,12 @@
               <e p="SimpleCameraController.cs" t="Include" />
             </e>
           </e>
+          <e p="Checkpoint.cs" t="Include" />
           <e p="Editor" t="Include">
             <e p="FieldOfViewEditor.cs" t="Include" />
           </e>
+          <e p="EventOnEnemiesDead.cs" t="Include" />
+          <e p="explsiveForceTester.cs" t="Include" />
           <e p="Generic" t="Include">
             <e p="2D" t="Include">
               <e p="DamageTrigger2D.cs" t="Include" />
@@ -394,6 +381,13 @@
             </e>
             <e p="Interactable.cs" t="Include" />
           </e>
+          <e p="HealthBar.cs" t="Include" />
+          <e p="Keypad.cs" t="Include" />
+          <e p="Knockback.cs" t="Include" />
+          <e p="KnockbackOnCollide.cs" t="Include" />
+          <e p="LoadingSceneManager.cs" t="Include" />
+          <e p="LoadingTipManager.cs" t="Include" />
+          <e p="MainMenuManager.cs" t="Include" />
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />
             <e p="ButtonPrompt.cs" t="Include" />
@@ -410,6 +404,16 @@
             <e p="PC.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
           </e>
+          <e p="PauseMenu.cs" t="Include" />
+          <e p="PickupGadget.cs" t="Include" />
+          <e p="PickupKey.cs" t="Include" />
+          <e p="Player2DState.cs" t="Include" />
+          <e p="QuitDialog.cs" t="Include" />
+          <e p="Respawn.cs" t="Include" />
+          <e p="SHAKE2D.cs" t="Include" />
+          <e p="TargetingScript2.cs" t="Include" />
+          <e p="TargetPoint.cs" t="Include" />
+          <e p="terrainManager.cs" t="Include" />
           <e p="TextStuff" t="Include">
             <e p="BobTween.cs" t="Include" />
             <e p="CharTweener.cs" t="Include" />
@@ -418,19 +422,18 @@
             <e p="CharTweenerUtility.cs" t="Include" />
             <e p="VertexGradientPlugin.cs" t="Include" />
           </e>
+          <e p="TimerEvent.cs" t="Include" />
+          <e p="TriggerEvent2D.cs" t="Include" />
           <e p="Unused" t="Include">
             <e p="viewPointRotator.cs" t="Include" />
           </e>
+          <e p="WaterTile.cs" t="Include" />
         </e>
         <e p="Settings" t="Include">
           <e p="Input" t="Include">
             <e p="Controls.cs" t="Include" />
           </e>
         </e>
-        <e p="SHAKE2D.cs" t="Include" />
-        <e p="TargetingScript2.cs" t="Include" />
-        <e p="TargetPoint.cs" t="Include" />
-        <e p="terrainManager.cs" t="Include" />
         <e p="Text" t="Include">
           <e p="ExcelFiles" t="Include">
             <e p="Editor" t="Include">
@@ -520,9 +523,6 @@
         <e p="Tilemap" t="Include">
           <e p="lerp.cs" t="Include" />
         </e>
-        <e p="TimerEvent.cs" t="Include" />
-        <e p="TriggerEvent2D.cs" t="Include" />
-        <e p="WaterTile.cs" t="Include" />
       </e>
       <e p="Gamedev Detective (working title).sln" t="IncludeFlat" />
       <e p="InputSystem.Samples.Visualizers.csproj" t="IncludeRecursive" />
