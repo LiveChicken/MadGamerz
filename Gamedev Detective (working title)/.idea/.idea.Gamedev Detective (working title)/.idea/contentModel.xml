@@ -41,8 +41,7 @@
                 <e p="{1ef600e4-275e-45cd-810c-7ee9336b8d48}.xml" t="Include" />
               </e>
               <e p="Event" t="Include">
-                <e p="{9c5cd394-9387-4b0e-ac77-63051804a8b0}.xml" t="Include" />
-                <e p="{adf86332-55a1-4f31-82ed-34f4345ca3a5}.xml" t="Include" />
+                <e p="{07b49e1b-a406-4b4e-a36f-c5132505b0b5}.xml" t="Include" />
                 <e p="{d438a934-f41f-44ed-a918-e189f11a0162}.xml" t="Include" />
                 <e p="{d52357a6-6003-40f1-ae57-cf2b72ddf201}.xml" t="Include" />
               </e>
@@ -382,6 +381,7 @@
             <e p="Interactable.cs" t="Include" />
           </e>
           <e p="HealthBar.cs" t="Include" />
+          <e p="Heart.cs" t="Include" />
           <e p="Keypad.cs" t="Include" />
           <e p="Knockback.cs" t="Include" />
           <e p="KnockbackOnCollide.cs" t="Include" />
