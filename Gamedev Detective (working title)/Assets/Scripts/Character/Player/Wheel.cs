@@ -28,7 +28,7 @@ public class Wheel : MonoBehaviour {
                 Transform temp = new GameObject().transform;
                 temp.position = transform.position;
                 temp.SetParent(transform);
-                temp.localRotation = Quaternion.Euler(0,0, thetaOffset * i);
+                temp.localRotation = Quaternion.Euler( thetaOffset * i, 0, 0);
                 temp.position = transform.position + (temp.up * Radius);
                 
                 GrabPoints.Add(temp);
@@ -49,7 +49,7 @@ public class Wheel : MonoBehaviour {
     private void Update() {
 
         
-        transform.localRotation = Quaternion.Euler(0,0, theta);
+        transform.localRotation = Quaternion.Euler( -theta, 0, 0);
 
         if (GrabPoints.Count < 0)
             return;
