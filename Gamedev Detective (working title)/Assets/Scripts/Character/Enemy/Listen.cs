@@ -50,10 +50,15 @@ public class Listen : BaseState {
     void OnDrawGizmosSelected() {
         //GameObject[] objs = FindObjectsOfType(typeof(GameObject)) as GameObject[];
 
+        #if UNITY_EDITOR
+        
         //foreach (GameObject g in objs) {
             UnityEditor.Handles.color = Color.green;
             UnityEditor.Handles.DrawWireDisc(transform.position, transform.forward, ListenRange);
         //}
+        
+        #endif
+        
     }
    
 

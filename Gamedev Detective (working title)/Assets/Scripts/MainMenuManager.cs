@@ -77,7 +77,7 @@ public class MainMenuManager : MonoBehaviour {
        //
        // SceneManager.LoadScene(1);
 
-        LoadingSceneManager.BeginLoading(6);
+        LoadingSceneManager.BeginLoading(2);
         
     }
 

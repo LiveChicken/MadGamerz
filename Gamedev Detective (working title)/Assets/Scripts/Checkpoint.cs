@@ -14,6 +14,8 @@ public class Checkpoint : MonoBehaviour {
     }
 
     private void OnDrawGizmos() {
+        
+        #if UNITY_EDITOR
         if (Active == this) {
             UnityEditor.Handles.color = Color.red;
         } else {
@@ -22,6 +24,7 @@ public class Checkpoint : MonoBehaviour {
 
         UnityEditor.Handles.DrawSolidDisc(transform.position, transform.forward, 0.3f);
         
+        #endif
         
     }
 
