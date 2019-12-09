@@ -365,6 +365,7 @@
           <e p="Editor" t="Include">
             <e p="FieldOfViewEditor.cs" t="Include" />
           </e>
+          <e p="Emitter.cs" t="Include" />
           <e p="EventOnEnemiesDead.cs" t="Include" />
           <e p="explsiveForceTester.cs" t="Include" />
           <e p="Generic" t="Include">
@@ -384,7 +385,6 @@
               <e p="DestructableShrink.cs" t="Include" />
               <e p="DialogueTrigger.cs" t="Include" />
               <e p="Easing.cs" t="Include" />
-              <e p="EmitOnDestroy.cs" t="Include" />
               <e p="EventTriggers" t="Include">
                 <e p="DestoyOnParticleFinish.cs" t="Include" />
                 <e p="VolumeTrigger.cs" t="Include" />

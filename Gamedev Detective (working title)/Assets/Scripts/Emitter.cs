@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class EmitOnDestroy : MonoBehaviour
+public class Emitter : MonoBehaviour
 {
           [System.Serializable]
      public struct Emitable {
@@ -18,7 +18,7 @@ public class EmitOnDestroy : MonoBehaviour
      public Emitable[] ToEmit;
 
 
-     private void OnDestroy() {
+     public void EmitAll() {
 
           foreach (var E in ToEmit) {
 
@@ -37,6 +37,27 @@ public class EmitOnDestroy : MonoBehaviour
 
           }
           
+     }
+
+
+     public void EmitIndex(int index) {
+
+          try {
+               GameObject temp = Instantiate(ToEmit[index].GameObjectToEmit);
+               temp.transform.position = transform.position + ToEmit[index].LocalEmissionPoint;
+
+               if (ToEmit[index].InheritRotation) {
+                    temp.transform.rotation = transform.rotation;
+               } else {
+                    temp.transform.rotation = Quaternion.Euler(Vector3.zero);
+               }
+          } catch {
+
+               Debug.Log("Failed to Emit @ index: "  + index);
+               
+          }
+
+
      }
 
 
