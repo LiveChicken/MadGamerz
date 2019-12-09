@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{02e1069b-35eb-45bb-87f2-23fac2b97b1f}">
+		<property name="assetPath">
+			<value>SFX/2D/Walk_Sand_4.1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.28911564625850339</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{68e56641-eb34-4ada-a72c-406fac225f23}</destination>
+		</relationship>
+	</object>
+</objects>

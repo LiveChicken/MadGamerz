@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8657940843967192637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/FMOD - Project for Gnossienne/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637114372941607221
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 894
+  Exists: 1
 --- !u!114 &-8572127144542868410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,6 +239,29 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 31584
+--- !u!114 &-4396118293046838054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainCheck
+  m_EditorClassIdentifier: 
+  Path: event:/RainCheck
+  guid: 34a938d41ff4ed44a918e189f11a0162
+  Banks:
+  - {fileID: 7924212109322625331}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 31584
 --- !u!114 &-4003169791410080171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,6 +409,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-327130765781492406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Marlon's Office Music
+  m_EditorClassIdentifier: 
+  Path: event:/Marlon's Office Music
+  guid: a65723d50360f140ae57cf2b72ddf201
+  Banks:
+  - {fileID: 7924212109322625331}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130281
 --- !u!114 &-219160593664332675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,18 +468,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6588600938416038214}
-  - {fileID: 5837446487925006778}
+  - {fileID: -8657940843967192637}
+  - {fileID: 7924212109322625331}
   EditorEvents:
-  - {fileID: 5674500665345883201}
-  - {fileID: 7498896001199705701}
-  - {fileID: 2089127354680403537}
+  - {fileID: 7097248121804095608}
+  - {fileID: -4396118293046838054}
+  - {fileID: 3015383393047114010}
+  - {fileID: -327130765781492406}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 5837446487925006778}
+  - {fileID: 7924212109322625331}
   StringsBanks:
-  - {fileID: 6588600938416038214}
-  stringsBankWriteTime: 637112620165332904
+  - {fileID: -8657940843967192637}
+  stringsBankWriteTime: 637114372941607221
   cacheVersion: 3
 --- !u!114 &130848728234699899
 MonoBehaviour:
@@ -540,6 +607,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 890
   Exists: 1
+--- !u!114 &3015383393047114010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Marlon's 2D Music
+  m_EditorClassIdentifier: 
+  Path: event:/Marlon's 2D Music
+  guid: 414b4f44300b784385e2334501af89f6
+  Banks:
+  - {fileID: 7924212109322625331}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66659
 --- !u!114 &4136579120631191755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,6 +792,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7097248121804095608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RainA
+  m_EditorClassIdentifier: 
+  Path: event:/RainA
+  guid: 1b9eb40706a44e4ba36fc5132505b0b5
+  Banks:
+  - {fileID: 7924212109322625331}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31584
 --- !u!114 &7176093324768690404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,6 +897,24 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 31584
+--- !u!114 &7924212109322625331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD-Assets/FMOD - Project for Gnossienne/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637114372941547185
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8223269762980135476
 MonoBehaviour:
   m_ObjectHideFlags: 0
