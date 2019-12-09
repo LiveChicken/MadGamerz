@@ -14,7 +14,7 @@
           </e>
         </e>
         <e p="FMOD-Assets" t="Include">
-          <e p="FMOD - Project" t="Include">
+          <e p="FMOD - Project for Gnossienne" t="Include">
             <e p="Metadata" t="Include">
               <e p="Asset" t="Include">
                 <e p="{2fc7c877-91b3-429a-be61-2a49cb97e7da}.xml" t="Include" />
@@ -25,22 +25,23 @@
                 <e p="{b5a9e2f2-8cc8-49a2-9bc9-25550af9f1d9}.xml" t="Include" />
               </e>
               <e p="AudioFile" t="Include">
-                <e p="{1891d123-9f4a-44d0-b844-74f4c39adf67}.xml" t="Include" />
-                <e p="{1a1ba519-0c23-4731-87b7-b5f994eec9af}.xml" t="Include" />
-                <e p="{43a505e0-5f9e-4fae-9a07-15cc5eef4dfe}.xml" t="Include" />
-                <e p="{60eeef4b-136b-4d85-beeb-738f315d6c32}.xml" t="Include" />
-                <e p="{70895db3-6430-4d0c-a7cc-977bb13c84b0}.xml" t="Include" />
-                <e p="{7663471e-fc97-4970-8956-47b3b0c7add0}.xml" t="Include" />
-                <e p="{a35cfb65-a609-4348-bca0-5008968aacc5}.xml" t="Include" />
-                <e p="{a686e3f4-2d7b-4654-b379-3c772bf4bdd5}.xml" t="Include" />
-                <e p="{b02af287-0c28-4019-a951-b9b3fc0bedeb}.xml" t="Include" />
-                <e p="{b2fab500-1614-432b-aac7-c9b9279f43d6}.xml" t="Include" />
-                <e p="{b849fdd8-f436-4e9d-9ad3-bf17dfd50318}.xml" t="Include" />
-                <e p="{b89cf001-603b-43d3-a8d5-9b0342e59c9b}.xml" t="Include" />
-                <e p="{e40f907a-aac6-47fe-b728-6914aba7c55c}.xml" t="Include" />
+                <e p="{02e1069b-35eb-45bb-87f2-23fac2b97b1f}.xml" t="Include" />
+                <e p="{0625f607-7d9e-4bc1-be8a-bd79943e0ff4}.xml" t="Include" />
+                <e p="{0a4b3809-00ff-4515-8d48-6f7c9a59a229}.xml" t="Include" />
+                <e p="{0b8292a6-cbc5-4ad9-b296-d2d2281005e9}.xml" t="Include" />
+                <e p="{36a60eb6-76b6-41a3-b17e-83a00a6413c0}.xml" t="Include" />
+                <e p="{422c8c35-d217-479d-8957-a280d1b79d8d}.xml" t="Include" />
+                <e p="{63357230-f783-455d-9bfc-1b1ac106d1cc}.xml" t="Include" />
+                <e p="{63e45d65-aa06-4c42-beb5-6a84222edb0e}.xml" t="Include" />
+                <e p="{74e5a97c-1386-41b3-8aea-76b0d50ad61c}.xml" t="Include" />
+                <e p="{8a17041b-fb83-4365-a351-62741c54ca99}.xml" t="Include" />
+                <e p="{b27cb9e8-73f5-4d45-8d61-3e826db6e2ce}.xml" t="Include" />
+                <e p="{c1852980-fc4a-4e3a-86fb-718680842bb9}.xml" t="Include" />
+                <e p="{da28dbfc-bbf3-4179-ab42-56d54ad61d23}.xml" t="Include" />
+                <e p="{e5bddbf9-4eb8-472a-b8dc-d1f5b0100a7f}.xml" t="Include" />
                 <e p="{e7ab20a1-7fa2-49e0-bd18-3281e6a4f06c}.xml" t="Include" />
+                <e p="{f0280f38-93ec-4c75-82e7-8da7897d5aae}.xml" t="Include" />
                 <e p="{f5fd5535-cfb2-4a2f-8987-b1aaca6a0e4c}.xml" t="Include" />
-                <e p="{fa4d1f45-15c8-40b5-ae18-0312749d161b}.xml" t="Include" />
               </e>
               <e p="Bank" t="Include">
                 <e p="{e34fa726-5579-4431-85d7-ca04e2c5e234}.xml" t="Include" />
@@ -56,7 +57,7 @@
               </e>
               <e p="Event" t="Include">
                 <e p="{07b49e1b-a406-4b4e-a36f-c5132505b0b5}.xml" t="Include" />
-                <e p="{d00007ba-4351-45d7-bd13-75257a6773ae}.xml" t="Include" />
+                <e p="{444f4b41-0b30-4378-85e2-334501af89f6}.xml" t="Include" />
                 <e p="{d438a934-f41f-44ed-a918-e189f11a0162}.xml" t="Include" />
                 <e p="{d52357a6-6003-40f1-ae57-cf2b72ddf201}.xml" t="Include" />
               </e>
@@ -82,6 +83,7 @@
             </e>
           </e>
         </e>
+        <e p="PlaySound.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
