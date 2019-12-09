@@ -38,6 +38,9 @@ TagManager:
   - 
   - Triggers
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 3325203637
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
