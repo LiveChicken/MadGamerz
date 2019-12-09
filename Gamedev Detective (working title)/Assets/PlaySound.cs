@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class PlaySound : MonoBehaviour
 {
+    
+    //Doesn't use the new input system
+    //duplicates code that I have made
+    //not sure what purpose of this script is
+    //single use
+    
 
     FMOD.Studio.EventInstance Music2D;
     bool playerEnter;
