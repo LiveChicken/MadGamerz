@@ -42,7 +42,7 @@ public class Keypad : MonoBehaviour {
           FirstSelected.Select();
 
           current = string.Empty;
-          Output.text = current;
+          Output.text = current.PadRight(Code.ToString().Length, '-');
 
      }
 
@@ -65,7 +65,7 @@ public class Keypad : MonoBehaviour {
               
              // current.
 
-              Output.text = current;
+              Output.text = current.PadRight(Code.ToString().Length, '-');
          }
 
     }
@@ -106,7 +106,7 @@ public class Keypad : MonoBehaviour {
      
           current = String.Empty;
 
-          Output.text = current;
+          Output.text = current.PadRight(Code.ToString().Length, '-');
 
 
      }
