@@ -456,14 +456,14 @@
         <e p="Text" t="Include">
           <e p="ExcelFiles" t="Include">
             <e p="Editor" t="Include">
-              <e p="DialogueMarlinAssetPostProcessor.cs" t="Include" />
-              <e p="DialogueMarlinEditor.cs" t="Include" />
+              <e p="Dialogue MarlinAssetPostProcessor.cs" t="Include" />
+              <e p="Dialogue MarlinEditor.cs" t="Include" />
               <e p="LoadingTipsAssetPostProcessor.cs" t="Include" />
               <e p="LoadingTipsEditor.cs" t="Include" />
             </e>
             <e p="Runtime" t="Include">
-              <e p="DialogueMarlin.cs" t="Include" />
-              <e p="DialogueMarlinData.cs" t="Include" />
+              <e p="Dialogue Marlin.cs" t="Include" />
+              <e p="Dialogue MarlinData.cs" t="Include" />
               <e p="LoadingTips.cs" t="Include" />
               <e p="LoadingTipsData.cs" t="Include" />
             </e>

@@ -15,24 +15,27 @@ MonoBehaviour:
   templatePath: Plugins/QuickSheet/ExcelPlugin/Templates
   scriptFilePath: Text/ExcelFiles/Runtime
   editorScriptFilePath: Text/ExcelFiles/Editor
-  sheetName: Generic Translations.xlsx
-  workSheetName: LoadingTips
+  sheetName: Dialogue Marlon.xlsx
+  workSheetName: DialogueMarlin
   columnHeaderList:
-  - type: 1
+  - type: 0
+    name: Line
+    isEnable: 0
+    isArray: 0
+  - type: 0
     name: English
     isEnable: 0
     isArray: 0
-  - type: 1
+  - type: 0
     name: French
     isEnable: 0
     isArray: 0
-  - type: 1
+  - type: 0
     name: Irish
     isEnable: 0
     isArray: 0
-  excelFilePath: Assets/Text/ExcelFiles/Generic Translations.xlsx
+  excelFilePath: Assets/Text/ExcelFiles/Dialogue Marlon.xlsx
   SheetNames:
-  - Keys
-  - UI
-  - LoadingTips
-  currentSelectedSheet: 2
+  - DialogueMarlin
+  - Emails Etc Marlon
+  currentSelectedSheet: 0

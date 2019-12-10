@@ -148,7 +148,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DialogueBox.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DialogueBox.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/DialogueBox.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3060">
@@ -175,6 +175,81 @@
                 <marker date="1575994930596" expanded="true" signature="2875:3037" ph="{...}" />
                 <marker date="1575994930596" expanded="true" signature="3075:3987" ph="{...}" />
                 <marker date="1575994930596" expanded="true" signature="3304:3735" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelQuery.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+              <folding>
+                <marker date="1574032002976" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+                <marker date="1574032002976" expanded="false" signature="223:556" ph="..." />
+                <marker date="1574032002976" expanded="true" signature="583:11647" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+                <marker date="1574032002976" expanded="true" signature="766:11645" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="928:989" ph="/// Constructor. ... " />
+                <marker date="1574032002976" expanded="true" signature="1051:2446" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="1077:2333" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="1213:2319" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="1447:1728" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="1753:1857" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="2020:2258" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="2365:2436" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+                <marker date="1574032002976" expanded="true" signature="2599:2736" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+                <marker date="1574032002976" expanded="true" signature="2895:3050" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="3099:3304" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+                <marker date="1574032002976" expanded="true" signature="3628:5125" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="3830:5087" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="3881:4001" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="4112:5010" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="4357:4992" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="4407:4607" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="4651:4970" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+                <marker date="1574032002976" expanded="true" signature="5250:5795" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="5356:5600" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="5484:5586" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+                <marker date="1574032002976" expanded="true" signature="6014:7510" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="6055:6154" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="6287:7411" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="6361:7355" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="6466:6729" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="6839:7129" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="7154:7337" ph="{...}" />
+                <marker date="1574032002976" expanded="false" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+                <marker date="1574032002976" expanded="true" signature="7737:11639" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="7903:9658" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="7990:8077" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="8154:8891" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="8969:9644" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="9713:10147" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+                <marker date="1574032002976" expanded="true" signature="10327:10452" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="10479:10700" ph="{...}" />
+                <marker date="1574032002976" expanded="true" signature="10732:11511" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialogue MarlinEditor.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+              <folding>
+                <marker date="1576008604995" expanded="false" signature="6:156" ph="..." />
+                <marker date="1576008604995" expanded="false" signature="158:200" ph="/// !!! Machine generated code !!! ... " />
+                <marker date="1576008604995" expanded="true" signature="349:940" ph="{...}" />
+                <marker date="1576008604995" expanded="true" signature="675:895" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -252,6 +327,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/LanguageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlaySound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -477,12 +553,12 @@
       <workItem from="1575843744377" duration="387000" />
       <workItem from="1575910500630" duration="1071000" />
       <workItem from="1575928051068" duration="2427000" />
-      <workItem from="1575985986017" duration="1867000" />
+      <workItem from="1575985986017" duration="1870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191578000" />
+    <option name="totallyTimeSpent" value="191581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +570,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1287" y="0" width="1050" height="909" extended-state="1" />
+    <frame x="-1287" y="0" width="1050" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -573,14 +649,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/TFG_Common/TFG_Common.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PauseMenu.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/MainMenuManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/LoadingSceneManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/BehaviorManager.cs" />
@@ -913,6 +981,77 @@
             <marker date="1575994930596" expanded="true" signature="2875:3037" ph="{...}" />
             <marker date="1575994930596" expanded="true" signature="3075:3987" ph="{...}" />
             <marker date="1575994930596" expanded="true" signature="3304:3735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <marker date="1574032002976" expanded="true" signature="0:216" ph="/* ExcelQuery.cs ... */" />
+            <marker date="1574032002976" expanded="false" signature="223:556" ph="..." />
+            <marker date="1574032002976" expanded="true" signature="583:11647" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="590:738" ph="/// Query each of cell data from the given excel sheet and deserialize it to the ScriptableObject's data array. ... " />
+            <marker date="1574032002976" expanded="true" signature="766:11645" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="928:989" ph="/// Constructor. ... " />
+            <marker date="1574032002976" expanded="true" signature="1051:2446" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="1077:2333" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="1213:2319" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="1447:1728" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="1753:1857" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="2020:2258" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="2365:2436" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="2456:2569" ph="/// Determine whether the excel file is successfully read in or not. ... " />
+            <marker date="1574032002976" expanded="true" signature="2599:2736" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="2746:2850" ph="/// Retrieves file extension only from the given file path. ... " />
+            <marker date="1574032002976" expanded="true" signature="2895:3050" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="3099:3304" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="3314:3575" ph="/// Deserialize all the cell of the given sheet. ... " />
+            <marker date="1574032002976" expanded="true" signature="3628:5125" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="3830:5087" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="3881:4001" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="4112:5010" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="4357:4992" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="4407:4607" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="4651:4970" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="5135:5210" ph="/// Retrieves all sheet names. ... " />
+            <marker date="1574032002976" expanded="true" signature="5250:5795" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="5356:5600" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="5484:5586" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="5805:5952" ph="/// Retrieves all first columns(aka. header column) which are needed to determine each type of a cell. ... " />
+            <marker date="1574032002976" expanded="true" signature="6014:7510" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="6055:6154" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="6287:7411" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="6361:7355" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="6466:6729" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="6839:7129" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="7154:7337" ph="{...}" />
+            <marker date="1574032002976" expanded="false" signature="7520:7680" ph="/// Convert type of cell value to its predefined type which is specified in the sheet's ScriptMachine setting fil ... " />
+            <marker date="1574032002976" expanded="true" signature="7737:11639" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="7903:9658" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="7990:8077" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="8154:8891" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="8969:9644" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="9713:10147" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="9744:9938" ph="/* HACK: handles the case that a cell contains numeric value ... */" />
+            <marker date="1574032002976" expanded="true" signature="10327:10452" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="10479:10700" ph="{...}" />
+            <marker date="1574032002976" expanded="true" signature="10732:11511" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+          <folding>
+            <marker date="1576008604995" expanded="false" signature="6:156" ph="..." />
+            <marker date="1576008604995" expanded="false" signature="158:200" ph="/// !!! Machine generated code !!! ... " />
+            <marker date="1576008604995" expanded="true" signature="349:940" ph="{...}" />
+            <marker date="1576008604995" expanded="true" signature="675:895" ph="{...}" />
           </folding>
         </state>
       </provider>
