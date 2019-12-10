@@ -609,6 +609,11 @@ PrefabInstance:
       propertyPath: OnCollisionEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4417742435175474716, guid: 4854c90166c66784384e8e0e63e5c0f0,
+        type: 3}
+      propertyPath: OnCollisionEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4417742435175474714, guid: 4854c90166c66784384e8e0e63e5c0f0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4854c90166c66784384e8e0e63e5c0f0, type: 3}
@@ -2194,7 +2199,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 26
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
