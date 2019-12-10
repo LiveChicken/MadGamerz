@@ -935,6 +935,7 @@ GameObject:
   - component: {fileID: 116060264}
   - component: {fileID: 116060263}
   - component: {fileID: 116060266}
+  - component: {fileID: 116060267}
   m_Layer: 13
   m_Name: GameObject
   m_TagString: Untagged
@@ -997,6 +998,17 @@ MonoBehaviour:
       - m_Target: {fileID: 116060261}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 116060267}
+        m_MethodName: Shake
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1100,6 +1112,22 @@ MonoBehaviour:
     EmissionCount: 1
     LocalEmissionPoint: {x: 0, y: 0, z: 0}
     InheritRotation: 0
+--- !u!114 &116060267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116060261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38a9987ab44e944089e7fff23113591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Magnitude: 2
+  Roughness: 4
+  FadeIn: 0.1
+  FadeOut: 0.3
 --- !u!1 &125756340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,6 +3847,7 @@ GameObject:
   - component: {fileID: 482099843}
   - component: {fileID: 482099844}
   - component: {fileID: 482099845}
+  - component: {fileID: 482099846}
   m_Layer: 13
   m_Name: GameObject
   m_TagString: Untagged
@@ -3965,6 +3994,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 116060267}
+        m_MethodName: Shake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hasDied: 0
 --- !u!114 &482099845
 MonoBehaviour:
@@ -3984,6 +4024,22 @@ MonoBehaviour:
     EmissionCount: 1
     LocalEmissionPoint: {x: 0, y: 0, z: 5}
     InheritRotation: 0
+--- !u!114 &482099846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482099840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38a9987ab44e944089e7fff23113591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Magnitude: 2
+  Roughness: 4
+  FadeIn: 0.1
+  FadeOut: 0.3
 --- !u!1 &484283806
 GameObject:
   m_ObjectHideFlags: 0
@@ -10111,6 +10167,7 @@ GameObject:
   - component: {fileID: 1264507693}
   - component: {fileID: 1264507692}
   - component: {fileID: 1264507695}
+  - component: {fileID: 1264507696}
   m_Layer: 13
   m_Name: GameObject
   m_TagString: Untagged
@@ -10173,6 +10230,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1264507690}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 116060267}
+        m_MethodName: Shake
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10276,6 +10344,22 @@ MonoBehaviour:
     EmissionCount: 1
     LocalEmissionPoint: {x: 0, y: 0, z: 0}
     InheritRotation: 0
+--- !u!114 &1264507696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264507690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38a9987ab44e944089e7fff23113591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Magnitude: 2
+  Roughness: 4
+  FadeIn: 0.1
+  FadeOut: 0.3
 --- !u!1001 &1275987098
 PrefabInstance:
   m_ObjectHideFlags: 0

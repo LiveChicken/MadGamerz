@@ -147,8 +147,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2053523623011468784}
-        m_MethodName: EmitAll
-        m_Mode: 1
+        m_MethodName: EmitIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -177,13 +177,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 2053523623011468784}
+        m_MethodName: EmitIndex
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -302,6 +302,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ToEmit:
   - GameObjectToEmit: {fileID: 5623082274036137867, guid: 08d318588c5dcd04f8df3ccfd64d373e,
+      type: 3}
+    EmissionCount: 1
+    LocalEmissionPoint: {x: 0, y: 0, z: 5}
+    InheritRotation: 0
+  - GameObjectToEmit: {fileID: 5623082274036137867, guid: e48da180974a5074585b2fa278e35fe4,
       type: 3}
     EmissionCount: 1
     LocalEmissionPoint: {x: 0, y: 0, z: 5}
