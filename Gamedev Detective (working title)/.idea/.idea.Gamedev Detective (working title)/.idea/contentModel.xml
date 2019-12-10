@@ -13,7 +13,6 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
-        <e p="EventOnEnable.cs" t="Include" />
         <e p="FMOD-Assets" t="Include">
           <e p="FMOD - Project for Gnossienne" t="Include">
             <e p="Metadata" t="Include">
@@ -366,6 +365,7 @@
             <e p="FieldOfViewEditor.cs" t="Include" />
           </e>
           <e p="Emitter.cs" t="Include" />
+          <e p="EventOnEnable.cs" t="Include" />
           <e p="EventOnEnemiesDead.cs" t="Include" />
           <e p="explsiveForceTester.cs" t="Include" />
           <e p="Generic" t="Include">

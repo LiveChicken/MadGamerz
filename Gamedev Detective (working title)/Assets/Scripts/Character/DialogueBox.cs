@@ -182,7 +182,7 @@ public class DialogueBox : MonoBehaviour {
        // int totalVisibleCharacters = text.textInfo.characterCount;
         int counter = 0;
 
-        while (counter < s.Length) {
+        while (counter <= s.Length) {
 
            // int visibleCount = counter % (totalVisibleCharacters + 1);
 

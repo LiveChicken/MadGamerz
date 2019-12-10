@@ -66,10 +66,16 @@ public class Chase : BaseState {
         }
 
 
+         Vector2 direction = (Vector2) (myStateMachine.Target.position - transform.position);
+         direction.Normalize();
+         
 
         if (rb.velocity.magnitude < ThresholdSpeed) {
 
-            rb.velocity = transform.right * Speed;
+            
+           // Vector2 DesiredVector = 
+            
+            rb.velocity = direction * Speed;
 
             // rb.AddForce(transform.right * Speed * Time.fixedDeltaTime);
 
@@ -78,8 +84,8 @@ public class Chase : BaseState {
 
         //transform.rotation
 
-        Vector2 direction = (Vector2) (myStateMachine.Target.position - transform.position);
-        direction.Normalize();
+        //Vector2 direction = (Vector2) (myStateMachine.Target.position - transform.position);
+      //  direction.Normalize();
 
         float rotateAmount = Vector3.Cross(direction, transform.right).z;
 
@@ -88,7 +94,7 @@ public class Chase : BaseState {
         float scaledRotateAmount = (float) (rotateAmount * TurningSpeed);
 
 
-        transform.Rotate(0, 0, -scaledRotateAmount);
+       // transform.Rotate(0, 0, -scaledRotateAmount);
 
         return null;
 
