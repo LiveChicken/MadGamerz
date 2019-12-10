@@ -180,7 +180,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelQuery.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExcelQuery.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -235,21 +235,6 @@
                 <marker date="1574032002976" expanded="true" signature="10327:10452" ph="{...}" />
                 <marker date="1574032002976" expanded="true" signature="10479:10700" ph="{...}" />
                 <marker date="1574032002976" expanded="true" signature="10732:11511" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dialogue MarlinEditor.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
-              <folding>
-                <marker date="1576008604995" expanded="false" signature="6:156" ph="..." />
-                <marker date="1576008604995" expanded="false" signature="158:200" ph="/// !!! Machine generated code !!! ... " />
-                <marker date="1576008604995" expanded="true" signature="349:940" ph="{...}" />
-                <marker date="1576008604995" expanded="true" signature="675:895" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -327,7 +312,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/LanguageManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/Key.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/2DLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlaySound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -553,12 +537,12 @@
       <workItem from="1575843744377" duration="387000" />
       <workItem from="1575910500630" duration="1071000" />
       <workItem from="1575928051068" duration="2427000" />
-      <workItem from="1575985986017" duration="1870000" />
+      <workItem from="1575985986017" duration="2468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191581000" />
+    <option name="totallyTimeSpent" value="192179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -570,7 +554,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1287" y="0" width="1050" height="909" extended-state="0" />
+    <frame x="-1287" y="0" width="1050" height="909" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -985,6 +969,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/QuickSheet/ExcelPlugin/Editor/ExcelQuery.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1039,19 +1030,6 @@
             <marker date="1574032002976" expanded="true" signature="10327:10452" ph="{...}" />
             <marker date="1574032002976" expanded="true" signature="10479:10700" ph="{...}" />
             <marker date="1574032002976" expanded="true" signature="10732:11511" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Text/ExcelFiles/Editor/Dialogue MarlinEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="83" lean-forward="true" selection-start-line="34" selection-start-column="83" selection-end-line="34" selection-end-column="83" />
-          <folding>
-            <marker date="1576008604995" expanded="false" signature="6:156" ph="..." />
-            <marker date="1576008604995" expanded="false" signature="158:200" ph="/// !!! Machine generated code !!! ... " />
-            <marker date="1576008604995" expanded="true" signature="349:940" ph="{...}" />
-            <marker date="1576008604995" expanded="true" signature="675:895" ph="{...}" />
           </folding>
         </state>
       </provider>
