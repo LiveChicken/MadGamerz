@@ -1019,7 +1019,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23642
+  m_Name: pb_Mesh112410
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10459,6 +10459,7 @@ GameObject:
   - component: {fileID: 1535953640}
   - component: {fileID: 1535953639}
   - component: {fileID: 1535953638}
+  - component: {fileID: 1535953641}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -10506,9 +10507,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ToEmit:
-  - GameObjectToEmit: {fileID: 0}
-    EmissionCount: 0
-    LocalEmissionPoint: {x: 0, y: 0, z: 0}
+  - GameObjectToEmit: {fileID: 976346597735419732, guid: 76f6b92ad72703340b571ee975deccb3,
+      type: 3}
+    EmissionCount: 1
+    LocalEmissionPoint: {x: 0, y: 10, z: 0}
     InheritRotation: 0
 --- !u!4 &1535953640
 Transform:
@@ -10524,6 +10526,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1535953641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535953637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00b4c86962380c449b21237436b5b230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 0
+  Reinforced: 0
+  InvincibilityTime: 0
+  OnHealthLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1535953641}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHealthGained:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReinforcedHit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnZeroHealth:
+    m_PersistentCalls:
+      m_Calls: []
+  hasDied: 0
 --- !u!1 &1553967363
 GameObject:
   m_ObjectHideFlags: 0
@@ -14200,7 +14241,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23576
+  m_Name: pb_Mesh112014
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20811,7 +20852,7 @@ PrefabInstance:
     - target: {fileID: 449254908360285050, guid: 7a9b50cfc0b88354591041754f1778ef,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.04926134
+      value: 0.049261343
       objectReference: {fileID: 0}
     - target: {fileID: 449254908360285050, guid: 7a9b50cfc0b88354591041754f1778ef,
         type: 3}
@@ -20826,12 +20867,12 @@ PrefabInstance:
     - target: {fileID: 449254907927947912, guid: 7a9b50cfc0b88354591041754f1778ef,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.062215053
+      value: 0.06221505
       objectReference: {fileID: 0}
     - target: {fileID: 449254907927947912, guid: 7a9b50cfc0b88354591041754f1778ef,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.2313197
+      value: -0.23131968
       objectReference: {fileID: 0}
     - target: {fileID: 3400323453409949585, guid: 7a9b50cfc0b88354591041754f1778ef,
         type: 3}
