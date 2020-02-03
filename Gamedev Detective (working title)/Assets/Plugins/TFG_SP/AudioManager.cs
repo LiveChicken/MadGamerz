@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 
-namespace TFG_Common {
+namespace TFG_SP {
 	public class AudioManager : MonoBehaviour {
 
 		public Sound[] sounds;

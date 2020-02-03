@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TFG_Common;
+using TFG_SP;
 using UnityEngine;
 
 public class DamageTrigger2D : MonoBehaviour {

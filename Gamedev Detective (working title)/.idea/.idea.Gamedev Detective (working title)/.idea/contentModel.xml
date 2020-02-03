@@ -330,7 +330,6 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
-            <e p="DialogueBox.cs" t="Include" />
             <e p="Enemy" t="Include">
               <e p="BaseState.cs" t="Include" />
               <e p="Chase.cs" t="Include" />
@@ -341,6 +340,7 @@
               <e p="StateMachine.cs" t="Include" />
             </e>
             <e p="Player" t="Include">
+              <e p="DialogueBox.cs" t="Include" />
               <e p="Gadgets" t="Include">
                 <e p="BowGadget.cs" t="Include" />
                 <e p="Gadget.cs" t="Include" />
@@ -351,27 +351,28 @@
               </e>
               <e p="GeckoController.cs" t="Include" />
               <e p="GrabPoint.cs" t="Include" />
+              <e p="Heart.cs" t="Include" />
+              <e p="PickupGadget.cs" t="Include" />
+              <e p="PickupKey.cs" t="Include" />
+              <e p="Player2DState.cs" t="Include" />
               <e p="PlayerMovement2D.cs" t="Include" />
+              <e p="Popit.cs" t="Include" />
+              <e p="Respawn.cs" t="Include" />
               <e p="Wheel.cs" t="Include" />
               <e p="WheelchairContoller.cs" t="Include" />
             </e>
-            <e p="Popit.cs" t="Include" />
             <e p="Unused" t="Include">
               <e p="Balloon.cs" t="Include" />
               <e p="PlayerMovementController_CC.cs" t="Include" />
               <e p="SimpleCameraController.cs" t="Include" />
             </e>
           </e>
-          <e p="Checkpoint.cs" t="Include" />
           <e p="Editor" t="Include">
             <e p="FieldOfViewEditor.cs" t="Include" />
           </e>
-          <e p="Emitter.cs" t="Include" />
-          <e p="EventOnEnable.cs" t="Include" />
-          <e p="EventOnEnemiesDead.cs" t="Include" />
-          <e p="explsiveForceTester.cs" t="Include" />
           <e p="Generic" t="Include">
             <e p="2D" t="Include">
+              <e p="Checkpoint.cs" t="Include" />
               <e p="DamageTrigger2D.cs" t="Include" />
               <e p="EnableOnButton.cs" t="Include" />
               <e p="EventOnCollision2D.cs" t="Include" />
@@ -380,6 +381,7 @@
               <e p="ItemRotator2D.cs" t="Include" />
               <e p="Stunable.cs" t="Include" />
               <e p="StunTrigger2D.cs" t="Include" />
+              <e p="TriggerEvent2D.cs" t="Include" />
             </e>
             <e p="3D" t="Include">
               <e p="Billborder.cs" t="Include" />
@@ -398,16 +400,21 @@
               <e p="Lock.cs" t="Include" />
               <e p="OnCollisionSpawner.cs" t="Include" />
             </e>
+            <e p="Emitter.cs" t="Include" />
+            <e p="EventOnEnable.cs" t="Include" />
+            <e p="EventOnEnemiesDead.cs" t="Include" />
+            <e p="HealthBar.cs" t="Include" />
             <e p="Interactable.cs" t="Include" />
+            <e p="Keypad.cs" t="Include" />
+            <e p="Knockback.cs" t="Include" />
+            <e p="KnockbackOnCollide.cs" t="Include" />
+            <e p="popit2.cs" t="Include" />
+            <e p="QuitDialog.cs" t="Include" />
+            <e p="SHAKE2D.cs" t="Include" />
+            <e p="TargetingScript2.cs" t="Include" />
+            <e p="TargetPoint.cs" t="Include" />
+            <e p="TimerEvent.cs" t="Include" />
           </e>
-          <e p="HealthBar.cs" t="Include" />
-          <e p="Heart.cs" t="Include" />
-          <e p="Keypad.cs" t="Include" />
-          <e p="Knockback.cs" t="Include" />
-          <e p="KnockbackOnCollide.cs" t="Include" />
-          <e p="LoadingSceneManager.cs" t="Include" />
-          <e p="LoadingTipManager.cs" t="Include" />
-          <e p="MainMenuManager.cs" t="Include" />
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />
             <e p="ButtonPrompt.cs" t="Include" />
@@ -421,20 +428,14 @@
             <e p="GameManager.cs" t="Include" />
             <e p="Key.cs" t="Include" />
             <e p="LanguageManager.cs" t="Include" />
+            <e p="LoadingSceneManager.cs" t="Include" />
+            <e p="LoadingTipManager.cs" t="Include" />
+            <e p="MainMenuManager.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
             <e p="PC.cs" t="Include" />
+            <e p="terrainManager.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
           </e>
-          <e p="PauseMenu.cs" t="Include" />
-          <e p="PickupGadget.cs" t="Include" />
-          <e p="PickupKey.cs" t="Include" />
-          <e p="Player2DState.cs" t="Include" />
-          <e p="popit2.cs" t="Include" />
-          <e p="QuitDialog.cs" t="Include" />
-          <e p="Respawn.cs" t="Include" />
-          <e p="SHAKE2D.cs" t="Include" />
-          <e p="TargetingScript2.cs" t="Include" />
-          <e p="TargetPoint.cs" t="Include" />
-          <e p="terrainManager.cs" t="Include" />
           <e p="TextStuff" t="Include">
             <e p="BobTween.cs" t="Include" />
             <e p="CharTweener.cs" t="Include" />
@@ -443,12 +444,11 @@
             <e p="CharTweenerUtility.cs" t="Include" />
             <e p="VertexGradientPlugin.cs" t="Include" />
           </e>
-          <e p="TimerEvent.cs" t="Include" />
-          <e p="TriggerEvent2D.cs" t="Include" />
           <e p="Unused" t="Include">
+            <e p="explsiveForceTester.cs" t="Include" />
             <e p="viewPointRotator.cs" t="Include" />
+            <e p="WaterTile.cs" t="Include" />
           </e>
-          <e p="WaterTile.cs" t="Include" />
         </e>
         <e p="Settings" t="Include">
           <e p="Input" t="Include">

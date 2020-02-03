@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TFG_Common
+namespace TFG_SP
 {
     public static class RandomBy {
 

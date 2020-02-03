@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 
-namespace TFG_Common {
+namespace TFG_SP {
 
 
 
