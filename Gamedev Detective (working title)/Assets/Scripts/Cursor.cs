@@ -16,7 +16,7 @@ public class Cursor : MonoBehaviour
     void Update()
     {
         
-        if (GameManager.GM.controls
+        
         
         
     }

@@ -339,6 +339,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -553,8 +554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChainLength: 2
-  Target: {fileID: 3892588311321931709}
-  Pole: {fileID: 175998966281215595}
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
   Iterations: 10
   Delta: 0.001
   SnapBackStrength: 1
@@ -607,8 +608,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChainLength: 2
-  Target: {fileID: 7472853446683001038}
-  Pole: {fileID: 418547687800010393}
+  Target: {fileID: 0}
+  Pole: {fileID: 0}
   Iterations: 10
   Delta: 0.001
   SnapBackStrength: 1
@@ -667,6 +668,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1242,8 +1244,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bfb71530dbdac04cb248e94870b9880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheel: {fileID: 6749215611044709854}
-  CurvePosition: {fileID: 4697588958276866885}
+  wheel: {fileID: 0}
+  CurvePosition: {fileID: 0}
 --- !u!1 &3601901649309499351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1322,8 +1324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrabPoints: []
   SpawnPointsOnStart: 1
-  NumberOfPoints: 3
-  Radius: 0.35
+  NumberOfPoints: 0
+  Radius: 0
   HighestIndex: 0
 --- !u!1 &3721861826507032427
 GameObject:
@@ -1429,8 +1431,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bfb71530dbdac04cb248e94870b9880, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wheel: {fileID: 771942887541225572}
-  CurvePosition: {fileID: 7993427572903437302}
+  wheel: {fileID: 0}
+  CurvePosition: {fileID: 0}
 --- !u!1 &3868417737405569837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,8 +1539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7727cc36171b142a1a6fdecf6bccfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewPoint: {fileID: 1519423287934280140}
-  InspectableCamera: {fileID: 6312946876768273298}
+  ViewPoint: {fileID: 0}
+  InspectableCamera: {fileID: 0}
 --- !u!1 &4688440899493387200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,17 +1584,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c53e7567ca2344da906cd1eab6a310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 1.59
-  ViewAngle: 128
+  ViewRadius: 0
+  ViewAngle: 0
   TargetMask:
     serializedVersion: 2
-    m_Bits: 16384
+    m_Bits: 0
   ObstacleMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 0
   VisibleTargetPoints: []
-  ChecksPerSecond: 10
-  DefaultTargetOffset: {x: 0, y: 0, z: 1.75}
+  ChecksPerSecond: 0
+  DefaultTargetOffset: {x: 0, y: 0, z: 0}
   TargetRet: {fileID: 0}
   UIOffset: {x: 0, y: 0}
 --- !u!1 &4773380753320504586
@@ -1883,8 +1885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b26d7add7a9af4e80ee5bdbc055bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxSpeed: 30
-  visCam: {fileID: 6312946876768273298}
+  MaxSpeed: 0
+  visCam: {fileID: 0}
 --- !u!1 &5212192995107292836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,6 +2036,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2232,6 +2235,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2578,6 +2582,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2747,11 +2752,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb625ecb2911ddc45bb42368ded13f23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 1.5
-  RotationSpeed: 3
-  WheelRotationSpeed: 2
-  WheelL: {fileID: 771942887541225572}
-  WheelR: {fileID: 6749215611044709854}
+  MovementSpeed: 4
+  RotationSpeed: 4
+  WheelRotationSpeed: 0
+  WheelL: {fileID: 0}
+  WheelR: {fileID: 0}
 --- !u!1 &7662643567322027547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,9 +2917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56aa9a3500780da47a56fac06453b647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  headBone: {fileID: 6741005258609560763}
-  headMaxTurnAngle: 50
-  headTrackingSpeed: 8
+  headBone: {fileID: 0}
+  headMaxTurnAngle: 0
+  headTrackingSpeed: 0
   leftEyeBone: {fileID: 0}
   rightEyeBone: {fileID: 0}
   eyeTrackingSpeed: 0
@@ -2968,8 +2973,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrabPoints: []
   SpawnPointsOnStart: 1
-  NumberOfPoints: 3
-  Radius: 0.35
+  NumberOfPoints: 0
+  Radius: 0
   HighestIndex: 0
 --- !u!1 &8052758702511745948
 GameObject:
@@ -3159,6 +3164,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
