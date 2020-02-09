@@ -44,6 +44,8 @@ public class Inspectable : MonoBehaviour {
             
         }
 
+        GameManager.GM.CanMove = false;
+
     }
 
 
@@ -60,6 +62,8 @@ public class Inspectable : MonoBehaviour {
             CVCamera.gameObject.SetActive(false);
 
         }
+
+        GameManager.GM.CanMove = true;
         
         OnUninspect?.Invoke();
         

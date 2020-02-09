@@ -59,13 +59,19 @@ public class Keypad : MonoBehaviour {
      public void AddDigit(int d) {
 
          if (takingInput) {
-              
-              if (current.Length < Code.ToString().Length)
-              current += d.ToString();
-              
-             // current.
 
-              Output.text = current.PadRight(Code.ToString().Length, '-');
+              if (current.Length < Code.ToString().Length) {
+                   current += d.ToString();
+                   Output.text = current.PadRight(Code.ToString().Length, '-');
+                   
+              } 
+              if (current.Length== Code.ToString().Length) {
+                     CheckCode();
+              }
+
+              // current.
+
+             
          }
 
     }

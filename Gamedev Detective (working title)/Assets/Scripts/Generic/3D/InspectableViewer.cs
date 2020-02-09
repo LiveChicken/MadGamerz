@@ -45,7 +45,7 @@ public class InspectableViewer : MonoBehaviour {
                     InspectableCamera.SetActive(true);
                 }
 
-                GameManager.GM.CanMove = false;
+                //GameManager.GM.CanMove = false;
                 current.OnInspect?.Invoke();
 
             } else {
@@ -54,7 +54,7 @@ public class InspectableViewer : MonoBehaviour {
                 //current.transform.SetParent(current.);
                 current.ReturnToOrigin();
                 InspectableCamera.SetActive(false);
-                GameManager.GM.CanMove = true;
+              //  GameManager.GM.CanMove = true;
                 Inspecting = false;
 
             }

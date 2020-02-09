@@ -17,9 +17,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/PlayerMovementController_CC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/Inspectable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/TimerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Keypad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/Lock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EnterExitMemory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/FastIKFabric.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/InspectableViewer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,11 +48,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Idle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Chase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Listen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/Gadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/GadgetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/TargetingScript2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/TestGadget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Gadgets/ShovelGadget.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,12 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/LoadingTipManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/LoadingSceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/explsiveForceTester.cs" />
-        <option value="$PROJECT_DIR$/Assets/Knockback.cs" />
         <option value="$PROJECT_DIR$/Assets/KnockbackOnCollide.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/2D/DamageTrigger2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement2D.cs" />
@@ -109,7 +108,13 @@
         <option value="$PROJECT_DIR$/Assets/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Unused/SimpleCameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Management/PC.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnterMemory.cs" />
+        <option value="$PROJECT_DIR$/Assets/EnterExitMemory.cs" />
         <option value="$PROJECT_DIR$/Assets/MemoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/TimerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/Keypad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/3D/InspectableViewer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Generic/3D/Inspectable.cs" />
       </list>
     </option>
   </component>
@@ -231,6 +236,7 @@
       <workItem from="1580743604617" duration="1492000" />
       <workItem from="1580837469091" duration="2001000" />
       <workItem from="1581006172641" duration="3375000" />
+      <workItem from="1581268726065" duration="5186000" />
     </task>
     <servers />
   </component>
