@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EnterExitMemory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/FastIKFabric.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TimelineManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/InspectableViewer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.1.8/Runtime/Debugging/DebugManager.Actions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -51,6 +52,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Unused/SimpleCameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Interactable2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cursor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EndWait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/WheelchairContoller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/Wheel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/PlayerMovement2D.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/BehaviorManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/BaseState.cs" />
@@ -118,6 +118,8 @@
         <option value="$PROJECT_DIR$/Assets/PSBoundariesOrthographic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Interactable2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimelineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/EndWait.cs" />
       </list>
     </option>
   </component>
@@ -240,7 +242,8 @@
       <workItem from="1580837469091" duration="2001000" />
       <workItem from="1581006172641" duration="3375000" />
       <workItem from="1581268726065" duration="5186000" />
-      <workItem from="1581338405824" duration="10272000" />
+      <workItem from="1581338405824" duration="10875000" />
+      <workItem from="1581529845459" duration="1878000" />
     </task>
     <servers />
   </component>
