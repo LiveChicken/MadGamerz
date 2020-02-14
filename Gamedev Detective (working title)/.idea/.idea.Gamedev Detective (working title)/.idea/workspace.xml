@@ -59,6 +59,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/FieldOfViewEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PSBoundariesOrthographic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/GeckoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DialogueFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/BaseState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Guard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Enemy/Idle.cs" />
         <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
@@ -118,8 +116,11 @@
         <option value="$PROJECT_DIR$/Assets/PSBoundariesOrthographic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cursor.cs" />
         <option value="$PROJECT_DIR$/Assets/Interactable2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/TimelineManager.cs" />
         <option value="$PROJECT_DIR$/Assets/EndWait.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Management/LanguageManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/DialogueFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/TimelineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" />
       </list>
     </option>
   </component>
@@ -243,7 +244,9 @@
       <workItem from="1581006172641" duration="3375000" />
       <workItem from="1581268726065" duration="5186000" />
       <workItem from="1581338405824" duration="10875000" />
-      <workItem from="1581529845459" duration="1878000" />
+      <workItem from="1581529845459" duration="2480000" />
+      <workItem from="1581598935309" duration="2325000" />
+      <workItem from="1581686672455" duration="5957000" />
     </task>
     <servers />
   </component>

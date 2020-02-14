@@ -15,6 +15,7 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
+        <e p="DialogueFilter.cs" t="Include" />
         <e p="EndWait.cs" t="Include" />
         <e p="EnterExitMemory.cs" t="Include" />
         <e p="FMOD-Assets" t="Include">
@@ -332,6 +333,13 @@
           </e>
         </e>
         <e p="PSBoundariesOrthographic.cs" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="Dialogue" t="Include">
+            <e p="English" t="Include">
+              <e p="Memory_Test.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="Character" t="Include">
             <e p="Enemy" t="Include">
@@ -547,12 +555,12 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="Tilemap" t="Include">
-          <e p="lerp.cs" t="Include" />
-        </e>
         <e p="TimelineManager.cs" t="Include" />
         <e p="Z_TRASH" t="Include">
           <e p="PlaySound.cs" t="Include" />
+          <e p="Tilemap" t="Include">
+            <e p="lerp.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Gamedev Detective (working title).sln" t="IncludeFlat" />

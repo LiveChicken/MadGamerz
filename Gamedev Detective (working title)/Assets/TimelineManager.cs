@@ -11,6 +11,8 @@ public class TimelineManager : MonoBehaviour {
     private bool paused;
     private bool waiting;
 
+    //public DialogueBox DialogueBox;
+
     public delegate void EndWaitDelegate();
 
     public static EndWaitDelegate endWaitDelegate = delegate {
@@ -39,6 +41,12 @@ public class TimelineManager : MonoBehaviour {
 
     private void ContinueTimeline() {
 
+
+         if (DialogueBox.IsWriting) {
+              return;
+         }
+
+         // if (DialogueBox.
       PD.Play();
       paused = false;
 
@@ -74,10 +82,13 @@ public class TimelineManager : MonoBehaviour {
 
              if (!waiting) {
 
-                  if (GameManager.GM.controls.Player.A.triggered) {
+                  if (!DialogueBox.IsWriting) {
 
-                       ContinueTimeline();
+                       if (GameManager.GM.controls.Player.A.triggered) {
 
+                            ContinueTimeline();
+
+                       }
                   }
              } 
 

@@ -1,20 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-
+            [RequireComponent(typeof(DialogueFilter))]
 public class DialogueBox : MonoBehaviour {
 
     public TMP_Text text;
+    public TMP_Text name;
     public GameObject Box;
     [Space]
 
     public float CharactersPerSecond;
 
-    public float AutoTime = 1f;
+  //  public float AutoTime = 1f;
 
     public Mode mode;
     [Space]
@@ -25,146 +27,109 @@ public class DialogueBox : MonoBehaviour {
 
     
     //this is likely to break
-    private int lastIndex = -1;
+   // private int lastIndex = -1;
 
     private Coroutine LineWriting; // = new Coroutine();
-
-    private bool writing;
     
-    //System.Action<>
-    public  delegate void WriteLineDelegate(int index);
-            public static WriteLineDelegate writeLineDelegate = delegate(int index) {
-                
-            };
-
     
-    List<string>backLog = new List<string>();
+    private static bool writing;
+
+    public static bool IsWriting {
+        get { return writing;}
+        set { IsWriting = writing; }
+    }
+
+
+    private int index;
+    private DialogueFilter Filter;
+
+
+    public delegate void WriteLineDelegate(int i);
+
+    public static WriteLineDelegate writeLineDelegate = delegate {
+
+    };
+
 
     private void OnEnable() {
 
-        writeLineDelegate += WriteLine;
+       writeLineDelegate += WriteLine;
 
     }
 
     private void OnDisable() {
-        writeLineDelegate -= WriteLine;
-    }
 
-    void CheckBacklog() {
-
-       //if (LineWriting != null)  StopCoroutine(LineWriting);
-
-        stopWriting();
-        
-        if (backLog.Count > 0) {
-
-            if (!writing) {
-
-                string toWrite = backLog[0];
-                backLog.Remove(toWrite);
-
-                LineWriting = StartCoroutine(writeLine(toWrite));
-            }
-
-
-        } else {
-
-            lastIndex = -1;
-            Box.SetActive(false);
-            
-        }
+       writeLineDelegate -=WriteLine;
 
     }
 
-    public void WriteLine(int index) {
 
-       // Debug.Log("Made it this far");
+    private void Start() {
+
+        Filter = GetComponent<DialogueFilter>();
+
+    }
+
+    public void HideBox() {
+
+        Box.SetActive(false);
         
-       
+    }
 
-        
-        if (mode != GameManager.GM.TS) {
 
-            backLog.Clear();
-            
-            return;
 
+    public void WriteLine(int i) {
+
+        if (i >= 0) {
+            index = i;
         }
 
-        if (index == lastIndex) {
+        WriteNextLine();
 
-            // CheckBacklog();
-            return;
+    }
 
-        }
-        
+    public void WriteNextLine() {
 
-        //if writing currently add the new lines to the backlog
+  
         if (writing) {
 
-           
-
-            lastIndex = index;
-
-            var Split = getSplitLines(index);
-
-            foreach (string s in Split) {
-
-                backLog.Add(s);
-            }
-
+       
             return;
         }
 
-        lastIndex = index;
-        
-        var toWrite = getSplitLines(index);
+      
 
        stopWriting();
-        LineWriting = StartCoroutine(writeLine(toWrite[0]));
+        LineWriting = StartCoroutine(writeLine(Filter.Lines[index].Dialogue));
+        name.text = Filter.Lines[index].Name;
 
-        if (toWrite.Length > 1) {
+        index++;
+    }
 
-            for (int i = 1; i < toWrite.Length; i++) {
+    private void LateUpdate() {
 
-                backLog.Add(toWrite[i]);
-                
-            }
+        if (GameManager.GM.controls.Player.A.triggered && writing) {
+
+           stopWriting();
 
         }
-
+        
+        
     }
 
-    public string[] getSplitLines(int index) {
-
-        string toBacklog = LanguageManager.LM.GetLine(index);
-
-        var Split = toBacklog.Split('|');
-
-        return Split;
-
-
-    }
-
-
-    private void Update() {
-
-
-        if (writing) {
-            if (GameManager.GM.controls.Player.A.triggered) {
-
-                   CheckBacklog();
-
-            }
-        }
-
-    }
 
     void stopWriting() {
 
-        if (LineWriting != null) StopCoroutine(LineWriting);
+        if (LineWriting != null) {
+            
+            
+            StopCoroutine(LineWriting);
+        }
+
         LineWriting = null;
 
+        text.maxVisibleCharacters = int.MaxValue;
+        
         OnTextEnd?.Invoke();
 
         writing = false;
@@ -186,40 +151,30 @@ public class DialogueBox : MonoBehaviour {
 
            // int visibleCount = counter % (totalVisibleCharacters + 1);
 
+           
 
-            text.text = s;
+
+
+           text.text = s;
             text.maxVisibleCharacters = counter;
-           // text.maxVisibleWords
+   
             
             OnCharacterShow?.Invoke();
-
-            //if (visibleCount >= totalVisibleCharacters) {
+            
 
                 yield return new WaitForSeconds(1/ CharactersPerSecond);
 
                 counter++;
 
-            //}
+      
 
         }
 
-
-        
-
-
-        
-        
         OnTextEnd?.Invoke();
-
+        
         writing = false;
         
-        yield return new WaitForSeconds(AutoTime);
-        
-        
-        Debug.Log("Auto Advanced");
-        CheckBacklog();
-        yield break;
-
+     
     }
 
 }
