@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityScript.Macros;
 
 
-public class LanguageManager {
+public class LanguageManager : MonoBehaviour {
 
 
      public static string CurrentLanguage = "English";

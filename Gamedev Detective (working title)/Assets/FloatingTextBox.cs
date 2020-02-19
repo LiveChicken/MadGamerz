@@ -15,11 +15,26 @@ public class FloatingTextBox : MonoBehaviour {
 
           Text.text = s;
 
-          transform.position = (Vector2) Random.insideUnitCircle * randRadi; 
+          transform.position = (Vector2) transform.position +  (Random.insideUnitCircle * randRadi); 
           
           Text.gameObject.SetActive(true);//(Screen.height * Camera.main.orthographicSize
 
 
+     }
+     
+     public void EndText(){
+     
+     try{
+     DialogueSpawner.spawnTextDelegate?.Invoke();
+     } catch {
+     
+     UnityEngine.Debug.Log("Something went wrong here");
+     
+     }
+     
+     Destroy(gameObject);
+     
+     
      }
 
 
