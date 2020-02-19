@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ThefitzyG\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\ThefitzyG\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ThefitzyG\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Gamedev Detective (working title).2046042389.00" t="ExcludeRecursive" />
-    <e p="C:\Users\ThefitzyG\Documents\projects\MadGamerz\Gamedev Detective (working title)" t="IncludeRecursive">
+    <e p="C:\Users\seanf\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\seanf\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Gamedev Detective (working title).-443102433.00" t="ExcludeRecursive" />
+    <e p="C:\Users\seanf\Documents\GitHub\MadGamerz\Gamedev Detective (working title)" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -15,9 +14,8 @@
             <e p="CustomLighting.hlsl" t="Include" />
           </e>
         </e>
-        <e p="DialogueFilter.cs" t="Include" />
-        <e p="EndWait.cs" t="Include" />
-        <e p="EnterExitMemory.cs" t="Include" />
+        <e p="DialogueSpawner.cs" t="Include" />
+        <e p="FloatingTextBox.cs" t="Include" />
         <e p="FMOD-Assets" t="Include">
           <e p="FMOD - Project for Gnossienne" t="Include">
             <e p="Metadata" t="Include">
@@ -88,8 +86,6 @@
             </e>
           </e>
         </e>
-        <e p="Interactable2D.cs" t="Include" />
-        <e p="MemoryManager.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -332,7 +328,6 @@
             </e>
           </e>
         </e>
-        <e p="PSBoundariesOrthographic.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="Dialogue" t="Include">
             <e p="English" t="Include">
@@ -381,9 +376,12 @@
           </e>
           <e p="ContinuousRotation.cs" t="Include" />
           <e p="Cursor.cs" t="Include" />
+          <e p="DialogueFilter.cs" t="Include" />
           <e p="Editor" t="Include">
             <e p="FieldOfViewEditor.cs" t="Include" />
           </e>
+          <e p="EndWait.cs" t="Include" />
+          <e p="EnterExitMemory.cs" t="Include" />
           <e p="Generic" t="Include">
             <e p="2D" t="Include">
               <e p="Checkpoint.cs" t="Include" />
@@ -429,6 +427,7 @@
             <e p="TargetPoint.cs" t="Include" />
             <e p="TimerEvent.cs" t="Include" />
           </e>
+          <e p="Interactable2D.cs" t="Include" />
           <e p="Management" t="Include">
             <e p="2DLevel.cs" t="Include" />
             <e p="ButtonPrompt.cs" t="Include" />
@@ -450,6 +449,8 @@
             <e p="terrainManager.cs" t="Include" />
             <e p="Transitioner3D_2D.cs" t="Include" />
           </e>
+          <e p="MemoryManager.cs" t="Include" />
+          <e p="PSBoundariesOrthographic.cs" t="Include" />
           <e p="TextStuff" t="Include">
             <e p="BobTween.cs" t="Include" />
             <e p="CharTweener.cs" t="Include" />
@@ -458,6 +459,7 @@
             <e p="CharTweenerUtility.cs" t="Include" />
             <e p="VertexGradientPlugin.cs" t="Include" />
           </e>
+          <e p="TimelineManager.cs" t="Include" />
           <e p="Unused" t="Include">
             <e p="explsiveForceTester.cs" t="Include" />
             <e p="viewPointRotator.cs" t="Include" />
@@ -555,7 +557,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="TimelineManager.cs" t="Include" />
         <e p="Z_TRASH" t="Include">
           <e p="PlaySound.cs" t="Include" />
           <e p="Tilemap" t="Include">
@@ -565,9 +566,12 @@
       </e>
       <e p="Gamedev Detective (working title).sln" t="IncludeFlat" />
       <e p="InputSystem.Samples.Visualizers.csproj" t="IncludeRecursive" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

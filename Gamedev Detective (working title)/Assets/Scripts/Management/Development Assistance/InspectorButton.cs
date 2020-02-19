@@ -14,8 +14,9 @@ public class InspectorButton : MonoBehaviour {
 
           if (Trigger) {
 
-               OnTrigger.Invoke();
                Trigger = false;
+               OnTrigger.Invoke();
+               
 
           }
      }
