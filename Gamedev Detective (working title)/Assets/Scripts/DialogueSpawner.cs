@@ -45,7 +45,7 @@ public class DialogueSpawner : MonoBehaviour {
           temp.transform.SetParent(transform);
           temp.transform.localPosition = Vector3.zero;
           temp.transform.localScale = Vector3.one;
-          temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue);
+          temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue, DF.Lines[index].Name);
           
           
           index++;

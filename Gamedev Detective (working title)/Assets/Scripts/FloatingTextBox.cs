@@ -8,12 +8,14 @@ public class FloatingTextBox : MonoBehaviour {
 
 
      public TMP_Text Text;
+     public TMP_Text NameText;
 
      private const float randRadi = 5f;//1080f;
 
-     public void BeginText(string s) {
+     public void BeginText(string s, string n = "") {
 
           Text.text = s;
+          NameText.text = n;
 
           transform.position = (Vector2) transform.position +  (Random.insideUnitCircle * randRadi); 
           
@@ -25,7 +27,10 @@ public class FloatingTextBox : MonoBehaviour {
      public void EndText(){
      
      try{
-     DialogueSpawner.spawnTextDelegate?.Invoke();
+     //DialogueSpawner.spawnTextDelegate?.Invoke();
+     
+     TimelineManager.endWaitDelegate?.Invoke();
+     
      } catch {
      
      UnityEngine.Debug.Log("Something went wrong here");

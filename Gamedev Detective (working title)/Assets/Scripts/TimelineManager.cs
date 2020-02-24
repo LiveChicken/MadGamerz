@@ -41,14 +41,11 @@ public class TimelineManager : MonoBehaviour {
 
     private void ContinueTimeline() {
 
-
-         if (DialogueBox.IsWriting) {
-              return;
-         }
-
-         // if (DialogueBox.
+                if (!waiting){
+       
       PD.Play();
       paused = false;
+      }
 
     }
 
@@ -64,6 +61,8 @@ public class TimelineManager : MonoBehaviour {
 
         PauseTimeLine();
         waiting = true;
+        Debug.Log("Waiting");
+        
 
    }
 
@@ -80,17 +79,7 @@ public class TimelineManager : MonoBehaviour {
 
         if (paused) {
 
-             if (!waiting) {
-
-                  if (!DialogueBox.IsWriting) {
-
-                       if (GameManager.GM.controls.Player.A.triggered) {
-
-                            ContinueTimeline();
-
-                       }
-                  }
-             } 
+            
 
         }
 
