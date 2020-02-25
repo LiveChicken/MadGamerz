@@ -17,6 +17,7 @@ public class DialogueFilter : MonoBehaviour {
    
      private string Source;
      
+     //[SerializeField]
      public List<Line> Lines = new List<Line>();
 
 
@@ -26,7 +27,12 @@ public class DialogueFilter : MonoBehaviour {
           
      }
 
+
+     
+
      void SplitSource() {
+          
+          Lines.Clear();
           TextAsset tempFile = Resources.Load("Dialogue/English/" + FileName) as TextAsset; 
          // Debug.Log(tempFile.text);
         

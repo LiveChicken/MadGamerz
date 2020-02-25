@@ -40,15 +40,21 @@ public class DialogueSpawner : MonoBehaviour {
 
      public void SpawnNext() {
 
+          if (index < DF.Lines.Count) {
 
-          GameObject temp = Instantiate(RandomTextBoxPrefab);
-          temp.transform.SetParent(transform);
-          temp.transform.localPosition = Vector3.zero;
-          temp.transform.localScale = Vector3.one;
-          temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue, DF.Lines[index].Name);
-          
-          
-          index++;
+               GameObject temp = Instantiate(RandomTextBoxPrefab);
+               temp.transform.SetParent(transform);
+               temp.transform.localPosition = Vector3.zero;
+               temp.transform.localScale    = Vector3.one;
+               temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue, DF.Lines[index].Name);
+
+
+               index++;
+          } else {
+
+               Debug.Log("No more lines in Filter at index: " + index);
+               
+          }
 
 
      }
