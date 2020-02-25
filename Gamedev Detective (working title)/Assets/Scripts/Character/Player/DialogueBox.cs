@@ -100,10 +100,19 @@ public class DialogueBox : MonoBehaviour {
       
 
        stopWriting();
-        LineWriting = StartCoroutine(writeLine(Filter.Lines[index].Dialogue));
-        name.text = Filter.Lines[index].Name;
 
-        index++;
+
+       if (index < Filter.Lines.Count) {
+
+           LineWriting = StartCoroutine(writeLine(Filter.Lines[index].Dialogue));
+           name.text   = Filter.Lines[index].Name;
+
+           index++;
+       } else {
+
+           Debug.Log("No more lines in Filter at index: " + index);
+           
+       }
     }
 
     private void LateUpdate() {

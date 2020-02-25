@@ -14,21 +14,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Marlons Office.unity
     guid: 3741053960c2ed44399c233cc6c1d426
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Marlon 2D Scene.unity
     guid: 71228be637beba24d84b78fdec0d8d22
   - enabled: 1
     path: Assets/Scenes/TestScene3D.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScene2D.unity
     guid: 5d20fee9f7ba03846ba9bfb774245195
-  - enabled: 1
+  - enabled: 0
     path: Assets/Z_TRASH/TestSceneHighAssetCount.unity
     guid: 3fb7ee0d5a4852a4cb0eca2d12ed94af
   - enabled: 1
     path: Assets/Scenes/New2DTestScene.unity
     guid: 119a086bbc57e4b45a150f29a8e349d1
+  - enabled: 1
+    path: Assets/Scenes/Memories/Memory_6.unity
+    guid: 2de7b392602b63f4e8fed68da3b76c5f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 5f73e3603db3ed246b7f040b4596925c,
       type: 2}

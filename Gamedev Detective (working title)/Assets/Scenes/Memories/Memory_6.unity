@@ -851,6 +851,7 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: f976f6ea84df82c40a5fac9c87f84566, type: 2}
     - {fileID: 11400000, guid: 67902201a89832146aa4126e4795f0d2, type: 2}
+    - {fileID: 11400000, guid: 5ef924ab7cd1e2b468904b63035731ea, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -880,6 +881,19 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1160813988}
           m_MethodName: WaitFor
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1160813992}
+          m_MethodName: Exit
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1205,7 +1219,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 145980228, guid: 6e0761456accf82459955fb3be7a87af, type: 3}
       propertyPath: m_CameraOutput
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1330762457, guid: 6e0761456accf82459955fb3be7a87af, type: 3}
       propertyPath: Trigger
@@ -1280,7 +1294,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8400000, guid: 54ebf33aff7938443aefde5ad8456e23, type: 2}
     - target: {fileID: 8127989223079676875, guid: 6e0761456accf82459955fb3be7a87af,
         type: 3}
       propertyPath: m_IsActive

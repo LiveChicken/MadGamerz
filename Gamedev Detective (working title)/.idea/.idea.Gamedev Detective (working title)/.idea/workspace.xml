@@ -14,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndWait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimelineManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/3D/Inspectable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/TimerEvent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interactable2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/TargetingScript2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/DamageTrigger2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Generic/2D/Health.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Popit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Generic/2D/EventOnCollision2D.cs" />
         <option value="$PROJECT_DIR$/Assets/PickupGadget.cs" />
         <option value="$PROJECT_DIR$/Assets/TimerEvent.cs" />
@@ -109,16 +110,17 @@
         <option value="$PROJECT_DIR$/Assets/EndWait.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/TimelineManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PSBoundariesOrthographic.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Management/Development Assistance/InspectorButton.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogueSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Management/LanguageManager.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatingTextBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Dialogue/English/Memory_6.txt" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatingTextBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimelineManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" />
       </list>
     </option>
   </component>
@@ -258,6 +260,7 @@
       <workItem from="1582570965394" duration="1412000" />
       <workItem from="1582580918933" duration="545000" />
       <workItem from="1582584051807" duration="1614000" />
+      <workItem from="1582651588426" duration="1204000" />
     </task>
     <servers />
   </component>
