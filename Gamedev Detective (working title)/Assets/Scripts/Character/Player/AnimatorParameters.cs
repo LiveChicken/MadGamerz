@@ -4,49 +4,18 @@ using UnityEngine;
 
 public class AnimatorParameters : MonoBehaviour
 {
-    public KeyCode Forward = KeyCode.W;
-    public KeyCode Lefty = KeyCode.A;
-    public KeyCode Righty = KeyCode.D;
-
-    public Animator anim;
-
-    public bool move;
-    public bool left;
-    public bool right;
+    public bool moving;
 
     void Start()
     {
-        
+        moving = false;
     }
     
     void Update()
     {
-        if (Input.GetKey(Forward))
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            move = true;
-        } else
-        {
-            move = false;
+            moving = true;
         }
-
-        if (Input.GetKey(Lefty))
-        {
-            left = true;
-        } else
-        {
-            left = false;
-        }
-
-        if (Input.GetKey(Righty))
-        {
-            right = true;
-        } else
-        {
-            right = false;
-        }
-
-        anim.SetBool("Moving", move);
-        anim.SetBool("Left", left);
-        anim.SetBool("Right", right);
     }
 }

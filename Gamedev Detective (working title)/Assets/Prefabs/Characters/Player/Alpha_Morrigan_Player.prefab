@@ -1292,6 +1292,7 @@ GameObject:
   - component: {fileID: 4370352850200395599}
   - component: {fileID: 4370352850200395593}
   - component: {fileID: 4370352850200395592}
+  - component: {fileID: 1168287635}
   m_Layer: 0
   m_Name: Alpha_Morrigan_Player
   m_TagString: Untagged
@@ -1352,6 +1353,25 @@ MonoBehaviour:
   WheelRotationSpeed: 0
   WheelL: {fileID: 4370352850682467988}
   WheelR: {fileID: 4370352851304390307}
+--- !u!114 &1168287635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4370352850200395598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3075e6691c8bc024ea3b3e611ccadc66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Forward: 119
+  Lefty: 97
+  Righty: 100
+  anim: {fileID: 4370352850332057447}
+  move: 0
+  left: 0
+  right: 0
 --- !u!1 &4370352850682467978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,8 +1418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrabPoints: []
   SpawnPointsOnStart: 1
-  NumberOfPoints: 0
-  Radius: 0
+  NumberOfPoints: 6
+  Radius: 1
   HighestIndex: 0
 --- !u!1 &4370352850917059254
 GameObject:
@@ -1719,8 +1739,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrabPoints: []
   SpawnPointsOnStart: 1
-  NumberOfPoints: 0
-  Radius: 0
+  NumberOfPoints: 6
+  Radius: 1
   HighestIndex: 0
 --- !u!1 &4370352851656119769
 GameObject:
@@ -2276,7 +2296,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8780937412494873727}
   - component: {fileID: 4370352850332057447}
-  - component: {fileID: 4147086880921529747}
   m_Layer: 0
   m_Name: Alpha_Morrigan
   m_TagString: Untagged
@@ -2323,22 +2342,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4147086880921529747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5730674211788629612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3075e6691c8bc024ea3b3e611ccadc66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Forward: 119
-  Lefty: 97
-  Righty: 100
-  anim: {fileID: 0}
 --- !u!1 &5730674211958522861
 GameObject:
   m_ObjectHideFlags: 0
