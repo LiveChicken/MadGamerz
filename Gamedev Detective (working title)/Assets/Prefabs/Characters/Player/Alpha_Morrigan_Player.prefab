@@ -1472,7 +1472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370352851019424836}
   m_LocalRotation: {x: -0, y: -0.083933786, z: -0, w: 0.99647135}
-  m_LocalPosition: {x: -1.0775946, y: 0.53961766, z: 0.49378383}
+  m_LocalPosition: {x: -0.042, y: 0.031, z: 0.811}
   m_LocalScale: {x: 0.66162, y: 0.66161996, z: 0.66162}
   m_Children:
   - {fileID: 4370352850917059255}
@@ -1492,8 +1492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7727cc36171b142a1a6fdecf6bccfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewPoint: {fileID: 0}
-  InspectableCamera: {fileID: 0}
+  ViewPoint: {fileID: 4370352850917059255}
+  InspectableCamera: {fileID: 4370352850071255807}
 --- !u!1 &4370352851127266594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,7 +1612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370352851210263348}
   m_LocalRotation: {x: -0, y: -0.083933786, z: -0, w: 0.99647135}
-  m_LocalPosition: {x: -0.9424637, y: 0.7963253, z: -0.30266905}
+  m_LocalPosition: {x: 0.044, y: 0.743, z: -0.013}
   m_LocalScale: {x: 0.66162, y: 0.66161996, z: 0.66162}
   m_Children: []
   m_Father: {fileID: 4370352850200395599}
@@ -1630,17 +1630,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c53e7567ca2344da906cd1eab6a310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ViewRadius: 0
-  ViewAngle: 0
+  ViewRadius: 3
+  ViewAngle: 104
   TargetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
   ObstacleMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   VisibleTargetPoints: []
-  ChecksPerSecond: 0
-  DefaultTargetOffset: {x: 0, y: 0, z: 0}
+  ChecksPerSecond: 10
+  DefaultTargetOffset: {x: 0, y: 0, z: 10}
   TargetRet: {fileID: 0}
   UIOffset: {x: 0, y: 0}
 --- !u!1 &4370352851244505425
@@ -1667,7 +1667,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4370352851244505425}
   m_LocalRotation: {x: -0, y: -0.083933786, z: -0, w: 0.99647135}
-  m_LocalPosition: {x: -1.4398987, y: 0.7837546, z: -0.590402}
+  m_LocalPosition: {x: -0.882, y: 0.574, z: -0.075}
   m_LocalScale: {x: 0.66162, y: 0.66161996, z: 0.66162}
   m_Children: []
   m_Father: {fileID: 4370352850200395599}
