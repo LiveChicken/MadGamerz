@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5939A799:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7b352327a0dc86d41a4c422e73a6c161, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -66,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_19A352FB: 29.4
+    - Vector1_19A352FB: 3
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -89,7 +89,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_BC1D2327: {r: 1, g: 1, b: 1, a: 0}
+    - Color_BC1D2327: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
     - Color_C429CC72: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
