@@ -7,57 +7,65 @@ using UnityEngine;
 [RequireComponent(typeof(DialogueFilter))]
 public class DialogueSpawner : MonoBehaviour {
 
-     //[RequireComponent(typeof(FloatingTextBox)]
-     public GameObject RandomTextBoxPrefab;
+    //[RequireComponent(typeof(FloatingTextBox)]
+    public GameObject RandomTextBoxPrefab;
 
 
-     private DialogueFilter DF;
+    private DialogueFilter DF;
 
-     private int index;
+    private int index;
 
-     public delegate void SpawnTextDelegate();
+    bool IsChoice;
 
-     public static SpawnTextDelegate spawnTextDelegate = delegate {
+    public delegate void SpawnTextDelegate();
 
-     };
+    public static SpawnTextDelegate spawnTextDelegate = delegate {
 
-
-     private void OnEnable() {
-          spawnTextDelegate += SpawnNext;
-     }
-
-     private void OnDisable() {
-          spawnTextDelegate -= SpawnNext;
-     }
+    };
 
 
-     private void Start() {
+    private void OnEnable() {
+        spawnTextDelegate += SpawnNext;
+    }
 
-          DF = GetComponent<DialogueFilter>();
-
-     }
-
-
-     public void SpawnNext() {
-
-          if (index < DF.Lines.Count) {
-
-               GameObject temp = Instantiate(RandomTextBoxPrefab);
-               temp.transform.SetParent(transform);
-               temp.transform.localPosition = Vector3.zero;
-               temp.transform.localScale    = Vector3.one;
-               temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue, DF.Lines[index].Name);
+    private void OnDisable() {
+        spawnTextDelegate -= SpawnNext;
+    }
 
 
-               index++;
-          } else {
+    private void Start() {
 
-               Debug.Log("No more lines in Filter at index: " + index);
-               
-          }
+        DF = GetComponent<DialogueFilter>();
+
+    }
 
 
-     }
+    public void SpawnNext() {
+
+
+
+         if (index < DF.Lines.Count)
+        {
+
+            GameObject temp = Instantiate(RandomTextBoxPrefab);
+            temp.transform.SetParent(transform);
+            temp.transform.localPosition = Vector3.zero;
+            temp.transform.localScale = Vector3.one;
+            temp.GetComponent<FloatingTextBox>().BeginText(DF.Lines[index].Dialogue, DF.Lines[index].Name);
+
+
+            index++;
+        }
+        else
+        {
+
+            Debug.Log("No more lines in Filter at index: " + index);
+
+        }
+
+
+    }
+
 
 
 

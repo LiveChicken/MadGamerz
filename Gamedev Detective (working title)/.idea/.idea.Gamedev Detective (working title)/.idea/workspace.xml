@@ -11,6 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -118,9 +119,9 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Dialogue/English/Memory_6.txt" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatingTextBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimelineManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DialogueSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/Player/DialogueBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueFilter.cs" />
       </list>
     </option>
   </component>
@@ -140,7 +141,7 @@
     <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -261,6 +262,9 @@
       <workItem from="1582580918933" duration="545000" />
       <workItem from="1582584051807" duration="1614000" />
       <workItem from="1582651588426" duration="1319000" />
+      <workItem from="1583343066876" duration="349000" />
+      <workItem from="1583343700635" duration="152000" />
+      <workItem from="1583345032445" duration="17000" />
     </task>
     <servers />
   </component>
@@ -270,10 +274,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
-    <state x="-1574" y="92" key="SettingsEditor" timestamp="1582581006549">
+    <state x="-1574" y="92" key="SettingsEditor" timestamp="1583343737403">
       <screen x="-1920" y="0" width="1676" height="902" />
     </state>
-    <state x="-1574" y="92" key="SettingsEditor/0.0.1676.902/-1920.0.1676.902@-1920.0.1676.902" timestamp="1582581006549" />
+    <state x="-1574" y="92" key="SettingsEditor/0.0.1676.902/-1920.0.1676.902@-1920.0.1676.902" timestamp="1583343737403" />
     <state x="-1420" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1581351569516">
       <screen x="-1920" y="0" width="1676" height="902" />
     </state>
