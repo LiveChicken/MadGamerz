@@ -29,7 +29,8 @@ public class DialogueBox : MonoBehaviour {
     //this is likely to break
    // private int lastIndex = -1;
 
-    private Coroutine LineWriting; // = new Coroutine();
+    private Coroutine LineWriting;
+    private Coroutine BoxDisabling;// = new Coroutine();
     
     
     private static bool writing;
@@ -147,6 +148,17 @@ public class DialogueBox : MonoBehaviour {
 
     IEnumerator writeLine(string s) {
 
+        try
+        {
+            StopCoroutine(BoxDisabling);
+        }
+        catch
+        {
+
+            Debug.Log("Error on stopping box disable coroutine");
+
+        }
+
         OnTextBegin?.Invoke();
 
         Box.SetActive(true);
@@ -182,8 +194,19 @@ public class DialogueBox : MonoBehaviour {
         OnTextEnd?.Invoke();
         
         writing = false;
+
+        BoxDisabling = StartCoroutine(DisableBox());
         
      
+    }
+
+    IEnumerator DisableBox()
+    {
+
+        yield return new WaitForSeconds(3f);
+
+        Box.SetActive(false);
+
     }
 
 }

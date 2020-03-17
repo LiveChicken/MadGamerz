@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 1470081715}
+  name: {fileID: 0}
   Box: {fileID: 901079285}
   CharactersPerSecond: 25
-  AutoTime: 2
   mode: 0
   OnTextBegin:
     m_PersistentCalls:
@@ -450,6 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerDurationDefault: 7
+  BeginOnEnable: 0
   OnTimerEnd:
     m_PersistentCalls:
       m_Calls:
@@ -956,6 +957,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09e199148f9de10488cf26745921712c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Radius: 0
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  MovementSpeed: 0
 --- !u!1 &1274363540
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,8 +2141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2ce35f311318545822dfee709b9d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  language: 1
-  DialogueMarlin: {fileID: 11400000, guid: b3fb902e560dc044d8211094309b8ac4, type: 2}
 --- !u!114 &1796567560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2882,7 +2886,6 @@ GameObject:
   - component: {fileID: 449254906988511722}
   - component: {fileID: 449254906988511732}
   - component: {fileID: 449254906988511735}
-  - component: {fileID: 449254906988511734}
   - component: {fileID: 449254906988511729}
   m_Layer: 5
   m_Name: DialogueBox
@@ -2932,9 +2935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 449254906574084963}
+  name: {fileID: 0}
   Box: {fileID: 449254907533445593}
   CharactersPerSecond: 25
-  AutoTime: 2
   mode: 0
   OnTextBegin:
     m_PersistentCalls:
@@ -2957,20 +2960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bb2d437e88d02849a93936eb3e1cd6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &449254906988511734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449254906988511731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c2ce35f311318545822dfee709b9d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  language: 1
-  DialogueMarlin: {fileID: 11400000, guid: b3fb902e560dc044d8211094309b8ac4, type: 2}
 --- !u!114 &449254906988511729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3929,8 +3918,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2ce35f311318545822dfee709b9d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  language: 0
-  DialogueMarlin: {fileID: 0}
 --- !u!1 &449254908088957863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4220,9 +4207,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 449254907749968781}
+  name: {fileID: 0}
   Box: {fileID: 0}
   CharactersPerSecond: 25
-  AutoTime: 1
   mode: 0
   OnTextBegin:
     m_PersistentCalls:
@@ -4245,8 +4232,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c2ce35f311318545822dfee709b9d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  language: 1
-  DialogueMarlin: {fileID: 0}
 --- !u!114 &449254908112013604
 MonoBehaviour:
   m_ObjectHideFlags: 0
