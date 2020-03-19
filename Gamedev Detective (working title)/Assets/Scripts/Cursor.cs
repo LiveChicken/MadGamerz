@@ -49,17 +49,21 @@ public class Cursor : MonoBehaviour {
 
     void Move() {
 
-        Vector2 InputVector = GameManager.GM.controls.Player.Move.ReadValue<Vector2>();
+         Vector2 InputVector = GameManager.GM.controls.Player.Move.ReadValue<Vector2>();
 
 
-        if (InputVector.magnitude > 1) {
-          InputVector.Normalize();
-        }
+         if (InputVector.magnitude > 1) {
+         InputVector.Normalize();
+         }
 
         if (InputVector.magnitude > 0.05) {
 
-            transform.position = transform.position + new Vector3(InputVector.x * MovementSpeed, InputVector.y * MovementSpeed, 0);
+          transform.position = transform.position + new Vector3(InputVector.x * MovementSpeed, InputVector.y * MovementSpeed, 0);
         }
+
+       // Vector2 input = GameManager.GM.controls.Player.MousePos.ReadValue<Vector2>() ;
+
+       // transform.position = Camera.main.ScreenToWorldPoint(input);
 
 
     }
