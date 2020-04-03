@@ -95,6 +95,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: -4504121653365814466, guid: 13da8e1b665ff3e4984091d2247b5a89, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 8081655579116893711, guid: 13da8e1b665ff3e4984091d2247b5a89, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 2d54261854289784fa17e288d9cedde2: {fileID: 0}
@@ -212,6 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FileName: Memory_6
   Lines: []
+  Choices: []
 --- !u!114 &3855433908653198436
 MonoBehaviour:
   m_ObjectHideFlags: 0

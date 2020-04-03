@@ -9,6 +9,8 @@
                private Vector2 screenBounds;
                private float objectWidth;
                private float objectHeight;
+
+    public Vector2 Margin = new Vector2(1, 1);
            
                // Use this for initialization
                void OnEnable () {
@@ -16,7 +18,10 @@
                     MainCamera = GameObject.FindWithTag("2DCamera").GetComponent<Camera>();
                     
                    screenBounds = MainCamera.transform.position + MainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, MainCamera.transform.position.z));
-                   
+
+        screenBounds.x -= Margin.x;
+        screenBounds.y -= Margin.y;
+
                    //MainCamera.GetComponent<UniversalAdditionalCameraData>().
 
                   //var vertExtent = MainCamera.orthographicSize;
@@ -32,6 +37,8 @@
                  //  Debug.Log("min: " + (screenBounds.y * -1) + objectWidth + " Max: " + (screenBounds.y - objectWidth));
                    
                    
+
+
                }
            
                // Update is called once per frame

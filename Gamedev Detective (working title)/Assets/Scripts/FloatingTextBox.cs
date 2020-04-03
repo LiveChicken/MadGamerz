@@ -10,7 +10,7 @@ public class FloatingTextBox : MonoBehaviour {
      public TMP_Text Text;
      public TMP_Text NameText;
 
-     private const float randRadi = 5f;//1080f;
+     private const float randRadi = 3f;//1080f;
 
      public void BeginText(string s, string n = "") {
 

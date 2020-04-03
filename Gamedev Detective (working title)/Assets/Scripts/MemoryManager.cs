@@ -101,6 +101,8 @@ public class MemoryManager : MonoBehaviour {
         CameraScreen.SetActive(false);
         Teleporting = false;
 
+        Player.GetComponentInChildren<InspectableViewer>().ToggleInspection();
+
     }
 
 
