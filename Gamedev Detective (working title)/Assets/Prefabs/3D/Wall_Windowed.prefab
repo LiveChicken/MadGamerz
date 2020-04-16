@@ -55,6 +55,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -148,6 +149,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -241,6 +243,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -370,6 +373,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -415,11 +419,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6862349287618576473}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 9d85c8827fb660547b1c5400b203c67f,
-        type: 3}
-      propertyPath: m_Name
-      value: Window
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9d85c8827fb660547b1c5400b203c67f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -490,6 +489,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: ffda4467ee10ffa42b7b7bcabec4289a, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 9d85c8827fb660547b1c5400b203c67f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f0130484c16df124693bff6de4976c26, type: 2}
+    - target: {fileID: -927199367670048503, guid: 9d85c8827fb660547b1c5400b203c67f,
+        type: 3}
+      propertyPath: m_Name
+      value: Window
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d85c8827fb660547b1c5400b203c67f, type: 3}
 --- !u!4 &9125307149970468108 stripped
@@ -505,11 +514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6862349287618576473}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 08a88901d1574fd489106ff24e4cd37b,
-        type: 3}
-      propertyPath: m_Name
-      value: Footer
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 08a88901d1574fd489106ff24e4cd37b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -570,6 +574,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0130484c16df124693bff6de4976c26, type: 2}
+    - target: {fileID: -927199367670048503, guid: 08a88901d1574fd489106ff24e4cd37b,
+        type: 3}
+      propertyPath: m_Name
+      value: Footer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08a88901d1574fd489106ff24e4cd37b, type: 3}
 --- !u!4 &1263825248578092373 stripped
