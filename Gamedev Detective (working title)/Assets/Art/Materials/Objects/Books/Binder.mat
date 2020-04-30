@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6321217181402172138
+--- !u!114 &-8691490867095076442
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Book_Hardbook
+  m_Name: Binder
   m_Shader: {fileID: -6465566751694194690, guid: 0d2094ac7f195be42862e3218e7b0cea,
     type: 3}
   m_ShaderKeywords: 
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5939A799:
-        m_Texture: {fileID: 2800000, guid: 4d6a6c3dc4d22bf4f9aed69ea57f042f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f67bfc28594aac04da486c209bf1c902, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -89,7 +89,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_BC1D2327: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0}
+    - Color_BC1D2327: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 0}
     - Color_C429CC72: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
